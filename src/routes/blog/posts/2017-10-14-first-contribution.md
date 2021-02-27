@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 'pino-redis - first contribution'
-comments: false
 categories: [open source]
 ---
 

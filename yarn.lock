@@ -834,15 +834,6 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@jackfranklin/rollup-plugin-markdown@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@jackfranklin/rollup-plugin-markdown/-/rollup-plugin-markdown-0.3.0.tgz#3b09ce9ff257c0badb2cf68f889aec477741fac0"
-  integrity sha512-N3ZjFUhK+Hvcc3AZrOlLtZJrVVQ1mtEZhd8M6X6avmDfe0IyUrcFBY40U8+6HqaYjqbelHQiu51jrS6GiOBcHA==
-  dependencies:
-    gray-matter "^4.0.2"
-    rollup-pluginutils "^2.8.2"
-    showdown "^1.9.1"
-
 "@polka/url@^1.0.0-next.11", "@polka/url@^1.0.0-next.9":
   version "1.0.0-next.11"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.11.tgz#aeb16f50649a91af79dbe36574b66d0f9e4d9f71"
@@ -1154,6 +1145,11 @@ crypt@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/crypt/-/crypt-0.0.2.tgz#88d7ff7ec0dfb86f713dc87bbb42d044d3e6c41b"
   integrity sha1-iNf/fsDfuG9xPch7u0LQRNPmxBs=
+
+date-fns@^2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.17.0.tgz#afa55daea539239db0a64e236ce716ef3d681ba1"
+  integrity sha512-ZEhqxUtEZeGgg9eHNSOAJ8O9xqSgiJdrL0lzSSfMF54x6KXWJiOH/xntSJ9YomJPrYH/p08t6gWjGWq1SDJlSA==
 
 debug@2.6.9:
   version "2.6.9"

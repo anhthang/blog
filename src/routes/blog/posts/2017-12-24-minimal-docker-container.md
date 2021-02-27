@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 'Minimal Docker container'
-comments: false
 categories: [docker]
 ---
 

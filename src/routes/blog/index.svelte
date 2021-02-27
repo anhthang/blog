@@ -26,7 +26,9 @@
             <h2>
                 <a rel="prefetch" href="blog/{post.slug}">{post.title}</a>
             </h2>
-            <p>{post.excerpt}</p>
+            {#if post.excerpt}
+                <p>{post.excerpt}</p>
+            {/if}
             <div class="post-item-footer">
                 <span class="post-item-date">— {post.date}</span>
             </div>

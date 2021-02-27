@@ -1,11 +1,10 @@
 ---
-layout: post
 title: 'Configure JavaScript, ESLint and Prettier in VSCode for development'
-comments: false
 categories: [eslint, prettier, javascript]
 ---
 
 This short guide will provide you a consistent and reuseable development workflow for your new or existing projects, especially in JavaScript. You can increase your code quality and reduce the time spent on debugging. I will show you how to configure VSCode to handle code formatting, linting and type checking now.
+<!-- more -->
 
 > Testing is outside the scope, but it's highly recommended. You should check every changed files before commit
 

@@ -1,12 +1,11 @@
 ---
-layout: post
 title: 'XML to JSON - VSCode extension'
-comments: false
 categories: [code extensions, xml2json, xmlbuilder]
 link: https://marketplace.visualstudio.com/items?itemName=buianhthang.xml2json
 ---
 
-> Convert XML from clipboard or current document/selection to JSON
+Convert XML from clipboard or current document/selection to JSON
+<!-- more -->
 
 [![Version](https://img.shields.io/visual-studio-marketplace/v/buianhthang.xml2json?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=buianhthang.xml2json) ![Installs](https://img.shields.io/visual-studio-marketplace/i/buianhthang.xml2json?style=for-the-badge) ![Downloads](https://img.shields.io/visual-studio-marketplace/d/buianhthang.xml2json?style=for-the-badge) ![Rating](https://img.shields.io/visual-studio-marketplace/r/buianhthang.xml2json?style=for-the-badge)
 

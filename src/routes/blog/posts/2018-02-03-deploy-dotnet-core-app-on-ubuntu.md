@@ -1,11 +1,10 @@
 ---
-layout: post
 title: 'Host ASP.NET Core on Linux with Nginx'
-comments: false
 categories: [aspnetcore, nginx]
 ---
 
-> This is a helper document guide how to setup, config and deploy an .NET Core Web Engine Hosting on an Ubuntu Server.
+This is a helper document guide how to setup, config and deploy an .NET Core Web Engine Hosting on an Ubuntu Server.
+<!-- more -->
 
 ### Access to Linux server
 

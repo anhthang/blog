@@ -58,11 +58,11 @@
         })}
     />
     <meta name="twitter:label2" value="Reading Time" />
-    <meta name="twitter:data2" value={post.reading} />
+    <meta name="twitter:data2" value={post.reading_time} />
 </svelte:head>
 
 <header>
-    <p>{post.date} ~ {post.reading}</p>
+    <p>{post.date} ~ {post.reading_time}</p>
     <h1>{post.metadata.title}</h1>
     <hr />
 </header>

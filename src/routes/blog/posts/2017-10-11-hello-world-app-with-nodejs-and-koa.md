@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 'Hello World! app with Node.js and Koa'
-comments: false
 categories: [hello world, koa, nodejs]
 ---
 

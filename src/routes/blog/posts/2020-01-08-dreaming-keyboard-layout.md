@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 'Dreaming keyboard layout'
-comments: false
 categories: [mechanical keyboard]
 ---
 

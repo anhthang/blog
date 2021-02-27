@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 'Running a Docker container as non-root user'
-comments: false
 categories: [docker]
 ---
 

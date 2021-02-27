@@ -1,7 +1,5 @@
 ---
-layout: post
 title: 'Disable firewall in EC2 instance from AWS Console'
-comments: false
 categories: [disable firewall, ec2]
 ---
 

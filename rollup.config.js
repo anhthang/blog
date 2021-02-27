@@ -6,7 +6,7 @@ import url from '@rollup/plugin-url';
 import svelte from 'rollup-plugin-svelte';
 import babel from '@rollup/plugin-babel';
 import { terser } from 'rollup-plugin-terser';
-import markdown from '@jackfranklin/rollup-plugin-markdown';
+import markdown from './src/utils/rollup-plugin-markdown';
 import glob from 'rollup-plugin-glob';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
