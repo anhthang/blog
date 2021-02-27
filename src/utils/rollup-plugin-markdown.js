@@ -4,26 +4,18 @@ const matter = require('gray-matter')
 const showdown = require('showdown')
 const reading = require('reading-time')
 const format = require('date-fns/format')
+const showdownHighlight = require('showdown-highlight')
 
 showdown.setFlavor('github')
 
 const excerptSeparator = '<!-- more -->'
 
 const markdownPlugin = (options = {}) => {
-    const {
-        include,
-        exclude,
-        showdownOptions: showdownOpts = {},
-        showdownExtensions: showdownExtns = [],
-    } = options
-
-    showdownExtns.forEach((extension) => {
-        showdown.extension(extension.name, extension)
-    })
+    const { include, exclude } = options
 
     const converter = new showdown.Converter({
         metadata: true,
-        ...showdownOpts,
+        extensions: [showdownHighlight],
     })
 
     const filter = createFilter(include, exclude)
