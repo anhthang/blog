@@ -48,7 +48,7 @@ const markdownPlugin = (options = {}) => {
                 html,
                 metadata: matterResult.data,
                 slug,
-                excerpt,
+                excerpt: converter.makeHtml(excerpt),
                 date: format(new Date(year, month - 1, date), 'dd MMM yyyy'),
                 reading_time: readingStats.text,
             })

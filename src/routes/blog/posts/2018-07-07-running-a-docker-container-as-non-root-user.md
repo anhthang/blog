@@ -4,6 +4,9 @@ categories: [docker]
 ---
 
 By default, Docker container will be run as root user, this can cause us pain. We could tell Docker to run as an ordinary user instead of `root`.
+<!-- more -->
+
+By default, Docker container will be run as root user, this can cause us pain. We could tell Docker to run as an ordinary user instead of `root`.
 
 We could build a Dockerfile like this:
 

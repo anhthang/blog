@@ -3,6 +3,9 @@ title: 'Minimal Docker container'
 categories: [docker]
 ---
 
+Create the smallest possible Docker container
+<!-- more -->
+
 With Docker multi stage, you can use multiple base image (call as builder) to build necessary files, assets and copy stuff over to final image after.
 
 Here is some tricks:
