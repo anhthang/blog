@@ -3,10 +3,6 @@
 </svelte:head>
 
 <div class="home-container">
-    <div class="home-typewriter">
-        <h1>Welcome to my Blog</h1>
-    </div>
-
     <figure>
         <img alt="Person coding" src="undraw_coding.svg" />
         <figcaption>
@@ -15,6 +11,14 @@
             >
         </figcaption>
     </figure>
+
+    <div class="home-about-me">
+        <h1>Anh Thang Bui</h1>
+        <h3>Software Engineer</h3>
+        <p>
+            Mainly, I write Node.js
+        </p>
+    </div>
 </div>
 
 <style>
@@ -27,27 +31,9 @@
         min-height: 400px;
     }
 
-    .home-typewriter {
+    .home-about-me {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
-        border-right: .15em solid orange; /* The typwriter cursor */
-        white-space: nowrap; /* Keeps the content on a single line */
         margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-        letter-spacing: .15em; /* Adjust as needed */
-        animation: 
-            typing 3.5s steps(40, end),
-            blink-caret .75s step-end infinite;
-    }
-
-    /* The typing effect */
-    @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-    }
-
-    /* The typewriter cursor effect */
-    @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: #8E71A2; }
     }
 
     h1 {
@@ -90,10 +76,14 @@
             flex-direction: column;
         }
 
-        .home-typewriter {
+        .home-about-me {
             flex: 0;
             padding-bottom: 2em;
             text-align: center;
+        }
+
+        .home-about-me h1 {
+            margin-top: 1em;
         }
     }
 </style>

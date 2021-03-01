@@ -1,18 +1,29 @@
 <svelte:head>
-    <title>About</title>
+    <title>About me</title>
 </svelte:head>
 
 <div class="container">
-    <h1>About</h1>
+    <h1>About me</h1>
     <figure>
         <img src="profile-pic.jpg" alt="Anh Thang Bui" />
     </figure>
     <p>
-        Hi, I'm <strong>Thang</strong>. I'm a software engineer from Hanoi, Vietnam.
+        Hi 👋, I'm <strong>Thang</strong>. I'm a software engineer from Hanoi, Vietnam.
     </p>
-    <p>
-        Updating...
-    </p>
+
+    <h2>🙈 My fantastic beasts</h2>
+    <ul>
+        <li><a href="https://marketplace.visualstudio.com/items?itemName=buianhthang.xml2json">XML to JSON</a></li>
+        <li><a href="https://marketplace.visualstudio.com/items?itemName=buianhthang.gitflow">gitflow</a></li>
+        <li><a href="https://awesome-vietnamese.anhthang.org">🇻🇳 Awesome made by Vietnameses</a></li>
+    </ul>
+
+    <h2>🔭 Where to find me</h2>
+    <ul>
+        <li><a href="https://github.com/anhthang">🧑🏻‍💻 GitHub</a></li>
+        <li><a href="https://twitter.com/anhthangbui">🐦 Twitter</a></li>
+        <li><a href="https://instagram.com/anhthangbui">📸 Instagram</a></li>
+    </ul>
 </div>
 
 <style>

@@ -1,7 +1,9 @@
 <div>
     <img src="profile-pic.jpg" alt="Anh Thang Bui" />
     <p>
-        Hi, I'm <strong>Thang</strong>. I'm a software engineer from Hanoi, Vietnam. You can follow me on
+        Hi, I'm <strong>Thang</strong>.
+        <br />
+        I'm a software engineer from Hanoi, Vietnam. You can follow me on
         <a href="https://twitter.com/anhthangbui" target="_blank">Twitter</a>,
         see some of my work on
         <a href="https://github.com/anhthang" target="_blank">GitHub</a>, or
@@ -27,5 +29,11 @@
 
     p {
         font-size: 1.125rem;
+    }
+
+    @media (max-width: 480px) {
+        p {
+            font-size: 1rem;
+        }
     }
 </style>
