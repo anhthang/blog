@@ -1,6 +1,6 @@
 ---
 title: 'ingress-nginx controller not work for fanout configuration'
-categories: [nginx, nginx ingress, kubernetes]
+tags: [nginx, nginx-ingress, kubernetes]
 ---
 
 Firstly, I want to says: Reading CHANGE_LOG will help you reduce the pain.

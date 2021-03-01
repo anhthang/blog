@@ -32,6 +32,10 @@
             <div class="post-item-footer">
                 <span class="post-item-date">— {post.date}</span>
             </div>
+            {#each post.tags as tag}
+                <!-- svelte-ignore a11y-missing-attribute -->
+                <a class="post-tag">#{tag}</a>
+            {/each}
         </div>
     {/each}
 </div>
@@ -48,6 +52,13 @@
         text-align: left;
         text-transform: uppercase;
         margin-right: 16px;
+    }
+
+    .post-tag {
+        color: #64707d;
+        border-radius: 5px;
+        padding: 0.25rem;
+        display: inline-block;
     }
 
     hr {

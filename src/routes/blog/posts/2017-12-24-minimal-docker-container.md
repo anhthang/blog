@@ -1,6 +1,6 @@
 ---
 title: 'Minimal Docker container'
-categories: [docker]
+tags: [docker]
 ---
 
 Create the smallest possible Docker container

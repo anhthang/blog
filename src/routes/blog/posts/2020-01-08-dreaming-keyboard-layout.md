@@ -1,6 +1,6 @@
 ---
 title: 'Dreaming keyboard layout'
-categories: [mechanical keyboard]
+tags: [mechanical-keyboard]
 ---
 
 **Updated**: I ordered Canoe Gen2 - Homelander version, you can find it here: [Percent Studio](https://percent.studio/products/canoe-gen2)

@@ -7,6 +7,7 @@ const contents = JSON.stringify(
             slug: post.slug,
             excerpt: post.excerpt,
             date: post.date,
+            tags: post.metadata.tags || [],
         }
     })
 )

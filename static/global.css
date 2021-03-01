@@ -197,3 +197,10 @@ td {
     margin: 1em 0;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #b2b9bf;
+    background-color: #272c30;
+  }
+}

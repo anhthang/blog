@@ -1,6 +1,6 @@
 ---
 title: 'Property lookup on booleans'
-categories: [programing]
+tags: [programing]
 link: https://github.com/babel/babel/commit/1c0a8eb14b69cca00aa96db65b69d0848013c680
 ---
 

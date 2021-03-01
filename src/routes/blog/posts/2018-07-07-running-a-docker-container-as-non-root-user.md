@@ -1,6 +1,6 @@
 ---
 title: 'Running a Docker container as non-root user'
-categories: [docker]
+tags: [docker]
 ---
 
 By default, Docker container will be run as root user, this can cause us pain. We could tell Docker to run as an ordinary user instead of `root`.

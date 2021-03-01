@@ -1,6 +1,6 @@
 ---
 title: 'pino-redis - first contribution'
-categories: [open source]
+tags: [open-source]
 ---
 
 Few months ago, I created a small project called _pino-redis_, a "transport" for the pino logger, receives [pino] logs from `stdin` and transform them into Redis.

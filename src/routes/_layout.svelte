@@ -42,6 +42,12 @@
         flex-direction: column;
     }
 
+    @media (prefers-color-scheme: dark) {
+        main {
+            background-color: #272c30;
+        }
+    }
+
     footer {
         color: #aaa;
         font-size: 1em;

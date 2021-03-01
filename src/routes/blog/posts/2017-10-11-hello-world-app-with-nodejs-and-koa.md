@@ -1,6 +1,6 @@
 ---
 title: 'Hello World! app with Node.js and Koa'
-categories: [hello world, koa, nodejs]
+tags: [hello-world, koa, nodejs]
 ---
 
 Install Node.js for your platform

@@ -1,6 +1,6 @@
 ---
 title: 'Disable firewall in EC2 instance from AWS Console'
-categories: [disable firewall, ec2]
+tags: [firewall, ec2]
 ---
 
 I have locked myself out of SSH with UFW in EC2 AWS. Then, I can't reconnect.
