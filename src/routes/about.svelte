@@ -5,7 +5,7 @@
 <div class="container">
     <h1>About me</h1>
     <figure>
-        <img src="profile-pic.jpg" alt="Anh Thang Bui" />
+        <img src="profile-pic.jpg" alt={process.env.AUTHOR} />
     </figure>
     <p>
         Hi 👋, I'm <strong>Thang</strong>. I'm a software engineer from Hanoi, Vietnam.

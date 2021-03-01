@@ -1,5 +1,5 @@
 <div>
-    <img src="profile-pic.jpg" alt="Anh Thang Bui" />
+    <img src="profile-pic.jpg" alt={process.env.AUTHOR} />
     <p>
         Hi, I'm <strong>Thang</strong>.
         <br />

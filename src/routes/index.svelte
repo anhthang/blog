@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Anh Thang Bui</title>
+    <title>{process.env.AUTHOR}</title>
 </svelte:head>
 
 <div class="home-container">
@@ -13,7 +13,7 @@
     </figure>
 
     <div class="home-about-me">
-        <h1>Anh Thang Bui</h1>
+        <h1>{process.env.AUTHOR}</h1>
         <h3>Software Engineer</h3>
         <p>
             Mainly, I write Node.js

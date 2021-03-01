@@ -11,6 +11,8 @@ import glob from 'rollup-plugin-glob';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
 
+const author = pkg.author;
+const gaId = 'UA-108075000-1';
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
@@ -28,6 +30,8 @@ export default {
 			replace({
 				'process.browser': true,
 				'process.env.NODE_ENV': JSON.stringify(mode),
+				'process.env.AUTHOR': JSON.stringify(author),
+				'process.env.GA_ID': JSON.stringify(gaId),
 				preventAssignment:  true, // remove in next major version
 			}),
 			svelte({
@@ -81,6 +85,8 @@ export default {
 			replace({
 				'process.browser': false,
 				'process.env.NODE_ENV': JSON.stringify(mode),
+				'process.env.AUTHOR': JSON.stringify(author),
+				'process.env.GA_ID': JSON.stringify(gaId),
 				preventAssignment:  true, // remove in next major version
 			}),
 			svelte({
@@ -117,6 +123,8 @@ export default {
 			replace({
 				'process.browser': true,
 				'process.env.NODE_ENV': JSON.stringify(mode),
+				'process.env.AUTHOR': JSON.stringify(author),
+				'process.env.GA_ID': JSON.stringify(gaId),
 				preventAssignment:  true, // remove in next major version
 			}),
 			commonjs(),

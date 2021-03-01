@@ -1,5 +1,5 @@
 <a href="/">
-    <img src="profile-pic.jpg" alt="Anh Thang Bui" />
+    <img src="profile-pic.jpg" alt={process.env.AUTHOR} />
 </a>
 
 <style>

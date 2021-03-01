@@ -1,8 +1,13 @@
 <script>
+    import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte"
+    import { stores } from "@sapper/app"
+
     import Header from '../components/Header.svelte'
 
     export let segment
 </script>
+
+<GoogleAnalytics {stores} id={process.env.GA_ID}/>
 
 <div class="layout">
     <Header {segment} />
@@ -12,7 +17,7 @@
     </main>
 
     <footer>
-        <span>&copy; {new Date().getFullYear()} Anh Thang Bui.</span>
+        <span>&copy; {new Date().getFullYear()} {process.env.AUTHOR}.</span>
     </footer>
 </div>
 
