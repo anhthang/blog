@@ -1,0 +1,102 @@
+img.svelte-uydkmf{display:block;height:50px;width:50px;border-radius:50%}
+nav.svelte-kf1jyw{align-items:flex-end;display:flex;flex:1;font-family:Rubik, sans-serif;font-weight:700;justify-content:flex-end;text-transform:uppercase}a.svelte-kf1jyw{color:inherit;text-decoration:none;padding:10px 5px;display:block;position:relative;margin-left:20px}a.svelte-kf1jyw:not(.selected){opacity:0.7}a.svelte-kf1jyw::before{content:'';position:absolute;transition:transform 0.3s ease;left:0;bottom:0;width:100%;height:2px;background:#aaa;transform:scaleX(0)}a.svelte-kf1jyw:hover::before,.selected.svelte-kf1jyw::before{transform:scaleX(1)}.selected.svelte-kf1jyw::before{background:#fd6378}
+header.svelte-1qyst8k{display:flex;margin:0 auto;max-width:1400px;padding:2em;width:100%}
+.layout.svelte-1mahpge{display:flex;flex-direction:column;min-height:100%;min-height:100vh}main.svelte-1mahpge{flex:1;position:relative;margin:0 auto;max-width:1400px;background-color:white;padding:1em 2em;box-sizing:border-box;width:100%;display:flex;flex-direction:column}@media(prefers-color-scheme: dark){main.svelte-1mahpge{background-color:#272c30}}footer.svelte-1mahpge{color:#aaa;font-size:1em;font-family:Rubik, sans-serif;margin:1em auto;max-width:1400px;padding:1em 2em;text-align:center;width:100%}
+h1.svelte-3zgnov,p.svelte-3zgnov{margin:0 auto}h1.svelte-3zgnov{font-size:2.8em;font-weight:700;margin:0 0 0.5em 0}p.svelte-3zgnov{margin:1em auto}@media(min-width: 480px){h1.svelte-3zgnov{font-size:4em}}
+/*
+
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #61aeee
+hue-3:   #c678dd
+hue-4:   #98c379
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #e6c07b
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+  background: #282c34;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #5c6370;
+  font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: #c678dd;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e06c75;
+}
+
+.hljs-literal {
+  color: #56b6c2;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: #98c379;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: #e6c07b;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: #d19a66;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #61aeee;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+
