@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-    <title>Blog</title>
+    <title>Blog | {process.env.AUTHOR}</title>
 </svelte:head>
 
 <div class="container">

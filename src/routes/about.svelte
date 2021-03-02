@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>About me</title>
+    <title>About me | {process.env.AUTHOR}</title>
 </svelte:head>
 
 <div class="container">

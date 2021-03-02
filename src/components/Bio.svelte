@@ -27,7 +27,7 @@
         margin-right: 20px;
     }
 
-    p {
+    /* p {
         font-size: 1.125rem;
     }
 
@@ -35,5 +35,5 @@
         p {
             font-size: 1rem;
         }
-    }
+    } */
 </style>
