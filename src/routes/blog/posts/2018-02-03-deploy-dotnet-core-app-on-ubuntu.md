@@ -1,5 +1,6 @@
 ---
 title: 'Host ASP.NET Core on Linux with Nginx'
+date: 2018-02-03
 tags: [aspnetcore, nginx]
 ---
 

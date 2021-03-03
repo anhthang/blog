@@ -19,7 +19,7 @@
 </script>
 
 <svelte:head>
-    <title>{post.metadata.title}</title>
+    <title>{post.title}</title>
     <!--  Include canonical links to your blog -->
     <!--   <link rel="canonical" href="" /> -->
 
@@ -27,7 +27,7 @@
     <!-- Update content properties with your URL   -->
     <!-- 	<meta property="og:url" content=""} /> -->
     <meta property="og:type" content="article" />
-    <meta property="og:title" content={post.metadata.title} />
+    <meta property="og:title" content={post.title} />
     <meta name="Description" content={post.excerpt} />
     <meta property="og:description" content={post.excerpt} />
 
@@ -42,7 +42,7 @@
     <!--  Link to your Twitter Account  -->
     <!-- 	<meta name="twitter:creator" value="" /> -->
 
-    <meta name="twitter:title" value={post.metadata.title} />
+    <meta name="twitter:title" value={post.title} />
     <meta name="twitter:description" content={post.excerpt} />
 
     <!--  Link to your preferred image to be displayed on Twitter (832x520px) -->
@@ -63,7 +63,7 @@
 
 <header>
     <p>{post.date} ~ {post.reading_time}</p>
-    <h1>{post.metadata.title}</h1>
+    <h1>{post.title}</h1>
     <hr />
 </header>
 <div class="container">

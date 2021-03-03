@@ -1,5 +1,6 @@
 ---
 title: 'pino-redis - first contribution'
+date: 2017-10-14
 tags: [open-source]
 ---
 

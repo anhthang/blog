@@ -3,7 +3,6 @@ const path = require('path')
 const matter = require('gray-matter')
 const showdown = require('showdown')
 const reading = require('reading-time')
-const format = require('date-fns/format')
 const showdownHighlight = require('showdown-highlight')
 
 showdown.setFlavor('github')
@@ -30,7 +29,6 @@ const markdownPlugin = (options = {}) => {
 
             const filename = path.basename(id)
             const slug = filename.split('.')[0]
-            const [year, month, date] = filename.substr(0, 10).split('-')
 
             const matterResult = matter(code)
 
@@ -46,10 +44,9 @@ const markdownPlugin = (options = {}) => {
 
             const exportFromModule = JSON.stringify({
                 html,
-                metadata: matterResult.data,
+                ...matterResult.data,
                 slug,
                 excerpt: converter.makeHtml(excerpt),
-                date: format(new Date(year, month - 1, date), 'dd MMM yyyy'),
                 reading_time: readingStats.text,
             })
 

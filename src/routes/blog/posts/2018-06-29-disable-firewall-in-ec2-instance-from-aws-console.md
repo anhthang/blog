@@ -1,5 +1,6 @@
 ---
 title: 'Disable firewall in EC2 instance from AWS Console'
+date: 2018-06-29
 tags: [firewall, ec2]
 ---
 

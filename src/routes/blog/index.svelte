@@ -26,12 +26,12 @@
             <h2>
                 <a rel="prefetch" href="blog/{post.slug}">{post.title}</a>
             </h2>
+            <div class="post-item-footer">
+                <span class="post-item-date">{post.date}</span>
+            </div>
             {#if post.excerpt}
                 <p>{@html post.excerpt}</p>
             {/if}
-            <div class="post-item-footer">
-                <span class="post-item-date">— {post.date}</span>
-            </div>
             {#each post.tags as tag}
                 <!-- svelte-ignore a11y-missing-attribute -->
                 <a class="post-tag">#{tag}</a>
@@ -44,7 +44,8 @@
     h2,
     .post-item-footer {
         font-family: Rubik, sans-serif;
-        font-weight: 700;
+        font-weight: 600;
+        margin: 1.2em 0 0;
     }
 
     .post-item-date {
@@ -62,6 +63,6 @@
     }
 
     hr {
-        margin: 60px auto;
+        margin: 3rem auto;
     }
 </style>

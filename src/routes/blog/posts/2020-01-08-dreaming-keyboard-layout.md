@@ -1,5 +1,6 @@
 ---
 title: 'Dreaming keyboard layout'
+date: 2020-01-08
 tags: [mechanical-keyboard]
 ---
 

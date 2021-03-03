@@ -1,5 +1,6 @@
 ---
 title: 'Hello World! app with Node.js and Koa'
+date: 2017-10-11
 tags: [hello-world, koa, nodejs]
 ---
 

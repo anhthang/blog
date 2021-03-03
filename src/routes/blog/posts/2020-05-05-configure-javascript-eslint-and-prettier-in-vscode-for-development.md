@@ -1,5 +1,6 @@
 ---
 title: 'Configure JavaScript, ESLint and Prettier in VSCode for development'
+date: 2020-05-05
 tags: [eslint, prettier, javascript]
 ---
 

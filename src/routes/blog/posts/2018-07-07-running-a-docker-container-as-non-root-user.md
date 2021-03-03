@@ -1,5 +1,6 @@
 ---
 title: 'Running a Docker container as non-root user'
+date: 2018-07-07
 tags: [docker]
 ---
 
