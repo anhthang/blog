@@ -1,8 +1,15 @@
 <script>
+    import { onMount } from 'svelte'
+    import { goto } from '@sapper/app'
+
     export let status
     export let error
 
     const dev = process.env.NODE_ENV === 'development'
+
+    onMount(() => {
+        if (status === 404) goto('not-found')
+    })
 </script>
 
 <svelte:head>
