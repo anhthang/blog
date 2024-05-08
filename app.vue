@@ -11,6 +11,7 @@
 
 <script setup>
 const config = useRuntimeConfig()
+const { homepage, me, about } = config.public
 
 useHead({
   htmlAttrs: {
@@ -21,10 +22,21 @@ useHead({
 
 useSeoMeta({
   titleTemplate: (chunk) => {
-    return chunk ? `${chunk} | ${config.public.me}` : config.public.me
+    return chunk ? `${chunk} | ${me}` : me
   },
+  description: about,
+  ogType: 'website',
+  ogUrl: homepage,
+  ogTitle: me,
+  ogDescription: about,
+  ogImage: `${homepage}/blog.png`,
+  twitterCard: 'summary_large_image',
+  twitterTitle: me,
+  twitterDescription: about,
+  twitterImage: `${homepage}/blog.png`,
 })
 </script>
+
 <style>
 .page-enter-active,
 .page-leave-active {

@@ -19,8 +19,8 @@ const { slug } = route.params
 const config = useRuntimeConfig()
 
 useSeoMeta({
-  ogImage: `https://fayazahmed.com/articles/${slug}.png`,
-  twitterCard: 'summary_large_image',
+  ogType: 'article',
+  ogUrl: `${config.public.homepage}/posts/${slug}`,
   articleAuthor: config.public.me,
 })
 </script>

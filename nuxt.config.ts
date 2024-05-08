@@ -59,6 +59,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
+      homepage: 'https://anhthang.org',
       me: 'Anh Thang Bui',
       about:
         "I'm Thang, a Senior Software Engineer based in Hanoi, Vietnam, working at TUI. I'm passionate about building web applications and sites using Node.js, Vue.js, Nuxt, and React.",
