@@ -29,22 +29,22 @@ const links = [
   {
     name: 'GitHub',
     url: 'https://github.com/anhthang',
-    icon: 'mdi:github',
+    icon: 'line-md:github',
   },
   {
-    name: 'Twitter',
+    name: 'X',
     url: 'https://twitter.com/anhthangbui',
-    icon: 'mdi:twitter',
+    icon: 'line-md:twitter-x',
   },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/buianhthang/',
-    icon: 'mdi:linkedin',
+    icon: 'line-md:linkedin',
   },
   {
     name: 'Telegram',
     url: 'https://t.me/buianhthang',
-    icon: 'mdi:telegram',
+    icon: 'line-md:telegram',
   },
 ]
 </script>
