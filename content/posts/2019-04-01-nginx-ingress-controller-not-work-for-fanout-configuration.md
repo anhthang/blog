@@ -1,9 +1,6 @@
 ---
 title: 'ingress-nginx controller not work for fanout configuration'
 published: '2019-04-01'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [nginx, nginx-ingress, kubernetes]
 ---
 

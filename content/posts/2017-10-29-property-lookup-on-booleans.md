@@ -1,9 +1,6 @@
 ---
 title: 'Property lookup on booleans'
 published: '2017-10-29'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [programing]
 link: https://github.com/babel/babel/commit/1c0a8eb14b69cca00aa96db65b69d0848013c680
 ---

@@ -1,9 +1,6 @@
 ---
 title: 'Configure ESLint, commitlint, lint-staged and Prettier to improve your development'
 published: '2020-05-05'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [eslint, prettier, javascript, commitlint, husky]
 ---
 

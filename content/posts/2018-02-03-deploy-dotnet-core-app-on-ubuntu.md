@@ -1,9 +1,6 @@
 ---
 title: 'Host ASP.NET Core on Linux with Nginx'
 published: '2018-02-03'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [aspnetcore, nginx]
 ---
 

@@ -1,9 +1,6 @@
 ---
 title: 'Hello World! app with Node.js and Koa'
 published: '2017-10-11'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [hello-world, koa, nodejs]
 ---
 

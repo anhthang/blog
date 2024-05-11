@@ -1,9 +1,6 @@
 ---
 title: 'XML to JSON - VSCode extension'
 published: '2017-11-03'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [code-extensions, xml2json, xmlbuilder]
 link: https://marketplace.visualstudio.com/items?itemName=buianhthang.xml2json
 ---

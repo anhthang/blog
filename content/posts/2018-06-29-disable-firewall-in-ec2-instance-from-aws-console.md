@@ -1,9 +1,6 @@
 ---
 title: 'Disable firewall in EC2 instance from AWS Console'
 published: '2018-06-29'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [firewall, ec2]
 ---
 

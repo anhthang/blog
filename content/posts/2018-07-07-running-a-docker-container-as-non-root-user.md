@@ -1,9 +1,6 @@
 ---
 title: 'Running a Docker container as non-root user'
 published: '2018-07-07'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [docker]
 ---
 

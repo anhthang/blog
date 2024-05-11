@@ -1,9 +1,6 @@
 ---
 title: 'VSCode extensions for developers'
 published: '2020-04-24'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [code-extensions]
 ---
 

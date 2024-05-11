@@ -1,9 +1,6 @@
 ---
 title: 'Minimal Docker container'
 published: '2017-12-24'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [docker]
 ---
 

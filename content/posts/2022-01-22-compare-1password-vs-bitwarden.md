@@ -1,9 +1,6 @@
 ---
 title: 'Compare 1Password vs Bitwarden'
 published: '2022-01-22'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [password-manager, 1password, bitwarden]
 ---
 

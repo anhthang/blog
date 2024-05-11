@@ -1,9 +1,6 @@
 ---
 title: 'pino-redis - first contribution'
 published: '2017-10-14'
-author:
-  name: Anh Thang
-  picture: '/assets/blog/authors/me.jpg'
 tags: [open-source]
 ---
 
