@@ -5,10 +5,7 @@
         class="flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5"
       >
         <li v-for="item in items" :key="item.path">
-          <UTooltip
-            :text="item.name"
-            :ui="{ popper: { strategy: 'absolute' } }"
-          >
+          <UTooltip :text="item.name" :popper="{ strategy: 'absolute' }">
             <ULink
               :to="item.path"
               class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400"

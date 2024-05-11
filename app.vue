@@ -13,13 +13,6 @@
 const config = useRuntimeConfig()
 const { homepage, me, about } = config.public
 
-useHead({
-  htmlAttrs: {
-    lang: 'en',
-  },
-  link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-})
-
 useSeoMeta({
   titleTemplate: (chunk) => {
     return chunk ? `${chunk} | ${me}` : me

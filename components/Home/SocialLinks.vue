@@ -46,5 +46,10 @@ const links = [
     url: 'https://t.me/buianhthang',
     icon: 'line-md:telegram',
   },
+  {
+    name: 'Mastodon',
+    url: 'https://mastodon.social/@anhthang',
+    icon: 'line-md:mastodon',
+  },
 ]
 </script>

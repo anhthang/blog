@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   modules: [
     '@nuxt/ui',
     'nuxt-icon',
@@ -25,6 +26,7 @@ export default defineNuxtConfig({
       bodyAttrs: {
         class: 'antialiased bg-gray-50 dark:bg-black min-h-screen',
       },
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
   },
 
