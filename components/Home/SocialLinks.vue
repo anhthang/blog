@@ -18,7 +18,7 @@
         <div
           class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700"
         ></div>
-        <Icon :name="link.icon" class="w-6 h-6"></Icon>
+        <UIcon :name="link.icon" class="w-6 h-6" />
       </NuxtLink>
     </div>
   </div>
@@ -29,27 +29,27 @@ const links = [
   {
     name: 'GitHub',
     url: 'https://github.com/anhthang',
-    icon: 'line-md:github',
+    icon: 'i-line-md-github',
   },
   {
     name: 'X',
     url: 'https://twitter.com/anhthangbui',
-    icon: 'line-md:twitter-x',
+    icon: 'i-line-md-twitter-x',
   },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/buianhthang/',
-    icon: 'line-md:linkedin',
+    icon: 'i-line-md-linkedin',
   },
   {
     name: 'Telegram',
     url: 'https://t.me/buianhthang',
-    icon: 'line-md:telegram',
+    icon: 'i-line-md-telegram',
   },
   {
     name: 'Mastodon',
     url: 'https://mastodon.social/@anhthang',
-    icon: 'line-md:mastodon',
+    icon: 'i-line-md-mastodon',
   },
 ]
 </script>
