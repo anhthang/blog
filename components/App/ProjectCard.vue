@@ -15,7 +15,7 @@
       class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700"
     ></div>
     <UAvatar
-      :src="project.thumbnail"
+      :src="`${project.thumbnail.replace('.png', `-${$colorMode.value}.png`)}`"
       :ui="{ rounded: 'rounded z-10 relative' }"
       size="md"
       :alt="project.name"

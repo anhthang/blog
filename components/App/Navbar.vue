@@ -1,7 +1,7 @@
 <template>
   <div ref="headerRef" :style="styles" class="fixed top-0 w-full z-50">
     <UHorizontalNavigation
-      :links="[left, right]"
+      :links="[left, middle, right]"
       :ui="{
         wrapper: 'mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl',
         container:
@@ -28,7 +28,15 @@ const isDark = computed({
 })
 
 const left = [
-  { label: 'Home', to: '/', icon: 'i-solar-home-smile-outline' },
+  {
+    to: '/',
+    avatar: {
+      src: '/avatar.jpg',
+    },
+  },
+]
+
+const middle = [
   {
     label: 'Projects',
     to: '/projects',
@@ -44,16 +52,11 @@ const left = [
 const right = computed(() => [
   {
     icon: isDark.value
-      ? 'i-heroicons-moon-20-solid'
-      : 'i-heroicons-sun-20-solid',
+      ? 'i-line-md-moon-rising-filled-alt-loop'
+      : 'i-line-md-moon-to-sunny-outline-loop-transition',
     iconClass: 'text-gray-700 dark:text-gray-200', // display as active
     click: () => {
       isDark.value = !isDark.value
-    },
-  },
-  {
-    avatar: {
-      src: '/avatar.jpg',
     },
   },
 ])
