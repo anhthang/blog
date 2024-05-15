@@ -32,7 +32,11 @@ export default defineNuxtConfig({
 
   content: {
     highlight: {
-      theme: 'catppuccin-frappe',
+      theme: {
+        default: 'ayu-dark',
+        light: 'catppuccin-latte',
+        dark: 'dracula-soft',
+      },
       langs: [
         'js',
         'jsx',

@@ -18,6 +18,7 @@ const headerRef = ref(null)
 const { styles } = useFixedHeader(headerRef)
 
 const colorMode = useColorMode()
+const config = useRuntimeConfig()
 
 const isDark = computed({
   get() {
@@ -33,6 +34,7 @@ const left = [
     to: '/',
     avatar: {
       src: '/avatar.jpg',
+      alt: config.public.me,
       size: 'md',
     },
   },

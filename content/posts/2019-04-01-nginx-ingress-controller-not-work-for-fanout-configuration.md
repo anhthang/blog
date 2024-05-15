@@ -8,7 +8,7 @@ Firstly, I want to says: Reading CHANGE_LOG will help you reduce the pain.
 
 `ingress-nginx` has breaking changes from [NGINX 0.22.0](https://github.com/kubernetes/ingress-nginx/releases/tag/nginx-0.22.0)
 
-```
+```bash
 Annotation nginx.ingress.kubernetes.io/rewrite-target has changed and will not behave as expected if you don't update them.
 
 Refer to https://kubernetes.github.io/ingress-nginx/examples/rewrite/#rewrite-target on how to change it.

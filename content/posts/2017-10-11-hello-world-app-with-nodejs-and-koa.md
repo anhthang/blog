@@ -28,7 +28,7 @@ entry point: (index.js)
 
 You will want to change this to
 
-```
+```sh
 <your_file_name>.js
 ```
 
@@ -63,7 +63,7 @@ app.listen(3000, () => {
 
 Run the app
 
-```
+```sh
 node <your_file_name>.js
 ```
 

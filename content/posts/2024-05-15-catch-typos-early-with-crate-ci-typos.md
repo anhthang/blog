@@ -30,6 +30,21 @@ Typos can creep into any codebase, but they don't have to slow you down. **[crat
 
    This will scan your project and report any potential typos it finds.
 
+   ```bash
+   error: `Bui` should be `Buoy`, `Buy`
+   --> ./nuxt.config.ts:68:22
+      |
+   68 |       me: 'Anh Thang Bui',
+      |                      ^^^
+      |
+   error: `Bui` should be `Buoy`, `Buy`
+   --> ./README.md:2:32
+   |
+   2 |   <h1 align="center">Anh Thang Bui</h1>
+   |                                ^^^
+   |
+   ```
+
    `typos-cli` won't automatically change your code, but it will highlight the typos and suggest corrections. You can review the suggestions and make the necessary changes or have them fixed
 
    ```bash

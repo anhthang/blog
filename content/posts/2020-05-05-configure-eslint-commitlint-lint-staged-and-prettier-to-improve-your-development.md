@@ -124,13 +124,13 @@ _This section is my preferences. You're free to add your own rules._
 Run linters against staged git files and don't let 💩 slip into your code base!
 
 To create hook, .husky directory have to exist. If not, try to install
-```
+```bash
 ❯ npx husky install
 husky - Git hooks installed
 ```
 
 Add hook
-```
+```bash
 ❯ npx husky add .husky/pre-commit "npx lint-staged"
 husky - created .husky/pre-commit
 ```
@@ -139,7 +139,7 @@ husky - created .husky/pre-commit
 
 
 
-```
+```bash
 # Install commitlint cli and conventional config
 npm install --save-dev @commitlint/{config-conventional,cli}
 # For Windows:
@@ -150,7 +150,8 @@ echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitl
 ```
 
 To lint commits before they are created you can use Husky's commit-msg hook:
-```
+
+```bash
 ❯ npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
 husky - created .husky/commit-msg
 ```
@@ -158,7 +159,8 @@ husky - created .husky/commit-msg
 Sometimes above command doesn't work in some command interpreters
 You can try other commands below to write `npx --no -- commitlint --edit $1`
 in the commit-msg file.
-```
+
+```bash
 npx husky add .husky/commit-msg \"npx --no -- commitlint --edit '$1'\"
 # or
 npx husky add .husky/commit-msg "npx --no -- commitlint --edit $1"
