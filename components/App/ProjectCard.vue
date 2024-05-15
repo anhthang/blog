@@ -15,7 +15,7 @@
       class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700"
     ></div>
     <UAvatar
-      :src="`${project.thumbnail.replace('.png', `-${$colorMode.value}.png`)}`"
+      :src="`${project.thumbnail.replace('.png', `-${theme}.png`)}`"
       :ui="{ rounded: 'rounded z-10 relative' }"
       size="md"
       :alt="project.name"
@@ -24,6 +24,12 @@
 </template>
 
 <script setup>
+const colorMode = useColorMode()
+
+const theme = computed(() => {
+  return colorMode.value === 'dark' ? 'dark' : 'light'
+})
+
 defineProps({
   project: {
     type: Object,

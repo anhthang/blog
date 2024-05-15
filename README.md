@@ -5,7 +5,8 @@
   <i>Something to remember...</i>
 </p>
 
-![Preview](https://anhthang.org/preview.png)
+![Light preview](preview-light.png#gh-light-mode-only)
+![Dark preview](preview-dark.png#gh-dark-mode-only)
 
 ## Credit
 Powered by [Zooper](https://zooper.pages.dev)
