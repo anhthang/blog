@@ -1,0 +1,46 @@
+{
+  "body": [
+    {
+      "name": "Visual Studio Code",
+      "description": "My go-to editor for everything from web development to writing this website. It's super customizable and has tons of extensions to boost my productivity.",
+      "icon": "i-simple-icons-visualstudiocode",
+      "url": "https://code.visualstudio.com/"
+    },
+    {
+      "name": "iTerm2",
+      "description": "My favorite terminal emulator on macOS. It provides a powerful and flexible environment for working with the command line.",
+      "icon": "i-simple-icons-iterm2",
+      "url": "https://iterm2.com/"
+    },
+    {
+      "name": "Firefox",
+      "description": "My preferred web browser, known for its focus on privacy and security. It offers a smooth browsing experience.",
+      "icon": "i-simple-icons-firefoxbrowser",
+      "url": "https://www.mozilla.org/en-US/firefox/"
+    },
+    {
+      "name": "Raycast",
+      "description": "A launcher that supercharges my workflow. I can quickly access applications, run custom scripts, and perform actions with just a few keystrokes.",
+      "icon": "i-simple-icons-raycast",
+      "url": "https://raycast.com/"
+    },
+    {
+      "name": "Postman",
+      "description": "An invaluable tool for designing, testing, and documenting APIs.",
+      "icon": "i-simple-icons-postman",
+      "url": "https://www.postman.com/"
+    },
+    {
+      "name": "httpie",
+      "description": "A fantastic command-line HTTP client that makes interacting with APIs and web services a breeze. It boasts a user-friendly syntax, colorful output, and built-in JSON support, perfect for testing, debugging, and exploring APIs.",
+      "icon": "i-simple-icons-httpie",
+      "url": "https://httpie.io/"
+    },
+    {
+      "name": "TablePlus",
+      "description": "A user-friendly database management tool that supports a variety of databases.",
+      "icon": "i-solar-database-bold",
+      "url": "https://tableplus.com/"
+    }
+  ]
+}

@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   ],
 
   ui: {
-    icons: ['heroicons', 'line-md', 'solar'],
+    icons: ['heroicons', 'line-md', 'solar', 'simple-icons'],
   },
 
   app: {
@@ -57,6 +57,10 @@ export default defineNuxtConfig({
         'nginx',
       ],
     },
+  },
+
+  colorMode: {
+    preference: 'dark',
   },
 
   fonts: {

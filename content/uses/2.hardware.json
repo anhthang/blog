@@ -1,0 +1,34 @@
+{
+  "body": [
+    {
+      "name": "Mac Mini M1 16GB",
+      "description": "",
+      "icon": "i-solar-display-line-duotone",
+      "url": "https://www.apple.com/mac-mini/"
+    },
+    {
+      "name": "MacBook Air M1 8GB",
+      "description": "",
+      "icon": "i-solar-laptop-minimalistic-line-duotone",
+      "url": "https://www.apple.com/macbook-air/"
+    },
+    {
+      "name": "iPhone 11 Pro 64GB",
+      "description": "",
+      "icon": "i-solar-iphone-line-duotone",
+      "url": "https://www.apple.com/iphone/"
+    },
+    {
+      "name": "Apple Watch Series 4",
+      "description": "",
+      "icon": "i-solar-watch-square-line-duotone",
+      "url": "https://www.apple.com/watch/"
+    },
+    {
+      "name": "AirPods Pro",
+      "description": "",
+      "icon": "i-solar-airbuds-case-open-line-duotone",
+      "url": "https://www.apple.com/airpods/"
+    }
+  ]
+}

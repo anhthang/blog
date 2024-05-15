@@ -6,7 +6,7 @@
       >
         <div class="h-1.5 w-1.5 rounded-full bg-current"></div>
       </div>
-      <h2 class="uppercase text-xs font-semibold text-gray-400">
+      <h2 class="uppercase text-sm font-semibold text-gray-400">
         STAY IN TOUCH
       </h2>
     </div>

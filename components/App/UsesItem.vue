@@ -1,12 +1,26 @@
 <template>
   <li>
-    <NuxtLink :to="item.url" class="group" target="_blank" external>
-      <p
-        class="text-base font-semibold text-gray-700 dark:text-gray-300 group-hover:text-primary-600"
-      >
-        {{ item.name }}
-      </p>
-      <p class="text-sm text-gray-500">{{ item.description }}</p>
+    <NuxtLink
+      :to="item.url"
+      class="flex hover:bg-gray-100 dark:hover:bg-white/10 p-2 rounded-lg -m-2 text-sm min-w-0"
+      target="_blank"
+      external
+    >
+      <div class="flex-col w-full space-y-2">
+        <span
+          class="flex items-center gap-4 truncate text-gray-700 dark:text-gray-200"
+        >
+          <UIcon :name="item.icon" class="w-6 h-6" />
+          {{ item.name }}
+          <span class="flex-1"></span>
+          <span class="text-xs font-medium text-gray-400 dark:text-gray-600">
+            {{ getHost(item.url) }}
+          </span>
+        </span>
+        <p v-if="item.description" class="text-sm text-gray-500">
+          {{ item.description }}
+        </p>
+      </div>
     </NuxtLink>
   </li>
 </template>
@@ -18,4 +32,13 @@ defineProps({
     required: true,
   },
 })
+
+function getHost(url) {
+  const parsedUrl = new URL(url)
+  let host = parsedUrl.host
+  if (host.startsWith('www.')) {
+    host = host.substring(4)
+  }
+  return host
+}
 </script>

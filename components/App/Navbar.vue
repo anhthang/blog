@@ -51,6 +51,11 @@ const middle = [
     to: '/posts',
     icon: 'i-solar-document-add-outline',
   },
+  {
+    label: 'Uses',
+    to: '/uses',
+    icon: 'i-solar-backpack-outline',
+  },
 ]
 
 const right = computed(() => [

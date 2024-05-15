@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-4">
+    <h2 class="uppercase text-sm font-semibold text-gray-400 mb-4">
       FIND ME ON
     </h2>
     <div class="space-y-5">
