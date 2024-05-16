@@ -2,20 +2,15 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: [
-    '@nuxt/ui',
-    'nuxt-icon',
+    '@nuxt/content',
     '@nuxt/eslint',
     '@nuxt/fonts',
-    '@nuxtjs/fontaine',
     '@nuxt/image',
-    '@nuxt/content',
+    '@nuxt/ui',
+    '@nuxtjs/fontaine',
     '@vueuse/nuxt',
     'nuxt-icon',
   ],
-
-  ui: {
-    icons: ['heroicons', 'iconoir', 'solar', 'simple-icons'],
-  },
 
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
@@ -31,7 +26,15 @@ export default defineNuxtConfig({
     },
   },
 
+  // bundled in @nuxt/ui
+  colorMode: {
+    preference: 'dark',
+  },
+
   content: {
+    markdown: {
+      remarkPlugins: ['remark-reading-time'],
+    },
     highlight: {
       theme: {
         default: 'ayu-dark',
@@ -60,15 +63,15 @@ export default defineNuxtConfig({
     },
   },
 
-  colorMode: {
-    preference: 'dark',
-  },
-
   fonts: {
     families: [
       { name: 'Cabin', provider: 'google' },
       { name: 'Fira Code', provider: 'google' },
     ],
+  },
+
+  ui: {
+    icons: ['heroicons', 'iconoir', 'solar', 'simple-icons'],
   },
 
   runtimeConfig: {

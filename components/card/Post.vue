@@ -12,7 +12,7 @@
           <span class="h-4 w-0.5 rounded-full bg-gray-200 dark:bg-gray-500">
           </span>
         </span>
-        {{ getReadableDate(post.published) }}
+        {{ getReadableDate(post.published) }} - {{ post.readingTime.text }}
       </time>
       <h2
         class="text-base font-semibold font-display tracking-tight text-gray-800 dark:text-gray-100 group-hover:text-primary-600"

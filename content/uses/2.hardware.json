@@ -31,10 +31,18 @@
       "url": "https://www.apple.com/airpods/"
     },
     {
-      "name": "iPad Air or Pro",
-      "description": "I haven't gotten this yet ~^.^~",
+      "name": "iPad",
+      "description": "",
       "icon": "i-solar-tablet-line-duotone",
-      "url": "https://www.apple.com/ipad/"
+      "url": "https://www.apple.com/ipad/",
+      "tags": ["Not Right Now"]
+    },
+    {
+      "name": "Homepod",
+      "description": "",
+      "icon": "i-solar-smart-speaker-minimalistic-line-duotone",
+      "url": "https://www.apple.com/homepod/",
+      "tags": ["Maybe"]
     }
   ]
 }

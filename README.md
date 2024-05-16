@@ -9,4 +9,5 @@
 ![Dark preview](preview-dark.png#gh-dark-mode-only)
 
 ## Credit
-Powered by [Zooper](https://zooper.pages.dev)
+
+Thanks to [Zooper](https://zooper.pages.dev) for the base theme, further customized by me to match my preferences.
