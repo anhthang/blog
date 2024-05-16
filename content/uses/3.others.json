@@ -1,10 +1,10 @@
 {
   "body": [
     {
-      "name": "Nintendo Switch",
-      "description": "Animal Crossing: New Horizons Edition",
-      "icon": "i-solar-gamepad-outline",
-      "url": "https://www.nintendo.com/us/store/products/nintendo-switch-animal-crossing-new-horizons-edition/"
+      "name": "Singa Unikorn R2.2 Berlin Blue",
+      "description": "Gateron Hippo Linear switches, GMK Space Cadet II",
+      "icon": "i-solar-keyboard-outline",
+      "url": "https://singakbd.com/blogs/groupbuy-and-updates/unikorn-r2-2-rerun"
     },
     {
       "name": "FUJIFILM X-T30 II",
@@ -13,10 +13,22 @@
       "url": "https://fujifilm-x.com/global/products/cameras/x-t30-ii/"
     },
     {
-      "name": "Singa Unikorn R2.2 Berlin Blue",
-      "description": "Gateron Hippo Linear switches, GMK Space Cadet II",
-      "icon": "i-solar-keyboard-outline",
-      "url": "https://singakbd.com/blogs/groupbuy-and-updates/unikorn-r2-2-rerun"
+      "name": "Nintendo Switch",
+      "description": "Animal Crossing: New Horizons Edition",
+      "icon": "i-solar-gamepad-outline",
+      "url": "https://www.nintendo.com/us/store/products/nintendo-switch-animal-crossing-new-horizons-edition/"
+    },
+    {
+      "name": "Nintendo 2DS XL",
+      "description": "Poke Ball Edition",
+      "icon": "i-solar-gamepad-outline",
+      "url": "https://www.nintendo.com/us/store/hardware/"
+    },
+    {
+      "name": "ATH-M30x",
+      "description": "",
+      "icon": "i-solar-headphones-round-sound-outline",
+      "url": "https://www.audio-technica.com/en-eu/ath-m30x"
     }
   ]
 }

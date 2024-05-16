@@ -61,8 +61,8 @@ const middle = [
 const right = computed(() => [
   {
     icon: isDark.value
-      ? 'i-line-md-moon-rising-filled-alt-loop'
-      : 'i-line-md-moon-to-sunny-outline-loop-transition',
+      ? 'i-solar-moon-stars-bold-duotone'
+      : 'i-solar-sun-line-duotone',
     iconClass: 'text-gray-700 dark:text-gray-200', // display as active
     click: () => {
       isDark.value = !isDark.value

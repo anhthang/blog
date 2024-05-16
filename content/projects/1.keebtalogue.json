@@ -2,6 +2,6 @@
     "name": "Keebtalogue",
     "url": "https://keebtalogue.vercel.app",
     "description": "Driven by a passion for artisan keycaps and keyboards, Keebtalogue is a project designed for enthusiasts like you.",
-    "thumbnail": "/projects/keebtalogue.png",
+    "icon": "Keebtalogue",
     "status": "Active"
 }

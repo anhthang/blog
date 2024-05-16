@@ -9,7 +9,6 @@
         :key="link.icon"
         :to="link.url"
         target="_blank"
-        external
         class="flex items-end gap-4 dark:hover:text-gray-300 group"
       >
         <span class="text-sm">

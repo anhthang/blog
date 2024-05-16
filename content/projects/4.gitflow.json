@@ -2,7 +2,7 @@
     "name": "gitflow",
     "url": "https://marketplace.visualstudio.com/items?itemName=buianhthang.gitflow",
     "description": "Gitflow integration for Visual Studio Code",
-    "thumbnail": "/projects/gitflow.png",
+    "icon": "Gitflow",
     "status": "Inactivated",
     "opensource": true
 }

@@ -2,7 +2,7 @@
     "name": "XML 2 JSON",
     "url": "https://marketplace.visualstudio.com/items?itemName=buianhthang.xml2json",
     "description": "Convert XML from clipboard or current document/selection to JSON",
-    "thumbnail": "/projects/xml2json.png",
+    "icon": "XML2JSON",
     "status": "Active",
     "opensource": true
 }
