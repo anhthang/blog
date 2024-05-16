@@ -1,6 +1,6 @@
 <template>
   <main class="min-h-screen">
-    <AppHeader
+    <page-header
       class="mb-12"
       title="Peek Inside My Bag!"
       :description="description"
@@ -11,8 +11,8 @@
         :key="id"
         class="space-y-4"
       >
-        <AppUsesHeader :title="title" />
-        <AppUsesItem v-for="(item, idx) in items" :key="idx" :item="item" />
+        <uses-header :title="title" />
+        <uses-item v-for="(item, idx) in items" :key="idx" :item="item" />
       </ul>
     </div>
   </main>

@@ -4,7 +4,7 @@
       FEATURED PROEJCTS
     </h2>
     <div class="space-y-4">
-      <AppProjectCard
+      <card-project
         v-for="(project, id) in projects"
         :key="id"
         :project="project"

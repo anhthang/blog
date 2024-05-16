@@ -5,7 +5,7 @@
     </h2>
     <ul class="space-y-16">
       <li v-for="(post, id) in posts" :key="id">
-        <AppPostCard :post="post" />
+        <card-post :post="post" />
       </li>
     </ul>
     <div class="flex items-center justify-center mt-6 text-sm">

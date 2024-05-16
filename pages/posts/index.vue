@@ -1,9 +1,9 @@
 <template>
   <main class="min-h-screen">
-    <AppHeader class="mb-16" title="Posts" :description="description" />
+    <page-header class="mb-16" title="Posts" :description="description" />
     <ul class="space-y-16">
       <li v-for="(post, id) in posts" :key="id">
-        <AppPostCard :post="post" />
+        <card-post :post="post" />
       </li>
     </ul>
   </main>

@@ -29,6 +29,12 @@
       "description": "",
       "icon": "i-solar-airbuds-case-open-line-duotone",
       "url": "https://www.apple.com/airpods/"
+    },
+    {
+      "name": "iPad Air or Pro",
+      "description": "I haven't gotten this yet ~^.^~",
+      "icon": "i-solar-tablet-line-duotone",
+      "url": "https://www.apple.com/ipad/"
     }
   ]
 }
