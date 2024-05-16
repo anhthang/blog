@@ -1059,12 +1059,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify-json/line-md@npm:^1.1.37":
-  version: 1.1.37
-  resolution: "@iconify-json/line-md@npm:1.1.37"
+"@iconify-json/iconoir@npm:^1.1.44":
+  version: 1.1.44
+  resolution: "@iconify-json/iconoir@npm:1.1.44"
   dependencies:
     "@iconify/types": "npm:*"
-  checksum: 10c0/2026c5c0a092aa24bc3115695541ad1f3db83ac70a8dffd59bafdeae4c359113ce8b9ce37121138cc8e22237b37850e6a0de704f37f352d30c10a982bf51d7ea
+  checksum: 10c0/0803e4b633f1a70e12727e206ab117820f8b24d344a73a170d8f4fd7e3f117d4ed62efc1c97c7802033bdca434e53f083f4fe0f7c63823e2fa601f0f4b499f64
   languageName: node
   linkType: hard
 
@@ -3639,7 +3639,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^19.3.0"
     "@commitlint/config-conventional": "npm:^19.2.2"
-    "@iconify-json/line-md": "npm:^1.1.37"
+    "@iconify-json/iconoir": "npm:^1.1.44"
     "@iconify-json/simple-icons": "npm:^1.1.101"
     "@iconify-json/solar": "npm:^1.1.9"
     "@nuxt/content": "npm:^2.12.1"
@@ -4227,9 +4227,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001587, caniuse-lite@npm:^1.0.30001599":
-  version: 1.0.30001618
-  resolution: "caniuse-lite@npm:1.0.30001618"
-  checksum: 10c0/2e33e5e854fb6365566e2ff5ba866c877cd08ca278a2c06b9bc3346a884fc1336a0674c2a0003e7ee7a1a64e90f167ec4ad08ea14d12da5926017c92c99f82a5
+  version: 1.0.30001620
+  resolution: "caniuse-lite@npm:1.0.30001620"
+  checksum: 10c0/3783117143fbdc98c1b91a579d0f2a7bcee7008f322ba7a2bf56a6c3d105400772c7ed8026840b4ea909ec7bf254bcc36532f2ce1b1a1240b00d0335da39b7ec
   languageName: node
   linkType: hard
 
@@ -5318,9 +5318,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.668":
-  version: 1.4.770
-  resolution: "electron-to-chromium@npm:1.4.770"
-  checksum: 10c0/65e58d947d34bafb8bf42e12c9f0c0a75d5dc10479f6cbe4c80f23d3260e84ca0c653a50eec10cf56aa69616fe3d12cf94987704a703e7ad85b4ab921b382163
+  version: 1.4.772
+  resolution: "electron-to-chromium@npm:1.4.772"
+  checksum: 10c0/79ea8f4d41b64e092677e801fd88affe0089e4e76dbbecf78fe2831a66d4b4ef6d0da6ad59be8079eb7b7f03c72d1667e81d13a803e343b8bd4ade3e3f1f7b49
   languageName: node
   linkType: hard
 

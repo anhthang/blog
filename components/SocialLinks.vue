@@ -17,7 +17,7 @@
         <div
           class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700"
         ></div>
-        <UIcon :name="link.icon" class="w-6 h-6" />
+        <UIcon :name="link.icon" class="w-8 h-8" />
       </NuxtLink>
     </div>
   </div>
@@ -28,27 +28,27 @@ const links = [
   {
     name: 'GitHub',
     url: 'https://github.com/anhthang',
-    icon: 'i-line-md-github',
+    icon: 'i-iconoir-github',
   },
   {
     name: 'X',
     url: 'https://twitter.com/anhthangbui',
-    icon: 'i-line-md-twitter-x',
+    icon: 'i-iconoir-x',
   },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/buianhthang/',
-    icon: 'i-line-md-linkedin',
+    icon: 'i-iconoir-linkedin',
   },
   {
     name: 'Telegram',
     url: 'https://t.me/buianhthang',
-    icon: 'i-line-md-telegram',
+    icon: 'i-iconoir-telegram',
   },
   {
     name: 'Mastodon',
     url: 'https://mastodon.social/@anhthang',
-    icon: 'i-line-md-mastodon',
+    icon: 'i-iconoir-mastodon',
   },
 ]
 </script>

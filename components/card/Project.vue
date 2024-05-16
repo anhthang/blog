@@ -14,7 +14,7 @@
     <div
       class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700"
     ></div>
-    <Icon :name="project.icon" class="w-10 h-10" />
+    <Icon :name="project.icon" class="w-8 h-8" />
   </NuxtLink>
 </template>
 
