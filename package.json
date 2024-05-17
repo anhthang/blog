@@ -38,5 +38,5 @@
     "@vercel/analytics": "^1.2.2",
     "vue-use-fixed-header": "^2.0.3"
   },
-  "packageManager": "yarn@4.2.1+sha512.4326f6a5a916363bfd3533f984bc4c91d47a0c6af2d79fc6e8a25dec14a1be88ec354e2b1d2919461647ec8df1d39303575f7726827704cdf9909d38621c9300"
+  "packageManager": "yarn@4.2.2+sha512.c44e283c54e02de9d1da8687025b030078c1b9648d2895a65aab8e64225bfb7becba87e1809fc0b4b6778bbd47a1e2ab6ac647de4c5e383a53a7c17db6c3ff4b"
 }

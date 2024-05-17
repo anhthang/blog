@@ -32,15 +32,21 @@
     },
     {
       "name": "httpie",
-      "description": "A fantastic command-line HTTP client that makes interacting with APIs and web services a breeze. It boasts a user-friendly syntax, colorful output, and built-in JSON support, perfect for testing, debugging, and exploring APIs.",
+      "description": "A fantastic command-line HTTP client that makes interacting with APIs and web services a breeze. It boasts a user-friendly syntax, colorful output, and built-in JSON support.",
       "icon": "i-simple-icons-httpie",
       "url": "https://httpie.io/"
     },
     {
       "name": "TablePlus",
-      "description": "A user-friendly database management tool that supports a variety of databases.",
+      "description": "A user-friendly database management tool that supports a variety of databases, allowing me to easily query, browse, and manage data.",
       "icon": "i-solar-database-bold",
       "url": "https://tableplus.com/"
+    },
+    {
+      "name": "Notion",
+      "description": "My note-taking and knowledge base. Notion keeps all my ideas, notes, and projects organized in one place.",
+      "icon": "i-simple-icons-notion",
+      "url": "https://www.notion.so/"
     }
   ]
 }

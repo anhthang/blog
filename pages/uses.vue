@@ -20,7 +20,7 @@
 
 <script setup>
 const description =
-  "What keeps me going? This page gives you a glimpse into the essentials I carry with me, both physical and digital. Dive in to see my favorite apps and software, must-have items, and the things I can't recommend enough!"
+  "Here's the software and gear that keeps my developer life running smoothly."
 
 useSeoMeta({
   title: 'Inside My Bag',
