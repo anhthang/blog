@@ -1,6 +1,10 @@
 <template>
   <main class="min-h-screen">
-    <page-header class="mb-12" title="Projects" :description="description" />
+    <page-header
+      class="mb-12"
+      title="Building & Sharing"
+      :description="description"
+    />
     <div class="space-y-4">
       <card-project
         v-for="(project, id) in projects"

@@ -1,6 +1,10 @@
 <template>
   <main class="min-h-screen">
-    <page-header class="mb-16" title="Posts" :description="description" />
+    <page-header
+      class="mb-16"
+      title="Sharing is Caring"
+      :description="description"
+    />
     <ul class="space-y-16">
       <li v-for="(post, id) in posts" :key="id">
         <card-post :post="post" />
@@ -10,7 +14,8 @@
 </template>
 
 <script setup>
-const description = 'Sharing is Caring'
+const description =
+  'Explore all my posts on web development, software engineering, and more!'
 
 useSeoMeta({
   title: 'Posts',

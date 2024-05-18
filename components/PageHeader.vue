@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1
-      class="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100"
+      class="text-2xl font-bold tracking-tight bg-gradient-to-r from-fuchsia-300 to-indigo-600 dark:from-amber-200 dark:to-rose-500 text-transparent bg-clip-text"
     >
       {{ title }}
     </h1>
