@@ -1,5 +1,10 @@
 <template>
-  <div class="space-y-6">
+  <div class="space-y-6 relative">
+    <NuxtImg
+      src="/avatar.jpg"
+      :alt="config.public.me"
+      class="float-left w-32 h-32 rounded-full mr-6 mb-6"
+    />
     <h1
       class="text-2xl font-bold tracking-tight text-gray-800 dark:text-gray-100"
     >

@@ -19,8 +19,6 @@ module.exports = {
     fontFamily: {
       sans: [
         'Cabin',
-        'Avenir Next',
-        'Roboto',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
@@ -35,7 +33,7 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       mono: [
-        'Cascadia Code',
+        'Fira Code',
         'ui-monospace',
         'SFMono-Regular',
         'Menlo',

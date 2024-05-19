@@ -20,7 +20,6 @@ const headerRef = ref(null)
 const { styles } = useFixedHeader(headerRef)
 
 const colorMode = useColorMode()
-const config = useRuntimeConfig()
 
 const isDark = computed({
   get() {
@@ -34,11 +33,7 @@ const isDark = computed({
 const left = [
   {
     to: '/',
-    avatar: {
-      src: '/avatar.jpg',
-      alt: config.public.me,
-      size: 'sm',
-    },
+    icon: 'i-solar-home-angle-outline',
   },
 ]
 
