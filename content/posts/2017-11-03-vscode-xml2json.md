@@ -6,7 +6,6 @@ link: https://marketplace.visualstudio.com/items?itemName=buianhthang.xml2json
 ---
 
 Convert XML from clipboard or current document/selection to JSON
-<!-- more -->
 
 [![Version](https://img.shields.io/visual-studio-marketplace/v/buianhthang.xml2json?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=buianhthang.xml2json) ![Installs](https://img.shields.io/visual-studio-marketplace/i/buianhthang.xml2json?style=for-the-badge) ![Downloads](https://img.shields.io/visual-studio-marketplace/d/buianhthang.xml2json?style=for-the-badge) ![Rating](https://img.shields.io/visual-studio-marketplace/r/buianhthang.xml2json?style=for-the-badge)
 
@@ -16,5 +15,5 @@ XML to JSON can help you create the final object, just edit the variables that n
 
 Here are just some of the features that XML to JSON provides:
 
--   Convert XML from document or selection to JSON
--   Convert XML from clipboard to JSON
+- Convert XML from document or selection to JSON
+- Convert XML from clipboard to JSON

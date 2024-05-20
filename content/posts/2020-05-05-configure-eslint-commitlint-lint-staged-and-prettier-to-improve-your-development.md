@@ -5,20 +5,20 @@ tags: [eslint, prettier, javascript, commitlint, husky]
 ---
 
 This short guide will provide you a consistent and reusable development workflow for your new or existing projects, especially in JavaScript. You can increase your code quality and reduce the time spent on debugging. I will show you how to configure VSCode to handle code formatting, linting and type checking now.
-<!-- more -->
 
 > Testing is outside the scope, but it's highly recommended. You should check every changed files before commit
 
 _You can skip ahead to the next step if you have any already_
 
 ### Benefits
+
 - ESLint **performs automated scans of your JavaScript files for common syntax and style errors**. Prettier scans your files for style issues and automatically reformats your code to ensure consistent rules are being followed for indentation, spacing, semicolons, single quotes vs double quotes, etc.
 - [Why Use Conventional Commits?](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#why-use-conventional-commits)
 - Linting makes more sense when run before committing your code. By doing so you can ensure no errors go into the repository and enforce code style. But running a lint process on a whole project is slow, and linting results can be irrelevant. Ultimately you only want to lint files that will be committed.
 
 ### Getting Started
 
-Open VSCode and install following extensions (what I shared in previous post, it's [here](https://anhthang.org/2020/04/24/vscode-extensions-for-developers))
+Open VSCode and install following extensions (what I shared in previous post, it's [here](https://anhthang.org/posts/2020-04-24-vscode-extensions-for-developers))
 
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
@@ -38,6 +38,7 @@ yarn add --dev @commitlint/{config-conventional,cli} eslint eslint-config-airbnb
 - Prettier will auto-format your code based on it’s rules. **It's amazingggg!** 🤩 _Let's install and enjoy your life._
 
 Set up Eslint configuration file, and the easiest way to do that is:
+
 ```bash
 $ npm init @eslint/config
 # or
@@ -85,59 +86,61 @@ Or write the configuration below into the `.eslintrc.json` file if you want to f
 
 ```json
 {
-    "extends": ["airbnb-base", "prettier"],
-    "plugins": ["import", "prettier"],
-    "rules": {
-        "eqeqeq": ["warn"],
-        "radix": ["warn"],
-        "newline-per-chained-call": ["warn"],
-        "newline-before-return": "error",
-        "no-restricted-syntax": ["warn"],
-        "no-param-reassign": ["error", { "props": false }],
-        "import/no-dynamic-require": ["warn"],
-        "prettier/prettier": [
-            "error",
-            {
-                "singleQuote": true,
-                "semi": false,
-                "tabWidth": 4
-            }
-        ]
-    }
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["import", "prettier"],
+  "rules": {
+    "eqeqeq": ["warn"],
+    "radix": ["warn"],
+    "newline-per-chained-call": ["warn"],
+    "newline-before-return": "error",
+    "no-restricted-syntax": ["warn"],
+    "no-param-reassign": ["error", { "props": false }],
+    "import/no-dynamic-require": ["warn"],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": false,
+        "tabWidth": 4
+      }
+    ]
+  }
 }
 ```
+
 You can find more details about **eslint** options [here](https://eslint.org/docs/user-guide/command-line-interface)
 
 You can create a file name **.prettierrc** and write it own rules
 
 ```json
 {
-    "singleQuote": true,
-    "semi": false,
-    "tabWidth": 4
+  "singleQuote": true,
+  "semi": false,
+  "tabWidth": 4
 }
 ```
 
 _This section is my preferences. You're free to add your own rules._
 
 ### Lint your Code
+
 Run linters against staged git files and don't let 💩 slip into your code base!
 
 To create hook, .husky directory have to exist. If not, try to install
+
 ```bash
 ❯ npx husky install
 husky - Git hooks installed
 ```
 
 Add hook
+
 ```bash
 ❯ npx husky add .husky/pre-commit "npx lint-staged"
 husky - created .husky/pre-commit
 ```
 
 ### Lint your commit message
-
-
 
 ```bash
 # Install commitlint cli and conventional config
@@ -175,26 +178,26 @@ Now I want VSCode to format my code following ESLint, Prettier config whenever I
 
 Go to VSCode Preferences then add the following settings:
 
--   Set Prettier is default formatter and config for all JavaScript projects
+- Set Prettier is default formatter and config for all JavaScript projects
 
 ```json
 {
-    "prettier.semi": false,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 4,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 4,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
 ```
 
--   Let VSCode always fix after saving a file
+- Let VSCode always fix after saving a file
 
 ```json
 {
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    }
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
 ```
 

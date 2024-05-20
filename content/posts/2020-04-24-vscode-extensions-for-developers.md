@@ -5,7 +5,6 @@ tags: [code-extensions]
 ---
 
 Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity)
-<!-- more -->
 
 **Here are my top VSCode extensions that every software developer must have:**
 
@@ -61,8 +60,8 @@ XML Formatting, XQuery, and XPath Tools for Visual Studio Code
 
 **Some other extensions can help you increase your productivity:**
 
--   [Duplicate action](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-duplicate) - Ability to duplicate files in VS Code
--   [Gitmoji Commit](https://marketplace.visualstudio.com/items?itemName=benjaminadk.emojis4git) - A utility to compose GitHub commit messages with emojis. Based on Gitmoji.
--   [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines) - Keep unique lines of text and remove duplicates from current selection. Also includes a command to shuffle currently selected lines.
+- [Duplicate action](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-duplicate) - Ability to duplicate files in VS Code
+- [Gitmoji Commit](https://marketplace.visualstudio.com/items?itemName=benjaminadk.emojis4git) - A utility to compose GitHub commit messages with emojis. Based on Gitmoji.
+- [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines) - Keep unique lines of text and remove duplicates from current selection. Also includes a command to shuffle currently selected lines.
 
 _Happy Coding~_

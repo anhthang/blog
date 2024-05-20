@@ -5,8 +5,8 @@
   <i>Something to remember...</i>
 </p>
 
-![Light preview](preview-light.png#gh-light-mode-only)
-![Dark preview](preview-dark.png#gh-dark-mode-only)
+![Light preview](preview-light.jpg#gh-light-mode-only)
+![Dark preview](preview-dark.jpg#gh-dark-mode-only)
 
 ## Credit
 

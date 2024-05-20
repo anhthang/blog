@@ -5,15 +5,14 @@ tags: [docker]
 ---
 
 Create the smallest possible Docker container
-<!-- more -->
 
 With Docker multi stage, you can use multiple base image (call as builder) to build necessary files, assets and copy stuff over to final image after.
 
 Here is some tricks:
 
--   You can use `node:alpine`, `bitnami-docker-node` or other smaller images if it's enough to build your app.
--   Copy necessary files only
--   Base node docker image included `yarn`, it's better some time (ex: build `node-sass`)
+- You can use `node:alpine`, `bitnami-docker-node` or other smaller images if it's enough to build your app.
+- Copy necessary files only
+- Base node docker image included `yarn`, it's better some time (ex: build `node-sass`)
 
 Example:
 
