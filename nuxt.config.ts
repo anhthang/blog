@@ -59,6 +59,7 @@ export default defineNuxtConfig({
         'ini',
         'dockerfile',
         'nginx',
+        'sql',
       ],
     },
   },

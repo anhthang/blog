@@ -1,10 +1,10 @@
 <template>
   <div class="space-y-6 relative">
-    <h1 class="text-2xl font-bold tracking-tight">
+    <h1 class="text-2xl font-mono font-bold tracking-tight">
       <span
-        class="bg-gradient-to-r from-teal-300 to-teal-500 text-transparent bg-clip-text"
+        class="bg-gradient-to-r from-green-600 to-green-400 text-transparent bg-clip-text"
       >
-        Hello!
+        $ whoami
       </span>
     </h1>
     <NuxtImg

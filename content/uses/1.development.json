@@ -38,9 +38,15 @@
     },
     {
       "name": "Fira Code",
-      "description": "My preferred font for coding, offering improved readability with programming ligatures. Alternatives: Operator Mono, Input Mono, Source Code Pro",
+      "description": "My preferred font for coding, offering improved readability with programming ligatures. Alternatives: Operator Mono, Input Mono, Source Code Pro.",
       "icon": "i-simple-icons-googlefonts",
       "url": "https://fonts.google.com/specimen/Fira+Code"
+    },
+    {
+      "name": "Dracula Theme",
+      "description": "A dark theme I use across various applications for a sleek and eye-friendly coding experience.",
+      "icon": "i-iconoir-color-filter",
+      "url": "https://draculatheme.com/"
     }
   ]
 }
