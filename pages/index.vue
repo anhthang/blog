@@ -2,7 +2,7 @@
   <main class="min-h-screen">
     <div class="space-y-24">
       <about-me />
-      <social-links />
+      <!-- <social-links /> -->
       <featured-projects />
       <featured-posts />
       <!-- <newsletter-form /> -->

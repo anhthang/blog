@@ -10,7 +10,7 @@
         <span
           class="flex items-center gap-4 truncate text-gray-700 dark:text-gray-200"
         >
-          <UIcon :name="item.icon" class="w-6 h-6" />
+          <Icon :name="item.icon" class="w-6 h-6" />
           {{ item.name }}
           <UBadge
             v-for="tag in item.tags"

@@ -66,13 +66,13 @@ export default defineNuxtConfig({
 
   fonts: {
     families: [
-      { name: 'Cabin', provider: 'google' },
+      { name: 'Reddit Sans', provider: 'google' },
       { name: 'Fira Code', provider: 'google' },
     ],
   },
 
   ui: {
-    icons: ['heroicons', 'iconoir', 'solar', 'simple-icons'],
+    icons: ['heroicons', 'iconoir', 'solar'],
   },
 
   runtimeConfig: {

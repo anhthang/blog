@@ -18,7 +18,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'Cabin',
+        'Reddit Sans',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',

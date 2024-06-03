@@ -1,24 +1,18 @@
 <template>
-  <div ref="headerRef" :style="styles" class="fixed top-0 w-full z-50">
-    <UHorizontalNavigation
-      :links="[left, middle, right]"
-      class="border-b border-gray-200 dark:border-gray-800"
-      :ui="{
-        wrapper: 'mx-auto px-2 sm:px-4 lg:px-6 max-w-3xl',
-        // container:
-        //   'flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5',
-        base: 'min-h-16',
-        label: 'hidden md:block',
-      }"
-    />
-  </div>
+  <UHorizontalNavigation
+    :links="[left, middle, right]"
+    class="border-b border-gray-200 dark:border-gray-800"
+    :ui="{
+      wrapper: 'mx-auto px-2 sm:px-4 lg:px-6 max-w-3xl',
+      // container:
+      //   'flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5',
+      base: 'min-h-16',
+      label: 'hidden md:block',
+    }"
+  />
 </template>
 
 <script setup>
-import { useFixedHeader } from 'vue-use-fixed-header'
-const headerRef = ref(null)
-const { styles } = useFixedHeader(headerRef)
-
 const colorMode = useColorMode()
 
 const isDark = computed({
