@@ -2,9 +2,11 @@
   <main class="min-h-screen">
     <div class="space-y-24">
       <about-me />
-      <!-- <social-links /> -->
-      <featured-projects />
+
+      <featured-projects :show-footer="true" />
+
       <featured-posts />
+
       <!-- <newsletter-form /> -->
     </div>
   </main>

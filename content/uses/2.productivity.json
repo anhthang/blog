@@ -7,6 +7,13 @@
       "url": "https://www.mozilla.org/en-US/firefox/"
     },
     {
+      "name": "Arc Browser",
+      "description": "A relatively new browser, clean and uncluttered interface and focus on the content you're reading without distractions.",
+      "icon": "i-simple-icons-arc",
+      "url": "https://arc.net/",
+      "tags": ["Experiment"]
+    },
+    {
       "name": "1Password",
       "description": "My password manager for keeping all my logins secure. No more struggling to remember complex passwords!",
       "icon": "i-simple-icons-1password",
@@ -41,13 +48,6 @@
       "description": "A cool prompt theme that gives my terminal a sleek look.",
       "icon": "i-simple-icons-starship",
       "url": "https://starship.rs/"
-    },
-    {
-      "name": "Arc Browser",
-      "description": "A relatively new browser, clean and uncluttered interface and focus on the content you're reading without distractions.",
-      "icon": "i-simple-icons-arc",
-      "url": "https://arc.net/",
-      "tags": ["Experiment"]
     }
   ]
 }

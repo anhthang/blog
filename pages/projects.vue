@@ -5,6 +5,12 @@
       title="Building & Sharing"
       :description="description"
     />
+
+    <featured-projects class="mb-12" />
+
+    <h2 class="uppercase text-sm font-semibold text-gray-400 mb-6">
+      ALL PROEJCTS
+    </h2>
     <div class="space-y-4">
       <card-project
         v-for="(project, id) in projects"
@@ -27,6 +33,8 @@ useSeoMeta({
 })
 
 const { data: projects } = await useAsyncData('projects-all', () =>
-  queryContent('/projects').find(),
+  queryContent('/projects')
+    .where({ featured: { $not: true } })
+    .find(),
 )
 </script>

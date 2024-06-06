@@ -3,14 +3,17 @@
     <h2 class="uppercase text-sm font-semibold text-gray-400 mb-6">
       FEATURED PROEJCTS
     </h2>
-    <div class="space-y-4">
-      <card-project
+    <div class="flex flex-row flex-wrap justify-between">
+      <card-featured-project
         v-for="(project, id) in projects"
         :key="id"
         :project="project"
       />
     </div>
-    <div class="flex items-center justify-center mt-6 text-sm">
+    <div
+      v-if="showFooter"
+      class="flex items-center justify-center mt-6 text-sm"
+    >
       <UButton
         label="All Projects &rarr;"
         to="/projects"
@@ -22,7 +25,11 @@
 </template>
 
 <script lang="ts" setup>
-const { data: projects } = await useAsyncData('projects-home', () =>
-  queryContent('/projects').limit(3).find(),
+defineProps({
+  showFooter: Boolean,
+})
+
+const { data: projects } = await useAsyncData('projects-featured', () =>
+  queryContent('/projects').where({ featured: true }).limit(4).find(),
 )
 </script>
