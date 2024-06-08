@@ -14,10 +14,8 @@
     />
     <p class="text-gray-900 dark:text-gray-400">{{ config.public.about }}</p>
     <p class="text-gray-900 dark:text-gray-400">
-      This website was born from my desire to chronicle my experiences and share
-      intriguing discoveries worth holding onto. Though the content library is
-      still expanding (thanks to a persistent case of wanderlust!), I'm fully
-      committed to bringing you even more valuable content in the near future.
+      This blog is my outlet to share experiences and discoveries I find
+      valuable. Stay tuned for exciting updates!
     </p>
   </div>
 </template>

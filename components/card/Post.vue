@@ -1,6 +1,8 @@
 <template>
   <NuxtLink :to="post._path" class="group">
-    <article>
+    <article
+      class="p-2 -m-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10"
+    >
       <time
         class="relative z-10 order-first mb-3 flex items-center text-sm text-gray-400 dark:text-gray-500 pl-3.5"
         datetime="2022-09-05"

@@ -48,5 +48,12 @@ const right = [
     icon: 'i-iconoir-mastodon',
     iconClass: 'group-hover:text-[#6364FF] dark:group-hover:text-[#6364FF]',
   },
+  {
+    // name: 'Buy Me A Coffee',
+    to: 'https://www.buymeacoffee.com/anhthang',
+    icon: 'i-iconoir-coffee-cup',
+    iconClass:
+      'text-[#BD5FFF] dark:text-[#FFDD00] group-hover:text-[#BD5FFF] dark:group-hover:text-[#FFDD00]',
+  },
 ]
 </script>
