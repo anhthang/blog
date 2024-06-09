@@ -1,6 +1,6 @@
 <template>
   <UHorizontalNavigation
-    :links="[left, right]"
+    :links="[left, middle, right]"
     class="border-t border-gray-200 dark:border-gray-800"
     :ui="{
       wrapper: 'mx-auto px-2 sm:px-4 lg:px-6 max-w-3xl',
@@ -15,11 +15,12 @@ const config = useRuntimeConfig()
 
 const left = [
   {
-    label: `© ${new Date().getFullYear()} ${config.public.me}`,
+    label: `${new Date().getFullYear()} ${config.public.me}`,
+    icon: 'i-solar-copyright-outline',
   },
 ]
 
-const right = [
+const middle = [
   {
     // name: 'GitHub',
     to: 'https://github.com/anhthang',
@@ -48,10 +49,13 @@ const right = [
     icon: 'i-iconoir-mastodon',
     iconClass: 'group-hover:text-[#6364FF] dark:group-hover:text-[#6364FF]',
   },
+]
+
+const right = [
   {
-    // name: 'Buy Me A Coffee',
+    label: 'Buy Me a Coffee',
     to: 'https://www.buymeacoffee.com/anhthang',
-    icon: 'i-iconoir-coffee-cup',
+    icon: 'i-solar-tea-cup-outline',
     iconClass:
       'text-[#BD5FFF] dark:text-[#FFDD00] group-hover:text-[#BD5FFF] dark:group-hover:text-[#FFDD00]',
   },

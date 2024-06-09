@@ -10,10 +10,26 @@
       label: 'hidden md:block',
     }"
   />
+
+  <UModal v-model="isOpen">
+    <UCommandPalette
+      :autoselect="false"
+      :groups="groups"
+      icon="i-solar-magnifer-outline"
+      @update:model-value="onCommandClick"
+    />
+  </UModal>
 </template>
 
 <script setup>
 const colorMode = useColorMode()
+const router = useRouter()
+
+const isOpen = useState('open-cmd', () => false)
+
+const toggleCmd = () => {
+  isOpen.value = !isOpen.value
+}
 
 const isDark = computed({
   get() {
@@ -60,4 +76,65 @@ const right = computed(() => [
     },
   },
 ])
+
+// command pallete
+const groups = [
+  {
+    key: 'links',
+    label: 'Go to',
+    commands: middle.map((link) => ({ ...link, id: link.label.toLowerCase() })),
+  },
+  {
+    key: 'theme',
+    label: 'Theme',
+    commands: [
+      {
+        id: 'light',
+        label: 'Light',
+        icon: 'i-solar-sun-line-duotone',
+      },
+      {
+        id: 'dark',
+        label: 'Dark',
+        icon: 'i-solar-moon-stars-bold-duotone',
+      },
+    ],
+  },
+  {
+    key: 'coffee',
+    commands: [
+      {
+        id: 'buymeacoffee',
+        label: 'Buy Me a Coffee',
+        to: 'https://www.buymeacoffee.com/anhthang',
+        icon: 'i-solar-tea-cup-outline',
+      },
+    ],
+  },
+]
+
+const onCommandClick = (command) => {
+  switch (command.group) {
+    case 'links':
+      toggleCmd()
+      router.push(command.to)
+      break
+    case 'theme':
+      colorMode.preference = command.id
+      break
+    case 'coffee':
+      toggleCmd()
+      window.open(command.to)
+      break
+    default:
+      break
+  }
+}
+
+defineShortcuts({
+  meta_k: {
+    usingInput: true,
+    handler: toggleCmd,
+  },
+})
 </script>

@@ -23,7 +23,7 @@
 
 <script setup>
 const description =
-  "While I may not have a vast portfolio, I'm particularly proud of the projects I've chosen to focus on. Some of these are even open-source, and I'd welcome your contributions to help them grow further!"
+  "Though my portfolio is small, I'm passionate about the projects I chose. Some are even open-source - feel free to contribute!"
 
 useSeoMeta({
   title: 'Projects',

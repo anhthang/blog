@@ -17,11 +17,28 @@
       This blog is my outlet to share experiences and discoveries I find
       valuable. Stay tuned for exciting updates!
     </p>
+
+    <div class="flex items-center justify-center mt-6 text-sm">
+      <UButton
+        color="gray"
+        variant="ghost"
+        class="hover:bg-gray-100"
+        @click="() => (isOpen = true)"
+      >
+        Press
+        <UKbd>{{ metaSymbol }}</UKbd>
+        <UKbd>K</UKbd>
+        for Quick Links
+      </UButton>
+    </div>
   </div>
 </template>
 
 <script setup>
 const config = useRuntimeConfig()
+const { metaSymbol } = useShortcuts()
+
+const isOpen = useState('open-cmd')
 
 useSeoMeta({
   description: config.public.about,
