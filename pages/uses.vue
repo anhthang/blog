@@ -1,7 +1,7 @@
 <template>
   <main class="min-h-screen">
     <page-header
-      class="mb-12"
+      class="mb-16"
       title="Peek Inside My Bag!"
       :description="description"
     />

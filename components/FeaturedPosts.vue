@@ -1,19 +1,19 @@
 <template>
-  <div>
-    <h2 class="uppercase text-sm font-semibold text-gray-400 mb-6">
-      RECENT POSTS
-    </h2>
-    <ul class="space-y-16">
+  <div class="space-y-6 relative">
+    <h2 class="uppercase text-sm font-semibold text-gray-400">RECENT POSTS</h2>
+    <ul class="space-y-12">
       <li v-for="(post, id) in posts" :key="id">
         <card-post :post="post" />
       </li>
     </ul>
-    <div class="flex items-center justify-center mt-6 text-sm">
+    <div class="flex items-center justify-center text-sm">
       <UButton
-        label="All Posts &rarr;"
+        label="All Posts"
         to="/posts"
-        variant="link"
         color="gray"
+        variant="ghost"
+        class="hover:bg-gray-100"
+        trailing-icon="i-solar-arrow-right-outline"
       />
     </div>
   </div>

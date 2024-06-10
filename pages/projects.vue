@@ -1,12 +1,12 @@
 <template>
   <main class="min-h-screen">
     <page-header
-      class="mb-12"
+      class="mb-16"
       title="Building & Sharing"
       :description="description"
     />
 
-    <featured-projects class="mb-12" />
+    <featured-projects class="mb-16" />
 
     <h2 class="uppercase text-sm font-semibold text-gray-400 mb-6">
       ALL PROEJCTS

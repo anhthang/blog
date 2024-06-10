@@ -7,7 +7,7 @@
     <NuxtPage />
   </UContainer>
 
-  <div class="h-24"></div>
+  <div class="h-16"></div>
   <layout-footer />
 </template>
 

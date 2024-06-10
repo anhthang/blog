@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h2 class="uppercase text-sm font-semibold text-gray-400 mb-6">
+  <div class="space-y-6 relative">
+    <h2 class="uppercase text-sm font-semibold text-gray-400">
       FEATURED PROEJCTS
     </h2>
     <div class="flex flex-row flex-wrap justify-between">
@@ -10,15 +10,14 @@
         :project="project"
       />
     </div>
-    <div
-      v-if="showFooter"
-      class="flex items-center justify-center mt-6 text-sm"
-    >
+    <div v-if="showFooter" class="flex items-center justify-center text-sm">
       <UButton
-        label="All Projects &rarr;"
+        label="All Projects"
         to="/projects"
-        variant="link"
         color="gray"
+        variant="ghost"
+        class="hover:bg-gray-100"
+        trailing-icon="i-solar-arrow-right-outline"
       />
     </div>
   </div>
