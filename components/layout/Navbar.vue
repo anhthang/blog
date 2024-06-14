@@ -78,7 +78,7 @@ const right = computed(() => [
 ])
 
 // command pallete
-const groups = [
+const groups = computed(() => [
   {
     key: 'links',
     label: 'Go to',
@@ -89,20 +89,35 @@ const groups = [
     label: 'Theme',
     commands: [
       {
+        id: 'system',
+        label: 'System',
+        icon: 'i-solar-laptop-minimalistic-line-duotone',
+        disabled: colorMode.preference === 'system',
+      },
+      {
         id: 'light',
         label: 'Light',
         icon: 'i-solar-sun-line-duotone',
+        disabled: colorMode.preference === 'light',
       },
       {
         id: 'dark',
         label: 'Dark',
         icon: 'i-solar-moon-stars-bold-duotone',
+        disabled: colorMode.preference === 'dark',
       },
     ],
   },
   {
     key: 'coffee',
+    label: 'Contact',
     commands: [
+      {
+        id: 'email',
+        label: 'bui at anhthang dot org',
+        to: 'mailto:bui@anhthang.org',
+        icon: 'i-solar-inbox-line-outline',
+      },
       {
         id: 'buymeacoffee',
         label: 'Buy Me a Coffee',
@@ -111,7 +126,7 @@ const groups = [
       },
     ],
   },
-]
+])
 
 const onCommandClick = (command) => {
   switch (command.group) {
