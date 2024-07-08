@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-6 relative">
     <h2 class="uppercase text-sm font-semibold text-gray-400">
-      FEATURED PROEJCTS
+      FEATURED PROJECTS
     </h2>
     <div class="flex flex-row flex-wrap justify-between">
       <card-featured-project
