@@ -9,7 +9,7 @@
     <featured-projects class="mb-16" />
 
     <h2 class="uppercase text-sm font-semibold text-gray-400 mb-6">
-      ALL PROEJCTS
+      ALL PROJECTS
     </h2>
     <div class="space-y-4">
       <card-project
