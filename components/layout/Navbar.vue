@@ -77,7 +77,7 @@ const right = computed(() => [
   },
 ])
 
-// command pallete
+// command palette
 const groups = computed(() => [
   {
     key: 'links',
