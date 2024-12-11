@@ -1,17 +1,17 @@
 {
   "body": [
     {
-      "name": "Firefox",
-      "description": "My preferred web browser for navigating the internet, known for its focus on privacy and security.",
-      "icon": "i-simple-icons-firefoxbrowser",
-      "url": "https://www.mozilla.org/en-US/firefox/"
-    },
-    {
       "name": "Arc Browser",
       "description": "A relatively new browser, clean and uncluttered interface and focus on the content you're reading without distractions.",
       "icon": "i-simple-icons-arc",
-      "url": "https://arc.net/",
-      "tags": ["Experiment"]
+      "url": "https://arc.net/"
+    },
+    {
+      "name": "Firefox",
+      "description": "My preferred web browser for navigating the internet, known for its focus on privacy and security.",
+      "icon": "i-simple-icons-firefoxbrowser",
+      "url": "https://www.mozilla.org/en-US/firefox/",
+      "tags": ["Abandoned"]
     },
     {
       "name": "1Password",

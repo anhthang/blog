@@ -16,7 +16,7 @@ const config = useRuntimeConfig()
 const left = [
   {
     label: `${new Date().getFullYear()} ${config.public.me}`,
-    icon: 'i-solar-copyright-outline',
+    icon: 'i-iconoir-copyright',
   },
 ]
 
@@ -61,7 +61,7 @@ const right = [
     label: 'Buy Me a Coffee',
     to: 'https://www.buymeacoffee.com/anhthang',
     target: '_blank',
-    icon: 'i-solar-tea-cup-outline',
+    icon: 'i-iconoir-coffee-cup',
     iconClass:
       'text-[#BD5FFF] dark:text-[#FFDD00] group-hover:text-[#BD5FFF] dark:group-hover:text-[#FFDD00]',
   },

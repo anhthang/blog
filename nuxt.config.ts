@@ -1,13 +1,11 @@
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxt/fonts',
+    '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/ui',
-    'nuxt-icon',
   ],
 
   app: {
@@ -65,7 +63,7 @@ export default defineNuxtConfig({
   fonts: {
     families: [
       { name: 'Reddit Sans', provider: 'google' },
-      { name: 'Fira Code', provider: 'google' },
+      { name: 'Reddit Mono', provider: 'google' },
     ],
   },
 

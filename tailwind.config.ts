@@ -33,7 +33,7 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       mono: [
-        'Fira Code',
+        'Reddit Mono',
         'ui-monospace',
         'SFMono-Regular',
         'Menlo',
@@ -45,5 +45,6 @@ module.exports = {
       ],
     },
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require('@tailwindcss/typography')],
 } satisfies Config
