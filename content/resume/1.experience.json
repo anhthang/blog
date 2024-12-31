@@ -1,0 +1,49 @@
+{
+  "body": [
+    {
+      "title": "Senior Software Engineer",
+      "icon": "i-iconoir-developer",
+      "company": "TUI",
+      "location": "Hanoi, Vietnam",
+      "start": "Jan 2022",
+      "end": "Present",
+      "summary": "Highly skilled Content Enabler with a proven track record of integrating travel industry providers, optimizing hotel content, and enhancing system performance to drive cost-efficiency and booking conversions."
+    },
+    {
+      "title": "Senior Software Engineer",
+      "icon": "i-iconoir-developer",
+      "company": "Viemart LLC",
+      "location": "Hanoi, Vietnam",
+      "start": "Mar 2021",
+      "end": "Nov 2021",
+      "summary": "Pioneered a cross-border e-commerce platform with print-on-demand, dropshipping, and integrated marketplace solutions, driving growth through strategic partnerships and innovative technologies."
+    },
+    {
+      "title": "Senior Software Engineer",
+      "icon": "i-iconoir-developer",
+      "company": "ABIVIN",
+      "location": "Hanoi, Vietnam",
+      "start": "Dec 2020",
+      "end": "Feb 2021",
+      "summary": "Modernized authentication, enhanced system reliability, and improved reporting through technical expertise and a focus on performance optimization."
+    },
+    {
+      "title": "Full-Stack Developer",
+      "icon": "i-iconoir-code",
+      "company": "KMSoft",
+      "location": "Hanoi, Vietnam",
+      "start": "Apr 2020",
+      "end": "Nov 2020",
+      "summary": "Full-Stack Developer with expertise in building high-performance cryptocurrency trading platforms using Golang, Node.js, and React, delivering innovative solutions like Daollobit and Tadadex."
+    },
+    {
+      "title": "Software Development Team Lead",
+      "icon": "i-iconoir-code",
+      "company": "GoQuo",
+      "location": "Hanoi, Vietnam",
+      "start": "Mar 2015",
+      "end": "Mar 2020",
+      "summary": "Led the Gateway Team, revolutionizing travel booking with a microservices-based API system, driving operational efficiency, and fostering a high-performing engineering team."
+    }
+  ]
+}

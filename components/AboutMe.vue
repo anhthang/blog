@@ -12,7 +12,10 @@
       :alt="config.public.me"
       class="float-left w-20 h-20 md:w-32 md:h-32 rounded-full mr-4 mb-4 md:mr-6 md:mb-6"
     />
-    <p class="text-gray-900 dark:text-gray-400">{{ config.public.about }}</p>
+    <p class="text-gray-900 dark:text-gray-400">
+      I'm Thang, a {{ current.title }} at {{ current.company }}.
+      {{ config.public.about }}
+    </p>
     <p class="text-gray-900 dark:text-gray-400">
       This blog is my outlet to share experiences and discoveries I find
       valuable. Stay tuned for exciting updates!
@@ -43,4 +46,10 @@ const isOpen = useState('open-cmd')
 useSeoMeta({
   description: config.public.about,
 })
+
+const { data } = await useAsyncData('experience', () =>
+  queryContent('/resume/experience').findOne(),
+)
+
+const [current] = data.value.body
 </script>

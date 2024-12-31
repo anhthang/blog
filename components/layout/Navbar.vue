@@ -109,7 +109,7 @@ const groups = computed(() => [
     ],
   },
   {
-    key: 'coffee',
+    key: 'contact',
     label: 'Contact',
     commands: [
       {
@@ -117,6 +117,12 @@ const groups = computed(() => [
         label: 'bui at anhthang dot org',
         to: 'mailto:bui@anhthang.org',
         icon: 'i-solar-inbox-line-outline',
+      },
+      {
+        id: 'resume',
+        label: 'Resume',
+        to: '/resume',
+        icon: 'i-solar-user-id-outline',
       },
       {
         id: 'buymeacoffee',
@@ -137,9 +143,13 @@ const onCommandClick = (command) => {
     case 'theme':
       colorMode.preference = command.id
       break
-    case 'coffee':
+    case 'contact':
       toggleCmd()
-      window.open(command.to)
+      if (command.to.startsWith('/')) {
+        router.push(command.to)
+      } else {
+        window.open(command.to)
+      }
       break
     default:
       break

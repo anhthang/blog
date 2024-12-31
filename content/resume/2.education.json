@@ -1,0 +1,13 @@
+{
+  "body": [
+    {
+      "title": "Finance and Banking",
+      "icon": "i-iconoir-building",
+      "company": "Academy of Finance",
+      "location": "Hanoi, Vietnam",
+      "start": "2010",
+      "end": "2014",
+      "summary": "Bachelor's degree"
+    }
+  ]
+}
