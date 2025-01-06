@@ -1,12 +1,21 @@
 {
   "body": [
     {
+      "title": "Cloud DevOps Engineer",
+      "icon": "i-iconoir-thunderstorm",
+      "company": "VPBank",
+      "location": "Hanoi, Vietnam",
+      "start": "Feb 2025",
+      "end": "Present",
+      "summary": "To be updated..."
+    },
+    {
       "title": "Senior Software Engineer",
       "icon": "i-iconoir-developer",
       "company": "TUI",
       "location": "Hanoi, Vietnam",
       "start": "Jan 2022",
-      "end": "Present",
+      "end": "Jan 2025",
       "summary": "Highly skilled Content Enabler with a proven track record of integrating travel industry providers, optimizing hotel content, and enhancing system performance to drive cost-efficiency and booking conversions."
     },
     {
