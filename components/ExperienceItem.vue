@@ -2,7 +2,7 @@
   <li>
     <NuxtLink
       :to="item.url"
-      class="flex hover:bg-gray-100 dark:hover:bg-white/10 p-2 rounded-lg -m-2 text-sm min-w-0"
+      class="flex text-sm min-w-0"
       target="_blank"
       external
     >

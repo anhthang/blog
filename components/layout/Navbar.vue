@@ -63,6 +63,11 @@ const middle = [
     to: '/uses',
     icon: 'i-solar-backpack-outline',
   },
+  {
+    label: 'About',
+    to: '/about',
+    icon: 'i-solar-user-circle-outline',
+  },
 ]
 
 const right = computed(() => [
@@ -117,12 +122,6 @@ const groups = computed(() => [
         label: 'bui at anhthang dot org',
         to: 'mailto:bui@anhthang.org',
         icon: 'i-solar-inbox-line-outline',
-      },
-      {
-        id: 'resume',
-        label: 'Resume',
-        to: '/resume',
-        icon: 'i-solar-user-id-outline',
       },
       {
         id: 'buymeacoffee',

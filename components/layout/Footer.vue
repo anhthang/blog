@@ -1,6 +1,6 @@
 <template>
   <UHorizontalNavigation
-    :links="[left, middle, right]"
+    :links="[left, right]"
     class="border-t border-gray-200 dark:border-gray-800"
     :ui="{
       wrapper: 'mx-auto px-2 sm:px-4 lg:px-6 max-w-3xl',
@@ -20,18 +20,12 @@ const left = [
   },
 ]
 
-const middle = [
+const right = [
   {
     // name: 'GitHub',
     to: 'https://github.com/anhthang',
     target: '_blank',
     icon: 'i-iconoir-github',
-  },
-  {
-    // name: 'X',
-    to: 'https://twitter.com/anhthangbui',
-    target: '_blank',
-    icon: 'i-iconoir-x',
   },
   {
     // name: 'LinkedIn',
@@ -41,11 +35,10 @@ const middle = [
     iconClass: 'group-hover:text-[#0A66C2] dark:group-hover:text-[#0A66C2]',
   },
   {
-    // name: 'Telegram',
-    to: 'https://t.me/buianhthang',
+    // name: 'X',
+    to: 'https://twitter.com/anhthangbui',
     target: '_blank',
-    icon: 'i-iconoir-telegram',
-    iconClass: 'group-hover:text-[#26A5E4] dark:group-hover:text-[#26A5E4]',
+    icon: 'i-iconoir-x',
   },
   {
     // name: 'Mastodon',
@@ -54,11 +47,8 @@ const middle = [
     icon: 'i-iconoir-mastodon',
     iconClass: 'group-hover:text-[#6364FF] dark:group-hover:text-[#6364FF]',
   },
-]
-
-const right = [
   {
-    label: 'Buy Me a Coffee',
+    // label: 'Buy Me a Coffee',
     to: 'https://www.buymeacoffee.com/anhthang',
     target: '_blank',
     icon: 'i-iconoir-coffee-cup',

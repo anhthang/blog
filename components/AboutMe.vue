@@ -48,7 +48,7 @@ useSeoMeta({
 })
 
 const { data } = await useAsyncData('experience', () =>
-  queryContent('/resume/experience').findOne(),
+  queryContent('/profiles/experience').findOne(),
 )
 
 const [current] = data.value.body
