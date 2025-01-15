@@ -15,8 +15,7 @@ const config = useRuntimeConfig()
 
 const left = [
   {
-    label: `${new Date().getFullYear()} ${config.public.me}`,
-    icon: 'i-iconoir-copyright',
+    label: `©${new Date().getFullYear()} ${config.public.me}`,
   },
 ]
 
@@ -25,33 +24,33 @@ const right = [
     // name: 'GitHub',
     to: 'https://github.com/anhthang',
     target: '_blank',
-    icon: 'i-iconoir-github',
+    icon: 'i-simple-icons-github',
   },
   {
     // name: 'LinkedIn',
     to: 'https://www.linkedin.com/in/buianhthang/',
     target: '_blank',
-    icon: 'i-iconoir-linkedin',
+    icon: 'i-simple-icons-linkedin',
     iconClass: 'group-hover:text-[#0A66C2] dark:group-hover:text-[#0A66C2]',
   },
   {
     // name: 'X',
     to: 'https://twitter.com/anhthangbui',
     target: '_blank',
-    icon: 'i-iconoir-x',
+    icon: 'i-simple-icons-x',
   },
   {
     // name: 'Mastodon',
     to: 'https://mastodon.social/@anhthang',
     target: '_blank',
-    icon: 'i-iconoir-mastodon',
+    icon: 'i-simple-icons-mastodon',
     iconClass: 'group-hover:text-[#6364FF] dark:group-hover:text-[#6364FF]',
   },
   {
-    // label: 'Buy Me a Coffee',
+    // name: 'Buy Me a Coffee',
     to: 'https://www.buymeacoffee.com/anhthang',
     target: '_blank',
-    icon: 'i-iconoir-coffee-cup',
+    icon: 'i-simple-icons-buymeacoffee',
     iconClass:
       'text-[#BD5FFF] dark:text-[#FFDD00] group-hover:text-[#BD5FFF] dark:group-hover:text-[#FFDD00]',
   },

@@ -68,7 +68,7 @@ export default defineNuxtConfig({
   },
 
   ui: {
-    icons: ['heroicons', 'iconoir', 'solar'],
+    icons: ['heroicons', 'solar'],
   },
 
   runtimeConfig: {

@@ -13,12 +13,6 @@
       "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/"
     },
     {
-      "name": "MacBook Air M1 13inch 2020 (8GB RAM, 256GB SSD)",
-      "description": "",
-      "icon": "i-solar-laptop-minimalistic-line-duotone",
-      "url": "https://www.apple.com/macbook-air/"
-    },
-    {
       "name": "iPhone 11 Pro 64GB (2019)",
       "description": "",
       "icon": "i-solar-iphone-line-duotone",
@@ -55,6 +49,13 @@
       "icon": "i-solar-smart-speaker-minimalistic-line-duotone",
       "url": "https://www.apple.com/homepod/",
       "tags": ["Maybe"]
+    },
+    {
+      "name": "MacBook Air M1 13inch 2020 (8GB RAM, 256GB SSD)",
+      "description": "",
+      "icon": "i-solar-laptop-minimalistic-line-duotone",
+      "url": "https://www.apple.com/macbook-air/",
+      "tags": ["Returned"]
     }
   ]
 }

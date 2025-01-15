@@ -1190,15 +1190,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify-json/iconoir@npm:1.2.7":
-  version: 1.2.7
-  resolution: "@iconify-json/iconoir@npm:1.2.7"
-  dependencies:
-    "@iconify/types": "npm:*"
-  checksum: 10c0/eff919f3c5ffa0d869c6d7761648e802de192a5da63f4380c38e54c949ae593c4c47c98caea2ebe15dc1ee1ca76c58c1867869b7f49080ef8d7d4096be0b1dbf
-  languageName: node
-  linkType: hard
-
 "@iconify-json/simple-icons@npm:1.2.20":
   version: 1.2.20
   resolution: "@iconify-json/simple-icons@npm:1.2.20"
@@ -3497,7 +3488,6 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:19.6.1"
     "@commitlint/config-conventional": "npm:19.6.0"
-    "@iconify-json/iconoir": "npm:1.2.7"
     "@iconify-json/simple-icons": "npm:1.2.20"
     "@iconify-json/solar": "npm:1.2.2"
     "@nuxt/content": "npm:2.13.4"
