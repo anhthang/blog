@@ -3,7 +3,6 @@
     :links="[left, right]"
     class="border-t border-gray-200 dark:border-gray-800"
     :ui="{
-      wrapper: 'mx-auto px-2 sm:px-4 lg:px-6 max-w-3xl',
       base: 'min-h-16',
       label: 'hidden md:block',
     }"

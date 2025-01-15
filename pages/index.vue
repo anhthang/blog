@@ -1,5 +1,5 @@
 <template>
-  <main class="min-h-screen">
+  <main>
     <div class="space-y-16">
       <about-me />
 

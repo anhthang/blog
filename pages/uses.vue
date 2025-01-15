@@ -1,5 +1,5 @@
 <template>
-  <main class="min-h-screen">
+  <main>
     <page-header
       class="mb-16"
       title="Peek Inside My Bag!"

@@ -1,14 +1,13 @@
 <template>
-  <NuxtLoadingIndicator color="#14b8a6" />
-  <layout-navbar />
-  <div class="h-16"></div>
-
   <UContainer>
-    <NuxtPage />
-  </UContainer>
+    <NuxtLoadingIndicator color="#14b8a6" />
 
-  <div class="h-16"></div>
-  <layout-footer />
+    <layout-navbar />
+
+    <NuxtPage class="flex-1" />
+
+    <layout-footer />
+  </UContainer>
 </template>
 
 <script setup>

@@ -25,7 +25,7 @@ export default defineAppConfig({
       },
     },
     container: {
-      constrained: 'max-w-3xl',
+      constrained: 'flex flex-col gap-16 min-h-screen max-w-3xl',
     },
   },
 })

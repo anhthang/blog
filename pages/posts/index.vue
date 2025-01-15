@@ -1,11 +1,11 @@
 <template>
-  <main class="min-h-screen">
+  <main>
     <page-header
       class="mb-16"
       title="Sharing is Caring"
       :description="description"
     />
-    <ul class="space-y-16">
+    <ul class="space-y-12">
       <li v-for="(post, id) in posts" :key="id">
         <card-post :post="post" />
       </li>

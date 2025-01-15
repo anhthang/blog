@@ -1,5 +1,5 @@
 <template>
-  <main class="min-h-screen">
+  <main>
     <page-header
       class="mb-16"
       title="Hey, I'm Anh Thang 👋"
@@ -16,7 +16,7 @@
         <UAccordion
           :items="items"
           :ui="{
-            wrapper: 'w-full flex flex-col gap-4 cursor-pointer',
+            wrapper: 'w-full flex flex-col gap-6 cursor-pointer',
             container:
               'w-full flex flex-col hover:bg-gray-100 dark:hover:bg-white/10 p-2 rounded-lg -m-2',
             item: {
