@@ -11,26 +11,30 @@
         :key="id"
         class="space-y-4"
       >
-        <uses-header :title="title" />
+        <group-headline :title="title" />
 
         <UAccordion
           :items="items"
           :ui="{
             wrapper: 'w-full flex flex-col gap-6 cursor-pointer',
             container:
-              'w-full flex flex-col hover:bg-gray-100 dark:hover:bg-white/10 p-2 rounded-lg -m-2',
+              'w-full flex flex-col hover:bg-gray-100 dark:hover:bg-white/10 p-2 -m-2 rounded-lg text-justify',
             item: {
-              base: 'ml-8 mt-2 text-justify',
+              base: 'ml-8',
             },
           }"
         >
           <template #default="{ item }">
-            <experience-item :item="item" />
+            <experience-header :item="item" />
           </template>
 
           <template #description="{ item }">
             <ul v-if="Array.isArray(item.details)" class="list-disc">
-              <li v-for="(detail, idx) in item.details" :key="idx">
+              <li
+                v-for="(detail, idx) in item.details"
+                :key="idx"
+                class="text-gray-500"
+              >
                 {{ detail }}
               </li>
             </ul>

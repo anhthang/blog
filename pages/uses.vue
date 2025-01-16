@@ -11,7 +11,7 @@
         :key="id"
         class="space-y-4"
       >
-        <uses-header :title="title" />
+        <group-headline :title="title" />
         <uses-item v-for="(item, idx) in items" :key="idx" :item="item" />
       </ul>
     </div>
