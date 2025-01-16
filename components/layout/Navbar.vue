@@ -20,6 +20,7 @@
 
 <script setup>
 const colorMode = useColorMode()
+const route = useRoute()
 const router = useRouter()
 
 const isOpen = useState('open-cmd', () => false)
@@ -44,7 +45,7 @@ const left = [
   },
 ]
 
-const middle = [
+const middle = computed(() => [
   {
     label: 'Projects',
     to: '/projects',
@@ -53,6 +54,7 @@ const middle = [
   {
     label: 'Posts',
     to: '/posts',
+    active: route.path.startsWith('/posts'),
     icon: 'i-solar-document-add-outline',
   },
   {
@@ -65,7 +67,7 @@ const middle = [
     to: '/about',
     icon: 'i-solar-user-circle-outline',
   },
-]
+])
 
 const right = computed(() => [
   {
@@ -84,7 +86,10 @@ const groups = computed(() => [
   {
     key: 'links',
     label: 'Go to',
-    commands: middle.map((link) => ({ ...link, id: link.label.toLowerCase() })),
+    commands: middle.value.map((link) => ({
+      ...link,
+      id: link.label.toLowerCase(),
+    })),
   },
   {
     key: 'theme',

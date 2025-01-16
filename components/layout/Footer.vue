@@ -32,18 +32,25 @@ const right = [
     icon: 'i-simple-icons-linkedin',
     iconClass: 'group-hover:text-[#0A66C2] dark:group-hover:text-[#0A66C2]',
   },
-  {
-    // name: 'X',
-    to: 'https://twitter.com/anhthangbui',
-    target: '_blank',
-    icon: 'i-simple-icons-x',
-  },
+  // {
+  //   // name: 'X',
+  //   to: 'https://twitter.com/anhthangbui',
+  //   target: '_blank',
+  //   icon: 'i-simple-icons-x',
+  // },
   {
     // name: 'Mastodon',
     to: 'https://mastodon.social/@anhthang',
     target: '_blank',
     icon: 'i-simple-icons-mastodon',
     iconClass: 'group-hover:text-[#6364FF] dark:group-hover:text-[#6364FF]',
+  },
+  {
+    // name: 'Bluesky',
+    to: 'https://bsky.app/profile/anhthang.bsky.social',
+    target: '_blank',
+    icon: 'i-simple-icons-bluesky',
+    iconClass: 'group-hover:text-[#1083FE] dark:group-hover:text-[#1083FE]',
   },
   {
     // name: 'Buy Me a Coffee',
