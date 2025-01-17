@@ -16,11 +16,14 @@
               {{ item.title }}
             </span>
             <span class="text-xs font-medium text-gray-400 dark:text-gray-600">
-              {{ item.start }} - {{ item.end }}
+              {{ item.start }} - {{ item.end || 'Present' }}
             </span>
           </div>
           <span
-            class="text-xs font-medium text-gray-400 dark:text-gray-600 flex items-center gap-1"
+            class="text-xs font-medium flex items-center gap-1"
+            :class="{
+              'text-gray-400 dark:text-gray-600': !!item.end,
+            }"
           >
             <Icon name="i-solar-buildings-2-line-duotone" class="w-4 h-4" />
             {{ item.company }}

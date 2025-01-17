@@ -7,7 +7,7 @@
     />
     <div class="space-y-16">
       <ul
-        v-for="({ title, body: items }, id) in data"
+        v-for="({ meta: { title, body: items } }, id) in data"
         :key="id"
         class="space-y-4"
       >
@@ -30,6 +30,6 @@ useSeoMeta({
 })
 
 const { data } = await useAsyncData('uses-all', () =>
-  queryContent('/uses').find(),
+  queryCollection('uses').all(),
 )
 </script>

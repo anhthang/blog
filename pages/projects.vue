@@ -13,7 +13,7 @@
     </h2>
     <div class="space-y-4">
       <card-project
-        v-for="(project, id) in projects"
+        v-for="({ meta: project }, id) in projects"
         :key="id"
         :project="project"
       />
@@ -33,8 +33,6 @@ useSeoMeta({
 })
 
 const { data: projects } = await useAsyncData('projects-all', () =>
-  queryContent('/projects')
-    .where({ featured: { $not: true } })
-    .find(),
+  queryCollection('projects').all(),
 )
 </script>

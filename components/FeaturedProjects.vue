@@ -5,7 +5,7 @@
     </h2>
     <div class="flex flex-row flex-wrap justify-between">
       <card-featured-project
-        v-for="(project, id) in projects"
+        v-for="({ meta: project }, id) in projects"
         :key="id"
         :project="project"
       />
@@ -29,6 +29,6 @@ defineProps({
 })
 
 const { data: projects } = await useAsyncData('projects-featured', () =>
-  queryContent('/projects').where({ featured: true }).limit(4).find(),
+  queryCollection('projects').limit(2).all(),
 )
 </script>

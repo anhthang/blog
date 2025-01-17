@@ -3,12 +3,10 @@
     <div
       class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-zinc-200 dark:prose-pre:bg-gray-900 prose-img:ring-1 prose-img:ring-gray-200 dark:prose-img:ring-white/10 prose-img:rounded-lg"
     >
-      <ContentDoc v-slot="{ doc }" tag="article">
-        <article>
-          <h1>{{ doc.title }}</h1>
-          <ContentRenderer :value="doc" />
-        </article>
-      </ContentDoc>
+      <article>
+        <h1>{{ post.title }}</h1>
+        <ContentRenderer :value="post" />
+      </article>
     </div>
   </main>
 </template>
@@ -17,6 +15,10 @@
 const route = useRoute()
 const { slug } = route.params
 const config = useRuntimeConfig()
+
+const { data: post } = await useAsyncData(`post-${slug}`, () =>
+  queryCollection('posts').path(`/posts/${slug}`).first(),
+)
 
 useSeoMeta({
   ogType: 'article',

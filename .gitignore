@@ -194,6 +194,7 @@ dist
 .nuxt-*
 .output
 .gen
+.data/content/*
 
 # Node dependencies
 node_modules

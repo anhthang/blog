@@ -21,10 +21,10 @@
 
 <script lang="ts" setup>
 const { data: posts } = await useAsyncData('posts-home', () =>
-  queryContent('/posts')
-    .sort({ published: -1 })
+  queryCollection('posts')
+    .order('id', 'DESC')
     .limit(3)
-    .only(['title', 'description', 'published', 'readingTime', 'slug', '_path'])
-    .find(),
+    .select('title', 'description', 'meta', 'path')
+    .all(),
 )
 </script>
