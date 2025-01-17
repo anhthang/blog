@@ -28,35 +28,37 @@ export default defineNuxtConfig({
   },
 
   content: {
-    markdown: {
-      remarkPlugins: ['remark-reading-time'],
-    },
-    highlight: {
-      theme: {
-        default: 'ayu-dark',
-        light: 'catppuccin-latte',
-        dark: 'dracula-soft',
+    build: {
+      markdown: {
+        remarkPlugins: { 'remark-reading-time': {} },
+        highlight: {
+          theme: {
+            default: 'ayu-dark',
+            light: 'catppuccin-latte',
+            dark: 'dracula-soft',
+          },
+          langs: [
+            'js',
+            'jsx',
+            'json',
+            'ts',
+            'tsx',
+            'vue',
+            'css',
+            'html',
+            'vue',
+            'bash',
+            'md',
+            'mdc',
+            'yaml',
+            // more languages
+            'ini',
+            'dockerfile',
+            'nginx',
+            'sql',
+          ],
+        },
       },
-      langs: [
-        'js',
-        'jsx',
-        'json',
-        'ts',
-        'tsx',
-        'vue',
-        'css',
-        'html',
-        'vue',
-        'bash',
-        'md',
-        'mdc',
-        'yaml',
-        // more languages
-        'ini',
-        'dockerfile',
-        'nginx',
-        'sql',
-      ],
     },
   },
 
@@ -67,9 +69,9 @@ export default defineNuxtConfig({
     ],
   },
 
-  ui: {
-    icons: ['heroicons', 'solar'],
-  },
+  // ui: {
+  //   icons: ['heroicons', 'solar'],
+  // },
 
   runtimeConfig: {
     public: {
