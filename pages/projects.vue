@@ -9,11 +9,11 @@
     <featured-projects class="mb-16" />
 
     <h2 class="uppercase text-sm font-semibold text-gray-400 mb-6">
-      ALL PROJECTS
+      OTHER PROJECTS
     </h2>
     <div class="space-y-4">
       <card-project
-        v-for="({ meta: project }, id) in projects"
+        v-for="({ meta: project }, id) in otherProjects"
         :key="id"
         :project="project"
       />
@@ -34,5 +34,10 @@ useSeoMeta({
 
 const { data: projects } = await useAsyncData('projects-all', () =>
   queryCollection('projects').all(),
+)
+
+// temporary fix until we can do where query to filter data with collection type
+const otherProjects = computed(() =>
+  projects.value.filter((p) => !p.meta.featured),
 )
 </script>

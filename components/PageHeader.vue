@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-justify">
     <h1 class="text-2xl font-bold tracking-tight">
       <span
         class="bg-gradient-to-r from-red-300 via-pink-400 to-violet-600 dark:from-amber-200 dark:to-rose-400 text-transparent bg-clip-text"
