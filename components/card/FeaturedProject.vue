@@ -5,7 +5,7 @@
     target="_blank"
     external
   >
-    <Icon :name="project.icon" class="w-8 h-8" />
+    <UIcon :name="project.icon" class="w-8 h-8" />
 
     <h2
       class="text-base font-semibold font-display tracking-tight text-gray-800 dark:text-gray-100 group-hover:text-primary-600"

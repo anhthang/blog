@@ -7,7 +7,7 @@
 
       <featured-posts />
 
-      <!-- <newsletter-form /> -->
+      <newsletter-form />
     </div>
   </main>
 </template>

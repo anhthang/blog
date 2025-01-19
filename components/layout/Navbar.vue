@@ -12,7 +12,7 @@
     <UCommandPalette
       :autoselect="false"
       :groups="groups"
-      icon="i-solar-magnifer-outline"
+      icon="solar:magnifer-outline"
       @update:model-value="onCommandClick"
     />
   </UModal>
@@ -41,7 +41,7 @@ const isDark = computed({
 const left = [
   {
     to: '/',
-    icon: 'i-solar-home-angle-outline',
+    icon: 'solar:home-angle-outline',
   },
 ]
 
@@ -49,31 +49,31 @@ const middle = computed(() => [
   {
     label: 'Projects',
     to: '/projects',
-    icon: 'i-solar-folder-with-files-outline',
+    icon: 'solar:folder-with-files-outline',
   },
   {
     label: 'Posts',
     to: '/posts',
     active: route.path.startsWith('/posts'),
-    icon: 'i-solar-document-add-outline',
+    icon: 'solar:document-add-outline',
   },
   {
     label: 'Uses',
     to: '/uses',
-    icon: 'i-solar-backpack-outline',
+    icon: 'solar:backpack-outline',
   },
   {
     label: 'About',
     to: '/about',
-    icon: 'i-solar-user-circle-outline',
+    icon: 'solar:user-circle-outline',
   },
 ])
 
 const right = computed(() => [
   {
     icon: isDark.value
-      ? 'i-solar-moon-stars-bold-duotone'
-      : 'i-solar-sun-line-duotone',
+      ? 'solar:moon-stars-bold-duotone'
+      : 'solar:sun-line-duotone',
     iconClass: 'text-gray-700 dark:text-gray-200', // display as active
     click: () => {
       isDark.value = !isDark.value
@@ -98,19 +98,19 @@ const groups = computed(() => [
       {
         id: 'system',
         label: 'System',
-        icon: 'i-solar-laptop-minimalistic-line-duotone',
+        icon: 'solar:laptop-minimalistic-line-duotone',
         disabled: colorMode.preference === 'system',
       },
       {
         id: 'light',
         label: 'Light',
-        icon: 'i-solar-sun-line-duotone',
+        icon: 'solar:sun-line-duotone',
         disabled: colorMode.preference === 'light',
       },
       {
         id: 'dark',
         label: 'Dark',
-        icon: 'i-solar-moon-stars-bold-duotone',
+        icon: 'solar:moon-stars-bold-duotone',
         disabled: colorMode.preference === 'dark',
       },
     ],
@@ -123,13 +123,13 @@ const groups = computed(() => [
         id: 'email',
         label: 'bui at anhthang dot org',
         to: 'mailto:bui@anhthang.org',
-        icon: 'i-solar-inbox-line-outline',
+        icon: 'solar:inbox-line-outline',
       },
       {
         id: 'buymeacoffee',
         label: 'Buy Me a Coffee',
         to: 'https://www.buymeacoffee.com/anhthang',
-        icon: 'i-solar-tea-cup-outline',
+        icon: 'solar:tea-cup-outline',
       },
     ],
   },

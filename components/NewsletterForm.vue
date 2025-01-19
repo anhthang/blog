@@ -16,11 +16,11 @@
     <div class="flex items-center gap-3 mt-6">
       <UInput
         placeholder="Email Address"
-        icon="i-heroicons-envelope"
+        icon="solar:inbox-line-line-duotone"
         class="flex-1"
         size="lg"
       />
-      <UButton label="Join &rarr;" size="lg" color="black" />
+      <UButton label="Subscribe" size="lg" color="black" />
     </div>
   </div>
 </template>

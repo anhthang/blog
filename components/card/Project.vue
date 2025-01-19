@@ -14,7 +14,13 @@
     <div
       class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700"
     ></div>
-    <Icon :name="project.icon" class="w-8 h-8" />
+    <UIcon
+      :name="project.icon"
+      class="w-8 h-8"
+      :class="{
+        'rotate-90': project.name === 'gitflow',
+      }"
+    />
   </NuxtLink>
 </template>
 

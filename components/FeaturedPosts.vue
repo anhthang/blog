@@ -13,7 +13,7 @@
         color="gray"
         variant="ghost"
         class="hover:bg-gray-100"
-        trailing-icon="i-solar-arrow-right-outline"
+        trailing-icon="solar:arrow-right-outline"
       />
     </div>
   </div>

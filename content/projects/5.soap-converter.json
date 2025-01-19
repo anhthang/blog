@@ -1,8 +1,8 @@
 {
-    "name": "SOAP Converter",
-    "url": "https://github.com/anhthang/soap-converter",
-    "description": "Transform SOAP/WSDL descriptions to other formats",
-    "icon": "SOAPConverter",
-    "status": "Inactivated",
-    "opensource": true
+  "name": "SOAP Converter",
+  "url": "https://github.com/anhthang/soap-converter",
+  "description": "Transform SOAP/WSDL descriptions to other formats",
+  "icon": "solar:refresh-line-duotone",
+  "status": "Inactivated",
+  "opensource": true
 }

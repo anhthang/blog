@@ -3,57 +3,57 @@
     {
       "name": "Mac Mini M1 2020 (16GB RAM, 256GB SSD)",
       "description": "",
-      "icon": "i-solar-display-line-duotone",
+      "icon": "solar:display-line-duotone",
       "url": "https://www.apple.com/mac-mini/"
     },
     {
       "name": "LG 34\" UWQHD 1ms Nano IPS 160Hz HDR+ (G-Sync Compatible)",
       "description": "",
-      "icon": "i-solar-monitor-line-duotone",
+      "icon": "solar:monitor-line-duotone",
       "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/"
     },
     {
       "name": "iPhone 11 Pro 64GB (2019)",
       "description": "",
-      "icon": "i-solar-iphone-line-duotone",
+      "icon": "solar:iphone-line-duotone",
       "url": "https://www.apple.com/iphone/"
     },
     {
       "name": "Apple Watch Series 4 (2018)",
       "description": "",
-      "icon": "i-solar-watch-square-line-duotone",
+      "icon": "solar:watch-square-line-duotone",
       "url": "https://www.apple.com/watch/"
     },
     {
       "name": "AirPods Pro (2019)",
       "description": "",
-      "icon": "i-solar-airbuds-case-open-line-duotone",
+      "icon": "solar:airbuds-case-open-line-duotone",
       "url": "https://www.apple.com/airpods/"
     },
     {
       "name": "MX Anywhere 3 for Mac",
       "description": "",
-      "icon": "i-solar-mouse-line-duotone",
+      "icon": "solar:mouse-line-duotone",
       "url": "https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac.910-005899.html"
     },
     {
       "name": "iPad",
       "description": "",
-      "icon": "i-solar-tablet-line-duotone",
+      "icon": "solar:tablet-line-duotone",
       "url": "https://www.apple.com/ipad/",
       "tags": ["Not Right Now"]
     },
     {
       "name": "HomePod",
       "description": "",
-      "icon": "i-solar-smart-speaker-minimalistic-line-duotone",
+      "icon": "solar:smart-speaker-minimalistic-line-duotone",
       "url": "https://www.apple.com/homepod/",
       "tags": ["Maybe"]
     },
     {
       "name": "MacBook Air M1 13inch 2020 (8GB RAM, 256GB SSD)",
       "description": "",
-      "icon": "i-solar-laptop-minimalistic-line-duotone",
+      "icon": "solar:laptop-minimalistic-line-duotone",
       "url": "https://www.apple.com/macbook-air/",
       "tags": ["Returned"]
     }
