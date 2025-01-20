@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-6 relative">
+  <div class="space-y-6 relative text-justify">
     <h1 class="text-2xl font-mono font-bold tracking-tight">
       <span
         class="bg-gradient-to-r from-green-600 to-green-400 text-transparent bg-clip-text"

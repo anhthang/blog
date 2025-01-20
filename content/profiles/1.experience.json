@@ -2,18 +2,18 @@
   "body": [
     {
       "title": "Cloud DevOps Engineer",
-      "icon": "i-solar-cloud-line-duotone",
+      "icon": "solar:cloud-line-duotone",
       "company": "VPBank",
       "location": "Hanoi, Vietnam",
       "start": "Feb 2025",
-      "end": "Present",
+      "end": "",
       "summary": "To be updated...",
       "disabled": true,
       "slot": "description"
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "i-solar-chat-square-code-line-duotone",
+      "icon": "solar:chat-square-code-line-duotone",
       "company": "TUI",
       "location": "Hanoi, Vietnam",
       "start": "Jan 2022",
@@ -30,7 +30,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "i-solar-chat-square-code-line-duotone",
+      "icon": "solar:chat-square-code-line-duotone",
       "company": "Viemart LLC",
       "location": "Hanoi, Vietnam",
       "start": "Mar 2021",
@@ -47,7 +47,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "i-solar-chat-square-code-line-duotone",
+      "icon": "solar:chat-square-code-line-duotone",
       "company": "ABIVIN",
       "location": "Hanoi, Vietnam",
       "start": "Dec 2020",
@@ -62,7 +62,7 @@
     },
     {
       "title": "Full-Stack Developer",
-      "icon": "i-solar-code-line-duotone",
+      "icon": "solar:code-line-duotone",
       "company": "KMSoft",
       "location": "Hanoi, Vietnam",
       "start": "Apr 2020",
@@ -79,7 +79,7 @@
     },
     {
       "title": "Software Development Team Lead",
-      "icon": "i-solar-code-line-duotone",
+      "icon": "solar:code-line-duotone",
       "company": "GoQuo",
       "location": "Hanoi, Vietnam",
       "start": "Mar 2015",

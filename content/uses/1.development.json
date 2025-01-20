@@ -3,49 +3,49 @@
     {
       "name": "Visual Studio Code",
       "description": "My go-to code editor for writing and editing code.",
-      "icon": "i-simple-icons-visualstudiocode",
+      "icon": "simple-icons:visualstudiocode",
       "url": "https://code.visualstudio.com/"
     },
     {
       "name": "iTerm2",
       "description": "My favorite terminal emulator for interacting with the command line.",
-      "icon": "i-simple-icons-iterm2",
+      "icon": "simple-icons:iterm2",
       "url": "https://iterm2.com/"
     },
     {
       "name": "Homebrew",
       "description": "My package manager for easily installing software on my Mac.",
-      "icon": "i-simple-icons-homebrew",
+      "icon": "simple-icons:homebrew",
       "url": "https://brew.sh/"
     },
     {
       "name": "Postman",
       "description": "An awesome tool for building and testing APIs.",
-      "icon": "i-simple-icons-postman",
+      "icon": "simple-icons:postman",
       "url": "https://www.postman.com/"
     },
     {
       "name": "httpie",
       "description": "A user-friendly command-line HTTP client for making requests.",
-      "icon": "i-simple-icons-httpie",
+      "icon": "simple-icons:httpie",
       "url": "https://httpie.io/"
     },
     {
       "name": "TablePlus",
       "description": "My database management tool for quick and easy access to all my data.",
-      "icon": "i-solar-database-bold",
+      "icon": "solar:database-bold",
       "url": "https://tableplus.com/"
     },
     {
       "name": "Input Mono",
       "description": "My preferred font for coding. It's clean, legible, and helps me stay focused on my code.",
-      "icon": "i-simple-icons-googlefonts",
+      "icon": "simple-icons:googlefonts",
       "url": "https://input.djr.com/"
     },
     {
       "name": "Dracula Theme",
       "description": "A dark theme I use across various applications for a sleek and eye-friendly coding experience.",
-      "icon": "i-solar-pallete-2-bold",
+      "icon": "solar:pallete-2-bold",
       "url": "https://draculatheme.com/"
     }
   ]

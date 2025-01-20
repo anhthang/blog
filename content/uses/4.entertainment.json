@@ -3,25 +3,25 @@
     {
       "name": "FUJIFILM X-T30 II",
       "description": "Lens: FUJINON XF35mmF2 R WR, FUJINON XF30mmF2.8 R LM WR Macro",
-      "icon": "i-solar-camera-minimalistic-line-duotone",
+      "icon": "solar:camera-minimalistic-line-duotone",
       "url": "https://fujifilm-x.com/global/products/cameras/x-t30-ii/"
     },
     {
       "name": "Nintendo Switch",
       "description": "Animal Crossing: New Horizons Edition",
-      "icon": "i-solar-gamepad-line-duotone",
+      "icon": "solar:gamepad-line-duotone",
       "url": "https://www.nintendo.com/us/store/products/nintendo-switch-animal-crossing-new-horizons-edition/"
     },
     {
       "name": "Nintendo 2DS XL",
       "description": "Poke Ball Edition",
-      "icon": "i-solar-gamepad-charge-line-duotone",
+      "icon": "solar:gamepad-charge-line-duotone",
       "url": "https://www.nintendo.com/us/store/hardware/"
     },
     {
       "name": "ATH-M40x",
       "description": "",
-      "icon": "i-solar-headphones-round-sound-line-duotone",
+      "icon": "solar:headphones-round-sound-line-duotone",
       "url": "https://www.audio-technica.com/en-eu/ath-m40x"
     }
   ]

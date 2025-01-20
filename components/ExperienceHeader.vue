@@ -10,19 +10,19 @@
         <span
           class="flex items-center gap-4 truncate text-gray-700 dark:text-gray-200"
         >
-          <Icon :name="item.icon" class="flex-shrink-0 w-6 h-6" />
+          <UIcon :name="item.icon" class="flex-shrink-0 w-6 h-6" />
           <div class="flex flex-1 flex-col">
             <span class="font-bold">
               {{ item.title }}
             </span>
             <span class="text-xs font-medium text-gray-400 dark:text-gray-600">
-              {{ item.start }} - {{ item.end }}
+              {{ item.start }} - {{ item.end || 'Present' }}
             </span>
           </div>
           <span
             class="text-xs font-medium text-gray-400 dark:text-gray-600 flex items-center gap-1"
           >
-            <Icon name="i-solar-buildings-2-line-duotone" class="w-4 h-4" />
+            <UIcon name="solar:buildings-2-line-duotone" class="w-4 h-4" />
             {{ item.company }}
           </span>
         </span>

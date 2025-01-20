@@ -1,8 +1,8 @@
 {
-    "name": "gitflow",
-    "url": "https://marketplace.visualstudio.com/items?itemName=buianhthang.gitflow",
-    "description": "Gitflow integration for Visual Studio Code",
-    "icon": "Gitflow",
-    "status": "Inactivated",
-    "opensource": true
+  "name": "gitflow",
+  "url": "https://marketplace.visualstudio.com/items?itemName=buianhthang.gitflow",
+  "description": "Gitflow integration for Visual Studio Code",
+  "icon": "solar:usb-line-duotone",
+  "status": "Inactivated",
+  "opensource": true
 }

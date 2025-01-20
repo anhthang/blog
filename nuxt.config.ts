@@ -3,7 +3,6 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxt/fonts',
-    '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/ui',
   ],
@@ -65,10 +64,6 @@ export default defineNuxtConfig({
       { name: 'Reddit Sans', provider: 'google' },
       { name: 'Reddit Mono', provider: 'google' },
     ],
-  },
-
-  ui: {
-    icons: ['heroicons', 'solar'],
   },
 
   runtimeConfig: {
