@@ -27,6 +27,10 @@ export default defineNuxtConfig({
   },
 
   content: {
+    database: {
+      type: 'd1',
+      binding: 'blog-db',
+    },
     build: {
       markdown: {
         remarkPlugins: { 'remark-reading-time': {} },
