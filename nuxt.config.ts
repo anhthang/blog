@@ -1,4 +1,6 @@
 export default defineNuxtConfig({
+  ssr: true,
+
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
@@ -71,10 +73,6 @@ export default defineNuxtConfig({
       { name: 'Reddit Mono', provider: 'google' },
     ],
   },
-
-  // ui: {
-  //   icons: ['heroicons', 'solar'],
-  // },
 
   runtimeConfig: {
     public: {
