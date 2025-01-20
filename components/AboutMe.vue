@@ -51,5 +51,6 @@ const { data } = await useAsyncData('experience', () =>
   queryCollection('profiles').where('id', 'LIKE', '%experience%').first(),
 )
 
-const [current] = data.value.meta.body
+console.log('data', data)
+const [current] = computed(() => data.value?.meta?.body)
 </script>

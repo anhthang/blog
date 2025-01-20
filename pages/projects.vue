@@ -38,6 +38,6 @@ const { data: projects } = await useAsyncData('projects-all', () =>
 
 // temporary fix until we can do where query to filter data with collection type
 const otherProjects = computed(() =>
-  projects.value.filter((p) => !p.meta.featured),
+  projects.value.filter((p) => !p?.meta.featured),
 )
 </script>
