@@ -13,7 +13,7 @@
     </h2>
     <div class="space-y-4">
       <card-project
-        v-for="(project, id) in projects"
+        v-for="({ meta: project }, id) in otherProjects"
         :key="id"
         :project="project"
       />
@@ -32,9 +32,8 @@ useSeoMeta({
   twitterDescription: description,
 })
 
-const { data: projects } = await useAsyncData('projects-all', () =>
-  queryContent('/projects')
-    .where({ featured: { $not: true } })
-    .find(),
+// might need to increase the limit if i have more projects :))
+const { data: otherProjects } = await useAsyncData('projects-all', () =>
+  queryCollection('projects').limit(10).skip(2).all(),
 )
 </script>

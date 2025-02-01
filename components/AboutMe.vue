@@ -48,8 +48,8 @@ useSeoMeta({
 })
 
 const { data } = await useAsyncData('experience', () =>
-  queryContent('/profiles/experience').findOne(),
+  queryCollection('profiles').where('id', 'LIKE', '%experience%').first(),
 )
 
-const [current] = data.value.body
+const [current] = data.value.meta.body
 </script>

@@ -25,6 +25,6 @@ useSeoMeta({
 })
 
 const { data: posts } = await useAsyncData('all-posts', () =>
-  queryContent('/posts').sort({ published: -1 }).find(),
+  queryCollection('posts').order('id', 'DESC').all(),
 )
 </script>

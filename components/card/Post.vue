@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="post._path" class="group">
+  <NuxtLink :to="post.path" class="group">
     <article
       class="p-2 -m-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 text-justify"
     >
@@ -14,7 +14,8 @@
           <span class="h-4 w-0.5 rounded-full bg-gray-200 dark:bg-gray-500">
           </span>
         </span>
-        {{ getReadableDate(post.published) }} - {{ post.readingTime.text }}
+        {{ getReadableDate(post.meta.published) }} -
+        {{ post.meta?.readingTime.text }}
       </time>
       <h2
         class="text-base font-semibold font-display tracking-tight text-gray-800 dark:text-gray-100 group-hover:text-primary-600"
