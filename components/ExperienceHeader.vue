@@ -15,15 +15,17 @@
             <span class="font-bold">
               {{ item.title }}
             </span>
-            <span class="text-xs font-medium text-gray-400 dark:text-gray-600">
-              {{ item.start }} - {{ item.end || 'Present' }}
+            <span class="font-medium text-gray-400 dark:text-gray-600">
+              {{ item.company }}
             </span>
           </div>
           <span
-            class="text-xs font-medium text-gray-400 dark:text-gray-600 flex items-center gap-1"
+            class="text-xs font-medium"
+            :class="{
+              'text-gray-400 dark:text-gray-600': item.end,
+            }"
           >
-            <UIcon name="solar:buildings-2-line-duotone" class="w-4 h-4" />
-            {{ item.company }}
+            {{ item.start }} - {{ item.end || 'Present' }}
           </span>
         </span>
         <p v-if="item.summary" class="text-sm text-gray-500">

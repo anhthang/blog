@@ -5,7 +5,19 @@
     >
       <article>
         <h1>{{ post.title }}</h1>
+
         <ContentRenderer :value="post" />
+
+        <div class="flex gap-2">
+          <UBadge
+            v-for="tag in post.meta.tags"
+            :key="tag"
+            color="gray"
+            variant="soft"
+          >
+            #{{ tag }}
+          </UBadge>
+        </div>
       </article>
     </div>
   </main>

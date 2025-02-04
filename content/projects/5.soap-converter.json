@@ -1,7 +1,7 @@
 {
   "name": "SOAP Converter",
   "url": "https://github.com/anhthang/soap-converter",
-  "description": "Transform SOAP/WSDL descriptions to other formats",
+  "description": "Instantly convert SOAP/WSDL definitions to REST API specifications for use with Postman, Swagger, and other API development tools.",
   "icon": "solar:refresh-line-duotone",
   "status": "Inactivated",
   "opensource": true
