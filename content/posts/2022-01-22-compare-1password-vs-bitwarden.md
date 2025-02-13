@@ -4,15 +4,14 @@ published: '2022-01-22'
 tags: [password-manager, 1password, bitwarden]
 ---
 
-I just wanted to share a quick comparison of two password managers I tried out. Ultimately, I'm switching back to 1Password.
+I wanted to share a quick comparison of two password managers I recently tested. After giving both a fair shot, I've decided to switch back to **1Password**—here's why:
 
-These options offer a more engaging introduction and clarify your decision to return to 1Password.
+| Feature                   | 1Password                                                                       | Bitwarden                         |
+| ------------------------- | ------------------------------------------------------------------------------- | --------------------------------- |
+| **Price**                 | $2.99/month (billed annually)                                                   | **Free**, or $10/year for Premium |
+| **User Interface (UI)**   | **Modern and polished**                                                         | Classic and functional            |
+| **User Experience (UX)**  | _More intuitive for me_                                                         | Decent, but not my preference     |
+| **Website Icons**         | Can be updated manually, but doesn't update automatically (which I wish it did) | **Updates automatically**         |
+| **TOTP QR Code Scanning** | **Supported**                                                                   | Not supported                     |
 
-|| 1Password | Bitwarden |
-|---|---|---|
-| Price | $2.99/month annually | **Free. Premium for $10/year** |
-| UI | **Modern** | Classic |
-| UX | *For me, this is better* | |
-| Rich icons | I don't know how to update, even there is a feature to turn on/off | **It seems update automatically** |
-| Scan TOTP image | **Supported** | Not supported |
-||||
+While Bitwarden is an excellent free option, I found **1Password's modern design and smoother experience** a better fit for my needs. If you've used either of these, what's your take? 🚀

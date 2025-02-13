@@ -1,16 +1,25 @@
 {
   "body": [
     {
-      "name": "Mac Mini M1 2020 (16GB RAM, 256GB SSD)",
-      "description": "",
+      "name": "Mac Mini M1",
+      "description": "Apple M1, 16GB RAM, 256GB SSD",
       "icon": "solar:display-line-duotone",
-      "url": "https://www.apple.com/mac-mini/"
+      "url": "https://www.apple.com/mac-mini/",
+      "tags": ["Home"]
     },
     {
-      "name": "LG 34\" UWQHD 1ms Nano IPS 160Hz HDR+ (G-Sync Compatible)",
-      "description": "",
+      "name": "LG 34GN850-B",
+      "description": "34\" UWQHD (3440x1440), 1ms, Nano IPS, 160Hz, HDR+, G-Sync",
       "icon": "solar:monitor-line-duotone",
-      "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/"
+      "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/",
+      "tags": ["Home"]
+    },
+    {
+      "name": "HP ProBook 440 G9",
+      "description": "14\", i7-1255U, 32GB RAM, 512GB SSD",
+      "icon": "solar:laptop-line-duotone",
+      "url": "https://www.hp.com/us-en/shop/mdp/probook-400-14-243573--1",
+      "tags": ["Work"]
     },
     {
       "name": "iPhone 11 Pro 64GB (2019)",
@@ -35,27 +44,6 @@
       "description": "",
       "icon": "solar:mouse-line-duotone",
       "url": "https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac.910-005899.html"
-    },
-    {
-      "name": "iPad",
-      "description": "",
-      "icon": "solar:tablet-line-duotone",
-      "url": "https://www.apple.com/ipad/",
-      "tags": ["Not Right Now"]
-    },
-    {
-      "name": "HomePod",
-      "description": "",
-      "icon": "solar:smart-speaker-minimalistic-line-duotone",
-      "url": "https://www.apple.com/homepod/",
-      "tags": ["Maybe"]
-    },
-    {
-      "name": "MacBook Air M1 13inch 2020 (8GB RAM, 256GB SSD)",
-      "description": "",
-      "icon": "solar:laptop-minimalistic-line-duotone",
-      "url": "https://www.apple.com/macbook-air/",
-      "tags": ["Returned"]
     }
   ]
 }

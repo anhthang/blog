@@ -77,7 +77,7 @@ export default defineNuxtConfig({
       homepage: 'https://anhthang.org',
       me: 'Anh Thang Bui',
       about:
-        'I am a passionate software engineer with a keen interest in web development, open-source projects, and cloud computing.',
+        "I focus on building and maintaining scalable cloud infrastructure to support the development. I'm passionate about building web applications and sites using Node.js, Vue.js, Nuxt.js, and React.",
       bio: 'Something to remember..',
     },
   },
