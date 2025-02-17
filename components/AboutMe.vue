@@ -13,7 +13,10 @@
       class="float-left w-20 h-20 md:w-32 md:h-32 rounded-full mr-4 mb-4 md:mr-6 md:mb-6"
     />
     <p class="text-gray-900 dark:text-gray-400">
-      I'm Thang, a {{ current.title }} at {{ current.company }}.
+      I'm Thang, a {{ current.title }} based in Hanoi, Vietnam, currently
+      working at {{ current.company }} (previously at {{ previous.company }}).
+    </p>
+    <p class="text-gray-900 dark:text-gray-400">
       {{ config.public.about }}
     </p>
     <p class="text-gray-900 dark:text-gray-400">
@@ -51,5 +54,5 @@ const { data } = await useAsyncData('experience', () =>
   queryCollection('profiles').where('id', 'LIKE', '%experience%').first(),
 )
 
-const [current] = data.value.meta.body
+const [current, previous] = data.value.meta.body
 </script>

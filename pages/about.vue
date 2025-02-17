@@ -47,7 +47,7 @@
 
 <script setup>
 const description =
-  'Experienced Full-Stack Software Engineer with a proven track record in architecting, developing, and deploying scalable web applications. Proficient in Node.js, ReactJS, VueJS, and cloud technologies (AWS, GCP). Passionate about building innovative solutions for travel, e-commerce, and fintech.'
+  'Experienced Full-Stack Software Engineer with a proven track record in architecting, developing, and deploying scalable web applications. Proficient in Node.js, ReactJS, VueJS, and cloud technologies (AWS, GCP). Passionate about building innovative solutions, particularly within the travel industry.'
 
 useSeoMeta({
   title: 'About',

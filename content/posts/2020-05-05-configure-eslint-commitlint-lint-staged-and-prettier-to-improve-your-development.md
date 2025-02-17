@@ -33,9 +33,9 @@ yarn add --dev @commitlint/{config-conventional,cli} eslint eslint-config-airbnb
 ```
 
 - Added **eslint**, **prettier**
-- Added **eslint-config-prettier** so **eslint** and **prettier** won’t fight over code formatting rules
+- Added **eslint-config-prettier** so **eslint** and **prettier** won't fight over code formatting rules
 - Added **eslint-config-airbnb-base** to use Airbnb's base JS .eslintrc as an extensible shared config. You can use other base like: StandardJS
-- Prettier will auto-format your code based on it’s rules. **It's amazingggg!** 🤩 _Let's install and enjoy your life._
+- Prettier will auto-format your code based on it's rules. **It's amazingggg!** 🤩 _Let's install and enjoy your life._
 
 Set up Eslint configuration file, and the easiest way to do that is:
 
