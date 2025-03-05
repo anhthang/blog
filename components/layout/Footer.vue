@@ -47,7 +47,7 @@ const right = [
   },
   {
     // name: 'Bluesky',
-    to: 'https://bsky.app/profile/anhthang.bsky.social',
+    to: 'https://bsky.app/profile/anhthang.org',
     target: '_blank',
     icon: 'simple-icons:bluesky',
     iconClass: 'group-hover:text-[#1083FE] dark:group-hover:text-[#1083FE]',

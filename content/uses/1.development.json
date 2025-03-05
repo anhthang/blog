@@ -37,6 +37,18 @@
       "url": "https://tableplus.com/"
     },
     {
+      "name": "Oh My Zsh",
+      "description": "A framework that extends the functionality of my Zsh shell.",
+      "icon": "simple-icons:zsh",
+      "url": "https://ohmyz.sh/"
+    },
+    {
+      "name": "Starship",
+      "description": "A cool prompt theme that gives my terminal a sleek look.",
+      "icon": "simple-icons:starship",
+      "url": "https://starship.rs/"
+    },
+    {
       "name": "Input Mono",
       "description": "My preferred font for coding. It's clean, legible, and helps me stay focused on my code.",
       "icon": "simple-icons:googlefonts",

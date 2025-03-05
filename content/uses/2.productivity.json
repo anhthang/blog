@@ -38,16 +38,16 @@
       "url": "https://github.com/koekeishiya/yabai/"
     },
     {
-      "name": "Oh My Zsh",
-      "description": "A framework that extends the functionality of my Zsh shell.",
-      "icon": "simple-icons:zsh",
-      "url": "https://ohmyz.sh/"
+      "name": "Cloudflare",
+      "description": "My platform of choice for deploying and hosting web applications with ease, along with a powerful CDN and DDoS protection.",
+      "icon": "simple-icons:cloudflare",
+      "url": "https://www.cloudflare.com/"
     },
     {
-      "name": "Starship",
-      "description": "A cool prompt theme that gives my terminal a sleek look.",
-      "icon": "simple-icons:starship",
-      "url": "https://starship.rs/"
+      "name": "Supabase",
+      "description": "My backend-as-a-service solution for managing databases, user authentication, and more.",
+      "icon": "simple-icons:supabase",
+      "url": "https://supabase.com/"
     }
   ]
 }
