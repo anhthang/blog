@@ -1,7 +1,8 @@
 <template>
-  <UHorizontalNavigation
-    :links="[left, right]"
-    class="border-t border-gray-200 dark:border-gray-800"
+  <UNavigationMenu
+    orientation="horizontal"
+    :items="[left, right]"
+    class="border-t border-neutral-200 dark:border-neutral-800"
     :ui="{
       base: 'min-h-16',
       label: 'hidden md:block',

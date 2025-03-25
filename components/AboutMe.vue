@@ -12,27 +12,22 @@
       :alt="config.public.me"
       class="float-left w-20 h-20 md:w-32 md:h-32 rounded-full mr-4 mb-4 md:mr-6 md:mb-6"
     />
-    <p class="text-gray-900 dark:text-gray-400">
+    <p class="text-(--ui-text-highlighted)">
       I'm Thang, a {{ current.title }} based in Hanoi, Vietnam, currently
       working at {{ current.company }} (previously at {{ previous.company }}).
     </p>
-    <p class="text-gray-900 dark:text-gray-400">
+    <p class="text-(--ui-text-highlighted)">
       {{ config.public.about }}
     </p>
-    <p class="text-gray-900 dark:text-gray-400">
+    <p class="text-(--ui-text-highlighted)">
       This blog is my outlet to share experiences and discoveries I find
       valuable. Stay tuned for exciting updates!
     </p>
 
     <div class="flex items-center justify-center mt-6 text-sm">
-      <UButton
-        color="gray"
-        variant="ghost"
-        class="hover:bg-gray-100"
-        @click="() => (isOpen = true)"
-      >
+      <UButton color="neutral" variant="ghost" @click="() => (isOpen = true)">
         Press
-        <UKbd>{{ metaSymbol }}</UKbd>
+        <UKbd value="meta" />
         <UKbd>K</UKbd>
         for Quick Links
       </UButton>
@@ -42,7 +37,6 @@
 
 <script setup>
 const config = useRuntimeConfig()
-const { metaSymbol } = useShortcuts()
 
 const isOpen = useState('open-cmd')
 

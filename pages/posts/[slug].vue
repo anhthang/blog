@@ -1,7 +1,7 @@
 <template>
   <main>
     <div
-      class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-zinc-200 dark:prose-pre:bg-gray-900 prose-img:ring-1 prose-img:ring-gray-200 dark:prose-img:ring-white/10 prose-img:rounded-lg"
+      class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-(--ui-bg-muted) prose-img:ring-1 prose-img:ring-(--ui-border) prose-img:rounded-lg"
     >
       <article>
         <h1>{{ post.title }}</h1>
@@ -12,7 +12,7 @@
           <UBadge
             v-for="tag in post.meta.tags"
             :key="tag"
-            color="gray"
+            color="neutral"
             variant="soft"
           >
             #{{ tag }}

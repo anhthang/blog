@@ -10,8 +10,7 @@
       "name": "Firefox",
       "description": "My preferred web browser for navigating the internet, known for its focus on privacy and security.",
       "icon": "simple-icons:firefoxbrowser",
-      "url": "https://www.mozilla.org/en-US/firefox/",
-      "tags": ["Abandoned"]
+      "url": "https://www.mozilla.org/en-US/firefox/"
     },
     {
       "name": "1Password",

@@ -1,13 +1,14 @@
 <template>
-  <UContainer>
+  <UApp>
     <NuxtLoadingIndicator color="#14b8a6" />
+    <div class="flex flex-col gap-16 min-h-screen max-w-3xl mx-auto">
+      <layout-navbar />
 
-    <layout-navbar />
+      <NuxtPage class="flex-1" />
 
-    <NuxtPage class="flex-1" />
-
-    <layout-footer />
-  </UContainer>
+      <layout-footer />
+    </div>
+  </UApp>
 </template>
 
 <script setup>

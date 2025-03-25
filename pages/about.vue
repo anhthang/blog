@@ -16,15 +16,14 @@
         <UAccordion
           :items="items"
           :ui="{
-            wrapper: 'w-full flex flex-col gap-6 cursor-pointer',
-            container:
-              'w-full flex flex-col hover:bg-gray-100 dark:hover:bg-white/10 p-2 -m-2 rounded-lg text-justify',
-            item: {
-              base: 'ml-8',
-            },
+            root: 'flex flex-col gap-4',
+            item: 'hover:bg-(--ui-bg-elevated) p-2 -m-2 rounded-lg text-justify border-0',
+            trigger: 'py-0',
+            content: 'text-sm leading-(--text-sm--line-height)',
+            trailingIcon: 'hidden',
           }"
         >
-          <template #default="{ item }">
+          <template #leading="{ item }">
             <experience-header :item="item" />
           </template>
 
@@ -33,7 +32,7 @@
               <li
                 v-for="(detail, idx) in item.details"
                 :key="idx"
-                class="text-gray-500"
+                class="text-(--ui-text-muted) ml-8"
               >
                 {{ detail }}
               </li>

@@ -4,22 +4,19 @@
       "name": "Mac Mini M1",
       "description": "Apple M1, 16GB RAM, 256GB SSD",
       "icon": "solar:display-line-duotone",
-      "url": "https://www.apple.com/mac-mini/",
-      "tags": ["Home"]
+      "url": "https://www.apple.com/mac-mini/"
     },
     {
       "name": "LG 34GN850-B",
       "description": "34\" UWQHD (3440x1440), 1ms, Nano IPS, 160Hz, HDR+, G-Sync",
       "icon": "solar:monitor-line-duotone",
-      "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/",
-      "tags": ["Home"]
+      "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/"
     },
     {
       "name": "HP ProBook 440 G9",
       "description": "14\", i7-1255U, 32GB RAM, 512GB SSD",
       "icon": "solar:laptop-line-duotone",
-      "url": "https://www.hp.com/us-en/shop/mdp/probook-400-14-243573--1",
-      "tags": ["Work"]
+      "url": "https://www.hp.com/us-en/shop/mdp/probook-400-14-243573--1"
     },
     {
       "name": "iPhone 11 Pro 64GB (2019)",
@@ -44,6 +41,12 @@
       "description": "",
       "icon": "solar:mouse-line-duotone",
       "url": "https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac.910-005899.html"
+    },
+    {
+      "name": "HyperWork Silentium",
+      "description": "",
+      "icon": "solar:mouse-line-duotone",
+      "url": "https://hyperwork.vn/products/chuot-van-phong-khong-day-hyperwork-ms01"
     }
   ]
 }

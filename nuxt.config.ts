@@ -1,4 +1,6 @@
 export default defineNuxtConfig({
+  css: ['~/assets/main.css'],
+
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
@@ -15,15 +17,10 @@ export default defineNuxtConfig({
         class: 'h-full',
       },
       bodyAttrs: {
-        class: 'antialiased bg-gray-50 dark:bg-black min-h-screen',
+        class: 'antialiased min-h-screen',
       },
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
-  },
-
-  // bundled in @nuxt/ui
-  colorMode: {
-    preference: 'dark',
   },
 
   content: {
@@ -63,13 +60,6 @@ export default defineNuxtConfig({
         },
       },
     },
-  },
-
-  fonts: {
-    families: [
-      { name: 'Reddit Sans', provider: 'google' },
-      { name: 'Reddit Mono', provider: 'google' },
-    ],
   },
 
   runtimeConfig: {

@@ -8,10 +8,10 @@
 
     <featured-projects class="mb-16" />
 
-    <h2 class="uppercase text-sm font-semibold text-gray-400 mb-6">
+    <h2 class="uppercase text-sm font-semibold text-(--ui-text-dimmed) mb-6">
       OTHER PROJECTS
     </h2>
-    <div class="space-y-4">
+    <div class="flex flex-col gap-4">
       <card-project
         v-for="({ meta: project }, id) in otherProjects"
         :key="id"

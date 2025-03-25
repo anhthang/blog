@@ -2,32 +2,19 @@
   <li>
     <NuxtLink
       :to="item.url"
-      class="flex hover:bg-gray-100 dark:hover:bg-white/10 p-2 rounded-lg -m-2 text-sm min-w-0"
+      class="flex hover:bg-(--ui-bg-elevated) p-2 rounded-lg -m-2 text-sm min-w-0"
       target="_blank"
       external
     >
       <div class="flex-col w-full space-y-2">
-        <span
-          class="flex items-center gap-4 truncate text-gray-700 dark:text-gray-200"
-        >
+        <span class="flex items-center gap-4 truncate">
           <UIcon :name="item.icon" class="flex-shrink-0 w-6 h-6" />
-          <span class="flex-1 truncate">
-            {{ item.name }}
-            <UBadge
-              v-for="tag in item.tags"
-              v-show="Array.isArray(item.tags) && item.tags.length"
-              :key="tag"
-              size="xs"
-              variant="subtle"
-            >
-              {{ tag }}
-            </UBadge>
-          </span>
-          <span class="text-xs font-medium text-gray-400 dark:text-gray-600">
+          <span class="flex-1 truncate">{{ item.name }}</span>
+          <span class="text-xs font-medium text-(--ui-text-dimmed)">
             {{ getHost(item.url) }}
           </span>
         </span>
-        <p v-if="item.description" class="text-sm text-gray-500">
+        <p v-if="item.description" class="text-sm text-(--ui-text-muted)">
           {{ item.description }}
         </p>
       </div>

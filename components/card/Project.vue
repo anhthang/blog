@@ -1,15 +1,15 @@
 <template>
   <NuxtLink
-    class="flex items-center gap-8 group p-2 -m-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10"
+    class="flex items-center gap-8 group p-2 -m-2 rounded-lg hover:bg-(--ui-bg-elevated)"
     :to="project.url"
     target="_blank"
     external
   >
     <div class="flex-1">
-      <h3 class="text-sm font-medium group-hover:text-primary-600">
+      <h3 class="text-sm font-medium group-hover:text-(--ui-primary)">
         {{ project.name }}
       </h3>
-      <p class="text-gray-400 text-sm">{{ project.description }}</p>
+      <p class="text-(--ui-text-muted) text-sm">{{ project.description }}</p>
     </div>
 
     <UIcon

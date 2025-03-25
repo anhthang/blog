@@ -1,27 +1,28 @@
 <template>
-  <UHorizontalNavigation
-    :links="[left, middle, right]"
-    class="border-b border-gray-200 dark:border-gray-800"
+  <UNavigationMenu
+    orientation="horizontal"
+    :items="[left, middle, right]"
+    class="border-b border-neutral-200 dark:border-neutral-800"
     :ui="{
       base: 'min-h-16',
       label: 'hidden md:block',
     }"
   />
 
-  <UModal v-model="isOpen">
-    <UCommandPalette
-      :autoselect="false"
-      :groups="groups"
-      icon="solar:magnifer-outline"
-      @update:model-value="onCommandClick"
-    />
+  <UModal v-model:open="isOpen">
+    <template #content>
+      <UCommandPalette
+        :groups="groups"
+        icon="solar:magnifer-outline"
+        @update:model-value="onCommandClick"
+      />
+    </template>
   </UModal>
 </template>
 
 <script setup>
 const colorMode = useColorMode()
 const route = useRoute()
-const router = useRouter()
 
 const isOpen = useState('open-cmd', () => false)
 
@@ -74,8 +75,9 @@ const right = computed(() => [
     icon: isDark.value
       ? 'solar:moon-stars-bold-duotone'
       : 'solar:sun-line-duotone',
-    iconClass: 'text-gray-700 dark:text-gray-200', // display as active
-    click: () => {
+    iconClass: 'text-(--ui-text)', // display as active
+    class: 'cursor-pointer',
+    onSelect: () => {
       isDark.value = !isDark.value
     },
   },
@@ -84,51 +86,47 @@ const right = computed(() => [
 // command palette
 const groups = computed(() => [
   {
-    key: 'links',
+    id: 'links',
     label: 'Go to',
-    commands: middle.value.map((link) => ({
-      ...link,
-      id: link.label.toLowerCase(),
-    })),
+    items: middle.value,
   },
   {
-    key: 'theme',
+    id: 'theme',
     label: 'Theme',
-    commands: [
+    items: [
       {
-        id: 'system',
         label: 'System',
+        value: 'system',
         icon: 'solar:laptop-minimalistic-line-duotone',
         disabled: colorMode.preference === 'system',
       },
       {
-        id: 'light',
         label: 'Light',
+        value: 'light',
         icon: 'solar:sun-line-duotone',
         disabled: colorMode.preference === 'light',
       },
       {
-        id: 'dark',
         label: 'Dark',
+        value: 'dark',
         icon: 'solar:moon-stars-bold-duotone',
         disabled: colorMode.preference === 'dark',
       },
     ],
   },
   {
-    key: 'contact',
+    id: 'contact',
     label: 'Contact',
-    commands: [
+    items: [
       {
-        id: 'email',
         label: 'bui at anhthang dot org',
         to: 'mailto:bui@anhthang.org',
         icon: 'solar:inbox-line-outline',
       },
       {
-        id: 'buymeacoffee',
         label: 'Buy Me a Coffee',
         to: 'https://www.buymeacoffee.com/anhthang',
+        target: '_blank',
         icon: 'solar:tea-cup-outline',
       },
     ],
@@ -136,25 +134,11 @@ const groups = computed(() => [
 ])
 
 const onCommandClick = (command) => {
-  switch (command.group) {
-    case 'links':
-      toggleCmd()
-      router.push(command.to)
-      break
-    case 'theme':
-      colorMode.preference = command.id
-      break
-    case 'contact':
-      toggleCmd()
-      if (command.to.startsWith('/')) {
-        router.push(command.to)
-      } else {
-        window.open(command.to)
-      }
-      break
-    default:
-      break
+  if (!command.to) {
+    colorMode.preference = command.value
   }
+
+  toggleCmd()
 }
 
 defineShortcuts({

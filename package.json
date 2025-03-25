@@ -10,28 +10,28 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.7.1",
-    "@commitlint/config-conventional": "19.7.1",
-    "@iconify-json/simple-icons": "1.2.27",
+    "@commitlint/cli": "19.8.0",
+    "@commitlint/config-conventional": "19.8.0",
+    "@iconify-json/simple-icons": "1.2.29",
     "@iconify-json/solar": "1.2.2",
-    "@nuxt/content": "3.2.2",
-    "@nuxt/eslint": "1.1.0",
-    "@nuxt/fonts": "0.10.3",
-    "eslint": "9.21.0",
-    "eslint-config-prettier": "10.0.2",
-    "eslint-plugin-prettier": "5.2.3",
+    "@nuxt/content": "3.4.0",
+    "@nuxt/eslint": "1.2.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "eslint": "9.23.0",
+    "eslint-config-prettier": "10.1.1",
+    "eslint-plugin-prettier": "5.2.5",
     "eslint-plugin-vue": "10.0.0",
     "husky": "9.1.7",
-    "lint-staged": "15.4.3",
-    "nuxt": "3.15.4",
+    "lint-staged": "15.5.0",
+    "nuxt": "3.16.1",
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "0.6.11",
     "remark-reading-time": "2.0.1",
     "typescript": "5.8.2"
   },
   "dependencies": {
-    "@nuxt/image": "1.9.0",
-    "@nuxt/ui": "2.21.0"
+    "@nuxt/image": "1.10.0",
+    "@nuxt/ui": "3.0.1"
   },
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.7.0"
 }
