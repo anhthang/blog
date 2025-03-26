@@ -6,4 +6,9 @@
 @theme {
   --font-sans: 'Reddit Sans', sans-serif;
   --font-mono: 'Reddit Mono', monospace;
+
+  --color-linkedin: #0a66c2;
+  --color-mastodon: #6364ff;
+  --color-bsky: #1083fe;
+  --color-buymeacoffee: #ffdd00;
 }

@@ -4,8 +4,7 @@
     :items="[left, middle, right]"
     class="border-b border-neutral-200 dark:border-neutral-800"
     :ui="{
-      base: 'min-h-16',
-      label: 'hidden md:block',
+      linkLabel: 'hidden md:block',
     }"
   />
 

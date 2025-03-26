@@ -1,7 +1,7 @@
 <template>
   <UApp>
     <NuxtLoadingIndicator color="#14b8a6" />
-    <div class="flex flex-col gap-16 min-h-screen max-w-3xl mx-auto">
+    <div class="flex flex-col gap-16 min-h-screen max-w-3xl mx-auto px-2">
       <layout-navbar />
 
       <NuxtPage class="flex-1" />
