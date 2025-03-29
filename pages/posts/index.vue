@@ -5,11 +5,9 @@
       title="Sharing is Caring"
       :description="description"
     />
-    <ul class="space-y-12">
-      <li v-for="(post, id) in posts" :key="id">
-        <card-post :post="post" />
-      </li>
-    </ul>
+    <div class="flex flex-col gap-12">
+      <card-post v-for="(post, id) in posts" :key="id" :post="post" />
+    </div>
   </main>
 </template>
 

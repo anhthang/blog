@@ -5,6 +5,7 @@
     class="border-b border-neutral-200 dark:border-neutral-800"
     :ui="{
       linkLabel: 'hidden md:block',
+      linkLeadingIcon: 'group-data-[active]:text-(--ui-error)',
     }"
   />
 
@@ -74,7 +75,6 @@ const right = computed(() => [
     icon: isDark.value
       ? 'solar:moon-stars-bold-duotone'
       : 'solar:sun-line-duotone',
-    iconClass: 'text-(--ui-text)', // display as active
     class: 'cursor-pointer',
     onSelect: () => {
       isDark.value = !isDark.value

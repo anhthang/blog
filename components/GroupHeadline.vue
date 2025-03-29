@@ -1,12 +1,10 @@
 <template>
-  <li>
-    <div class="relative flex items-center">
-      <span class="font-medium text-md text-(--ui-text-toned) pr-4">
-        {{ title }}
-      </span>
-      <div class="flex-1 h-px bg-(--ui-bg-elevated)"></div>
-    </div>
-  </li>
+  <div class="relative flex items-center">
+    <span class="font-medium text-md text-(--ui-text-toned) pr-4">
+      {{ title }}
+    </span>
+    <div class="flex-1 h-px bg-(--ui-bg-elevated)"></div>
+  </div>
 </template>
 
 <script lang="ts" setup>

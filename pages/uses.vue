@@ -6,14 +6,16 @@
       :description="description"
     />
     <div class="space-y-16">
-      <ul
+      <div
         v-for="({ meta: { title, body: items } }, id) in data"
         :key="id"
         class="space-y-4"
       >
         <group-headline :title="title" />
-        <uses-item v-for="(item, idx) in items" :key="idx" :item="item" />
-      </ul>
+        <div class="flex flex-col gap-4">
+          <uses-item v-for="(item, idx) in items" :key="idx" :item="item" />
+        </div>
+      </div>
     </div>
   </main>
 </template>
