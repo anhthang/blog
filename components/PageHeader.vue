@@ -7,7 +7,7 @@
         {{ title }}
       </span>
     </h1>
-    <p class="mt-6 text-base text-(--ui-text-toned)">
+    <p class="mt-6 text-(--ui-text-toned)">
       {{ description }}
     </p>
   </div>

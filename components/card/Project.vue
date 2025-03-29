@@ -14,7 +14,7 @@
 
     <UIcon
       :name="project.icon"
-      class="flex-shrink-0 w-8 h-8"
+      class="flex-shrink-0 w-8 h-8 group-hover:text-(--ui-error)"
       :class="{
         'rotate-90': project.name === 'gitflow',
       }"

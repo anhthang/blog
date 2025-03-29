@@ -7,9 +7,12 @@
   >
     <div class="flex-col text-start w-full space-y-2">
       <span class="flex items-center gap-4 truncate">
-        <UIcon :name="item.icon" class="flex-shrink-0 w-6 h-6" />
+        <UIcon
+          :name="item.icon"
+          class="flex-shrink-0 w-6 h-6 group-hover:text-(--ui-error)"
+        />
         <div class="flex flex-1 flex-col">
-          <span class="font-bold">
+          <span class="font-medium group-hover:text-(--ui-primary)">
             {{ item.title }}
           </span>
           <span class="font-medium text-(--ui-text-dimmed)">

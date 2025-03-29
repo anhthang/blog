@@ -17,7 +17,7 @@
         {{ post.meta?.readingTime.text }}
       </time>
       <h2
-        class="text-base font-semibold font-display tracking-tight group-hover:text-(--ui-primary)"
+        class="font-semibold font-display tracking-tight group-hover:text-(--ui-primary)"
       >
         {{ post.title }}
       </h2>

@@ -5,10 +5,10 @@
     target="_blank"
     external
   >
-    <UIcon :name="project.icon" class="w-8 h-8" />
+    <UIcon :name="project.icon" class="w-8 h-8 group-hover:text-(--ui-error)" />
 
     <h2
-      class="text-base font-semibold font-display tracking-tight group-hover:text-(--ui-primary)"
+      class="font-semibold font-display tracking-tight group-hover:text-(--ui-primary)"
     >
       {{ project.name }}
     </h2>

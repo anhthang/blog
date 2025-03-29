@@ -42,7 +42,7 @@ export default defineContentConfig({
           title: z.string().min(1),
           icon: z.string(),
           company: z.string(),
-          localtion: z.string(),
+          location: z.string(),
           start: z.string(),
           end: z.string(),
           summary: z.string().url(),

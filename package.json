@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@nuxt/image": "1.10.0",
-    "@nuxt/ui": "3.0.1"
+    "@nuxt/ui": "3.0.2"
   },
-  "packageManager": "yarn@4.7.0"
+  "packageManager": "yarn@4.8.0"
 }
