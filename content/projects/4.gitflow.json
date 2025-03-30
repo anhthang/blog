@@ -3,6 +3,5 @@
   "url": "https://marketplace.visualstudio.com/items?itemName=buianhthang.gitflow",
   "description": "Gitflow integration for Visual Studio Code",
   "icon": "solar:usb-line-duotone",
-  "status": "Inactivated",
-  "opensource": true
+  "repository": "https://github.com/anhthang/vscode-gitflow"
 }

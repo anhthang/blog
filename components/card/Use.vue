@@ -11,15 +11,18 @@
           :name="item.icon"
           class="flex-shrink-0 w-6 h-6 group-hover:text-(--ui-error)"
         />
+
         <span
           class="flex-1 font-medium truncate group-hover:text-(--ui-primary)"
         >
           {{ item.name }}
         </span>
+
         <span class="text-xs font-medium text-(--ui-text-dimmed)">
           {{ getHost(item.url) }}
         </span>
       </span>
+
       <p v-if="item.description" class="text-sm text-(--ui-text-muted)">
         {{ item.description }}
       </p>

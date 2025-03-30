@@ -1,11 +1,11 @@
 <template>
   <main>
     <div class="space-y-16">
-      <about-me />
+      <WhoAmI />
 
-      <featured-projects :show-footer="true" />
+      <FeaturedProjects :show-footer="true" />
 
-      <featured-posts />
+      <FeaturedPosts />
 
       <!-- <newsletter-form /> -->
     </div>

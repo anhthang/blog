@@ -3,13 +3,15 @@
     <h2 class="uppercase text-sm font-semibold text-(--ui-text-dimmed)">
       FEATURED PROJECTS
     </h2>
+
     <div class="flex flex-row flex-wrap justify-between">
-      <card-featured-project
+      <CardFeaturedProject
         v-for="({ meta: project }, id) in projects"
         :key="id"
         :project="project"
       />
     </div>
+
     <div v-if="showFooter" class="flex items-center justify-center text-sm">
       <UButton
         label="All Projects"

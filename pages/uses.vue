@@ -1,19 +1,21 @@
 <template>
   <main>
-    <page-header
+    <PageHeader
       class="mb-16"
       title="Peek Inside My Bag!"
       :description="description"
     />
+
     <div class="space-y-16">
       <div
         v-for="({ meta: { title, body: items } }, id) in data"
         :key="id"
         class="space-y-4"
       >
-        <group-headline :title="title" />
+        <CategoryHeader :title="title" />
+
         <div class="flex flex-col gap-4">
-          <uses-item v-for="(item, idx) in items" :key="idx" :item="item" />
+          <CardUse v-for="(item, idx) in items" :key="idx" :item="item" />
         </div>
       </div>
     </div>

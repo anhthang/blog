@@ -1,8 +1,7 @@
 {
   "name": "SOAP Converter",
-  "url": "https://github.com/anhthang/soap-converter",
+  "url": "https://www.npmjs.com/package/soap-converter",
   "description": "Instantly convert SOAP/WSDL definitions to REST API specifications for use with Postman, Swagger, and other API development tools.",
   "icon": "solar:refresh-line-duotone",
-  "status": "Inactivated",
-  "opensource": true
+  "repository": "https://github.com/anhthang/soap-converter"
 }

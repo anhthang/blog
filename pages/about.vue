@@ -1,30 +1,30 @@
 <template>
   <main>
-    <page-header
+    <PageHeader
       class="mb-16"
       title="Hey, I'm Anh Thang 👋"
       :description="description"
     />
     <div class="space-y-16">
-      <ul
+      <div
         v-for="({ meta: { title, body: items } }, id) in data"
         :key="id"
         class="space-y-4"
       >
-        <group-headline :title="title" />
+        <CategoryHeader :title="title" />
 
         <UAccordion
           :items="items"
           :ui="{
             root: 'flex flex-col gap-4',
-            item: 'hover:bg-(--ui-bg-elevated) p-2 -m-2 rounded-lg text-justify border-0',
+            item: 'hover:bg-(--ui-bg-elevated) p-2 -m-2 rounded-lg text-justify border-0 group',
             trigger: 'py-0',
             content: 'text-sm leading-(--text-sm--line-height)',
             trailingIcon: 'hidden',
           }"
         >
           <template #leading="{ item }">
-            <experience-header :item="item" />
+            <AccordionHeader :item="item" />
           </template>
 
           <template #description="{ item }">
@@ -39,7 +39,7 @@
             </ul>
           </template>
         </UAccordion>
-      </ul>
+      </div>
     </div>
   </main>
 </template>

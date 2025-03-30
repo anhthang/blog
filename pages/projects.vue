@@ -1,18 +1,19 @@
 <template>
   <main>
-    <page-header
+    <PageHeader
       class="mb-16"
       title="Building & Sharing"
       :description="description"
     />
 
-    <featured-projects class="mb-16" />
+    <FeaturedProjects class="mb-16" />
 
     <h2 class="uppercase text-sm font-semibold text-(--ui-text-dimmed) mb-6">
       OTHER PROJECTS
     </h2>
+
     <div class="flex flex-col gap-4">
-      <card-project
+      <CardProject
         v-for="({ meta: project }, id) in otherProjects"
         :key="id"
         :project="project"

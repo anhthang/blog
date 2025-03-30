@@ -3,6 +3,5 @@
   "url": "https://marketplace.visualstudio.com/items?itemName=buianhthang.xml2json",
   "description": "Convert XML from clipboard or current document/selection to JSON",
   "icon": "solar:code-circle-line-duotone",
-  "status": "Active",
-  "opensource": true
+  "repository": "https://github.com/anhthang/vscode-xml2json"
 }

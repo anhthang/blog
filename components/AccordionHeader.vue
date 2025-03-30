@@ -11,6 +11,7 @@
           :name="item.icon"
           class="flex-shrink-0 w-6 h-6 group-hover:text-(--ui-error)"
         />
+
         <div class="flex flex-1 flex-col">
           <span class="font-medium group-hover:text-(--ui-primary)">
             {{ item.title }}
@@ -19,6 +20,7 @@
             {{ item.company }}
           </span>
         </div>
+
         <span
           class="text-xs font-medium"
           :class="{
@@ -28,6 +30,7 @@
           {{ item.start }} - {{ item.end || 'Present' }}
         </span>
       </span>
+
       <p v-if="item.summary" class="text-sm text-(--ui-text-muted)">
         {{ item.summary }}
       </p>

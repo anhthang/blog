@@ -1,12 +1,13 @@
 <template>
   <main>
-    <page-header
+    <PageHeader
       class="mb-16"
       title="Sharing is Caring"
       :description="description"
     />
+
     <div class="flex flex-col gap-12">
-      <card-post v-for="(post, id) in posts" :key="id" :post="post" />
+      <CardPost v-for="(post, id) in posts" :key="id" :post="post" />
     </div>
   </main>
 </template>
