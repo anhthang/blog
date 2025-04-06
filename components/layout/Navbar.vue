@@ -87,7 +87,14 @@ const groups = computed(() => [
   {
     id: 'links',
     label: 'Go to',
-    items: middle.value,
+    items: [
+      ...middle.value,
+      {
+        label: 'Now',
+        to: '/now',
+        icon: 'solar:heart-pulse-outline',
+      },
+    ],
   },
   {
     id: 'theme',

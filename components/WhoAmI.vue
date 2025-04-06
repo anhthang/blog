@@ -24,8 +24,9 @@
     </p>
 
     <p class="text-(--ui-text-highlighted)">
-      This blog is my outlet to share experiences and discoveries I find
-      valuable. Stay tuned for exciting updates!
+      If you're curious about what I'm up to <i>right now</i>, take a peek at my
+      <NuxtLink to="/now" class="text-primary underline">/now</NuxtLink> page.
+      Stay tuned for exciting updates!
     </p>
 
     <div class="flex items-center justify-center mt-6 text-sm">
