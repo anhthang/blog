@@ -2,7 +2,7 @@
   <UNavigationMenu
     orientation="horizontal"
     :items="[left, right]"
-    class="border-t border-neutral-200 dark:border-neutral-800"
+    class="border-t border-neutral-200 dark:border-neutral-800 justify-center md:justify-between"
     :ui="{
       linkLabel: 'hidden md:block',
     }"
@@ -31,12 +31,6 @@ const right = [
     target: '_blank',
     icon: 'simple-icons:linkedin',
   },
-  // {
-  //   // name: 'X',
-  //   to: 'https://twitter.com/anhthangbui',
-  //   target: '_blank',
-  //   icon: 'simple-icons:x',
-  // },
   {
     // name: 'Mastodon',
     to: 'https://mastodon.social/@anhthang',
@@ -48,6 +42,12 @@ const right = [
     to: 'https://bsky.app/profile/anhthang.org',
     target: '_blank',
     icon: 'simple-icons:bluesky',
+  },
+  {
+    // name: 'Instagram',
+    to: 'https://www.instagram.com/anhthangbui',
+    target: '_blank',
+    icon: 'simple-icons:instagram',
   },
   {
     // name: 'Buy Me a Coffee',

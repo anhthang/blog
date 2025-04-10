@@ -3,13 +3,13 @@
     {
       "name": "Mac Mini M1",
       "description": "Apple M1, 16GB RAM, 256GB SSD",
-      "icon": "solar:display-line-duotone",
+      "icon": "solar:cpu-line-duotone",
       "url": "https://www.apple.com/mac-mini/"
     },
     {
       "name": "LG 34GN850-B",
       "description": "34\" UWQHD (3440x1440), 1ms, Nano IPS, 160Hz, HDR+, G-Sync",
-      "icon": "solar:monitor-line-duotone",
+      "icon": "solar:display-line-duotone",
       "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/"
     },
     {
@@ -33,8 +33,14 @@
     {
       "name": "AirPods Pro (2019)",
       "description": "",
-      "icon": "solar:airbuds-case-open-line-duotone",
+      "icon": "solar:airbuds-line-duotone",
       "url": "https://www.apple.com/airpods/"
+    },
+    {
+      "name": "ATH-M40x",
+      "description": "",
+      "icon": "solar:headphones-round-line-duotone",
+      "url": "https://www.audio-technica.com/en-eu/ath-m40x"
     },
     {
       "name": "MX Anywhere 3 for Mac",

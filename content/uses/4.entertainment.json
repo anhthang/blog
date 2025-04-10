@@ -17,12 +17,6 @@
       "description": "Poke Ball Edition",
       "icon": "solar:gamepad-charge-line-duotone",
       "url": "https://www.nintendo.com/us/store/hardware/"
-    },
-    {
-      "name": "ATH-M40x",
-      "description": "",
-      "icon": "solar:headphones-round-sound-line-duotone",
-      "url": "https://www.audio-technica.com/en-eu/ath-m40x"
     }
   ]
 }

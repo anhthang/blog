@@ -61,12 +61,12 @@ const description =
 const items = [
   {
     label: 'Daily Flow',
-    icon: 'solar:leaf-line-duotone',
+    icon: 'solar:pulse-line-duotone',
     content: 'Enjoying 1-2 coffee per day, then diving into work.',
   },
   {
     label: 'Now Playing',
-    icon: 'solar:headphones-round-sound-line-duotone',
+    icon: 'solar:play-stream-line-duotone',
     slot: 'listening',
     content:
       'https://open.spotify.com/embed/track/1XZE0InCx3SdCnLpVsPpZl?utm_source=generator',
@@ -79,10 +79,12 @@ const items = [
   //   label: 'Small Joys',
   //   icon: 'solar:tea-cup-line-duotone',
   // },
-  // {
-  //   label: 'On My Mind',
-  //   icon: 'solar:chat-round-dots-line-duotone',
-  // },
+  {
+    label: 'On My Mind',
+    icon: 'solar:emoji-funny-square-line-duotone',
+    content:
+      "I want to learn Chinese... but I’m currently in my lazy arc. We'll see.",
+  },
 ]
 
 const active = items.map((i, idx) => idx.toString())
