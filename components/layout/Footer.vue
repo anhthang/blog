@@ -4,7 +4,8 @@
     :items="[left, right]"
     class="border-t border-neutral-200 dark:border-neutral-800 justify-center md:justify-between"
     :ui="{
-      linkLabel: 'hidden md:block',
+      // hide first child (left items) on mobile using arbitrary selector
+      root: '[&>div:first-child]:hidden md:[&>div:first-child]:block',
     }"
   />
 </template>
