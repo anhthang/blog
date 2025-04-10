@@ -1,6 +1,6 @@
 <template>
   <NuxtLink
-    class="w-1/2 flex flex-col gap-2 group p-2 -m-2 rounded-lg hover:bg-(--ui-bg-elevated)"
+    class="w-full md:w-1/2 flex flex-col gap-2 group p-2 -m-2 rounded-lg hover:bg-(--ui-bg-elevated)"
     :to="project.url"
     target="_blank"
     external

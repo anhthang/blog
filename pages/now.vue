@@ -2,7 +2,7 @@
   <main>
     <PageHeader :title :description />
 
-    <p class="mt-3 mb-16 text-sm text-(--ui-text-muted)">
+    <p class="mt-3 mb-16 text-sm text-(--ui-text-dimmed)">
       Inspired by
       <NuxtLink
         to="https://sive.rs/now"

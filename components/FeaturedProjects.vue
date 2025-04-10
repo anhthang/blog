@@ -4,7 +4,7 @@
       FEATURED PROJECTS
     </h2>
 
-    <div class="flex flex-row flex-wrap justify-between">
+    <div class="flex flex-col gap-6 md:flex-row flex-wrap justify-between">
       <CardFeaturedProject
         v-for="({ meta: project }, id) in projects"
         :key="id"

@@ -9,14 +9,14 @@
       <div
         v-for="({ meta: { title, body: items } }, id) in data"
         :key="id"
-        class="space-y-4"
+        class="space-y-6"
       >
         <CategoryHeader :title="title" />
 
         <UAccordion
           :items="items"
           :ui="{
-            root: 'flex flex-col gap-4',
+            root: 'flex flex-col gap-6',
             item: 'hover:bg-(--ui-bg-elevated) p-2 -m-2 rounded-lg text-justify border-0 group',
             trigger: 'py-0',
             content: 'text-sm leading-(--text-sm--line-height)',

@@ -9,7 +9,9 @@
       <h3 class="text-sm font-medium group-hover:text-(--ui-primary)">
         {{ project.name }}
       </h3>
-      <p class="text-(--ui-text-muted) text-sm">{{ project.description }}</p>
+      <p class="text-(--ui-text-muted) text-sm mt-2">
+        {{ project.description }}
+      </p>
     </div>
 
     <UIcon

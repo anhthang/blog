@@ -10,11 +10,11 @@
       <div
         v-for="({ meta: { title, body: items } }, id) in data"
         :key="id"
-        class="space-y-4"
+        class="space-y-6"
       >
         <CategoryHeader :title="title" />
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-6">
           <CardUse v-for="(item, idx) in items" :key="idx" :item="item" />
         </div>
       </div>

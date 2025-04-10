@@ -4,7 +4,7 @@
       RECENT POSTS
     </h2>
 
-    <div class="flex flex-col gap-12">
+    <div class="flex flex-col gap-6">
       <CardPost v-for="(post, id) in posts" :key="id" :post="post" />
     </div>
 

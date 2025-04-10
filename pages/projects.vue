@@ -12,7 +12,7 @@
       OTHER PROJECTS
     </h2>
 
-    <div class="flex flex-col gap-4">
+    <div class="flex flex-col gap-6">
       <CardProject
         v-for="({ meta: project }, id) in otherProjects"
         :key="id"
