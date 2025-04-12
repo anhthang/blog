@@ -5,7 +5,7 @@
 
       <FeaturedProjects :show-footer="true" />
 
-      <FeaturedPosts />
+      <RecentPosts />
 
       <!-- <newsletter-form /> -->
     </div>

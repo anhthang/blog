@@ -1,8 +1,6 @@
 <template>
   <div class="space-y-6 relative">
-    <h2 class="uppercase text-sm font-semibold text-(--ui-text-dimmed)">
-      FEATURED PROJECTS
-    </h2>
+    <CategoryHeader :title="showFooter ? 'Featured Projects' : 'Pinned'" />
 
     <div class="flex flex-col gap-6 md:flex-row flex-wrap justify-between">
       <CardFeaturedProject

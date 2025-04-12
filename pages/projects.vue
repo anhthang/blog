@@ -8,9 +8,7 @@
 
     <FeaturedProjects class="mb-16" />
 
-    <h2 class="uppercase text-sm font-semibold text-(--ui-text-dimmed) mb-6">
-      OTHER PROJECTS
-    </h2>
+    <CategoryHeader title="Others" class="mb-6" />
 
     <div class="flex flex-col gap-6">
       <CardProject

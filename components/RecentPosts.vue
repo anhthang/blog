@@ -1,8 +1,6 @@
 <template>
   <div class="space-y-6 relative">
-    <h2 class="uppercase text-sm font-semibold text-(--ui-text-dimmed)">
-      RECENT POSTS
-    </h2>
+    <CategoryHeader title="Recent Posts" />
 
     <div class="flex flex-col gap-6">
       <CardPost v-for="(post, id) in posts" :key="id" :post="post" />
