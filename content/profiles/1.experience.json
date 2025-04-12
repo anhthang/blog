@@ -7,9 +7,11 @@
       "location": "Hanoi, Vietnam",
       "start": "Feb 2025",
       "end": "",
-      "summary": "To be updated...",
-      "disabled": true,
-      "slot": "description"
+      "summary": "Currently working in the Tech Platform team, focusing on API integration.",
+      "slot": "description",
+      "details": [
+        "Managing IBM API Connect in both cloud and on-prem environments to help internal teams expose services securely to internal consumers, external clients, and partners."
+      ]
     },
     {
       "title": "Senior Software Engineer",

@@ -5,7 +5,10 @@
     target="_blank"
     external
   >
-    <UIcon :name="project.icon" class="w-8 h-8 group-hover:text-(--ui-error)" />
+    <UIcon
+      :name="project.icon"
+      class="w-8 h-8 group-hover:text-(--ui-error) transition-transform duration-[2000ms] ease-in-out group-hover:rotate-[360deg]"
+    />
 
     <h2
       class="font-semibold font-display tracking-tight group-hover:text-(--ui-primary)"

@@ -15,8 +15,8 @@
     />
 
     <p class="text-(--ui-text-highlighted)">
-      I'm Thang, a {{ current.title }} based in Hanoi, Vietnam, currently
-      working at {{ current.company }} (previously at {{ previous.company }}).
+      I'm Thang, a {{ current.title }} based in Hanoi, currently working at
+      {{ current.company }} (previously at {{ previous.company }}).
     </p>
 
     <p class="text-(--ui-text-highlighted)">
@@ -24,9 +24,10 @@
     </p>
 
     <p class="text-(--ui-text-highlighted)">
-      If you're curious about what I'm up to <i>right now</i>, take a peek at my
+      Learn more about my expertise on the
+      <NuxtLink to="/about" class="text-primary underline">/about</NuxtLink>
+      page, or see what I'm up to <i>right now</i> on the
       <NuxtLink to="/now" class="text-primary underline">/now</NuxtLink> page.
-      Stay tuned for exciting updates!
     </p>
 
     <div class="flex items-center justify-center mt-6 text-sm">

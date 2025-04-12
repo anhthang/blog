@@ -33,5 +33,5 @@
     "@nuxt/image": "1.10.0",
     "@nuxt/ui": "3.0.2"
   },
-  "packageManager": "yarn@4.8.1"
+  "packageManager": "yarn@4.9.1"
 }
