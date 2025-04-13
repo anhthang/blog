@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="space-y-16">
-      <WhoAmI />
+      <HeroSection />
 
       <FeaturedProjects :show-footer="true" />
 
