@@ -41,6 +41,15 @@
             <UButton
               color="neutral"
               variant="ghost"
+              class="block md:hidden"
+              @click="() => (isOpen = true)"
+            >
+              Tap for Quick Links
+            </UButton>
+            <UButton
+              color="neutral"
+              variant="ghost"
+              class="hidden md:block"
               @click="() => (isOpen = true)"
             >
               Press
