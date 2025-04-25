@@ -17,7 +17,7 @@ const description =
   'Explore all my posts on web development, software engineering, and more!'
 
 useSeoMeta({
-  title: 'Posts',
+  title: 'Thoughts & Notes',
   description,
   ogDescription: description,
   twitterDescription: description,

@@ -25,7 +25,7 @@ const description =
   "Though my portfolio is small, I'm passionate about the projects I chose. Some are even open-source - feel free to contribute!"
 
 useSeoMeta({
-  title: 'Projects',
+  title: 'What I Build & Share',
   description,
   ogDescription: description,
   twitterDescription: description,

@@ -27,7 +27,7 @@ const description =
   "Here's the software and gear that keeps my developer life running smoothly."
 
 useSeoMeta({
-  title: 'Inside My Bag',
+  title: 'Tools I Use',
   description,
   ogDescription: description,
   twitterDescription: description,

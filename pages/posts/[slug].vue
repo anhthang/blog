@@ -32,6 +32,7 @@ const { data: post } = await useAsyncData(`post-${route.params.slug}`, () =>
 )
 
 useSeoMeta({
+  title: post.value.title,
   ogType: 'article',
   ogUrl: `${config.public.homepage}${route.path}`,
   articleAuthor: config.public.me,

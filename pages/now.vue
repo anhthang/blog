@@ -4,19 +4,11 @@
 
     <p class="mt-3 mb-16 text-sm text-(--ui-text-dimmed)">
       Inspired by
-      <NuxtLink
-        to="https://sive.rs/now"
-        target="_blank"
-        class="text-primary underline"
-      >
+      <NuxtLink to="https://sive.rs/now" target="_blank" class="underline">
         Derek Sivers
       </NuxtLink>
       and the
-      <NuxtLink
-        to="https://nownownow.com"
-        target="_blank"
-        class="text-primary underline"
-      >
+      <NuxtLink to="https://nownownow.com" target="_blank" class="underline">
         /now
       </NuxtLink>
       movement. You can make one too at
@@ -83,14 +75,14 @@ const items = [
     label: 'On My Mind',
     icon: 'solar:emoji-funny-square-line-duotone',
     content:
-      "I want to learn Chinese... but I’m currently in my lazy arc. We'll see.",
+      "I want to learn Chinese... but I'm currently in my lazy arc. We'll see.",
   },
 ]
 
 const active = items.map((i, idx) => idx.toString())
 
 useSeoMeta({
-  title,
+  title: "What I'm Doing Now",
   description,
   ogDescription: description,
   twitterDescription: description,

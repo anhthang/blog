@@ -49,7 +49,7 @@ const description =
   'As a Cloud DevOps Engineer, I focus on building and managing scalable cloud infrastructure and automating complex workflows. My goal is to ensure reliable and efficient software development across teams.'
 
 useSeoMeta({
-  title: 'About',
+  title: 'Who I Am',
   description,
   ogDescription: description,
   twitterDescription: description,
