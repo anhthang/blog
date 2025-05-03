@@ -1,0 +1,23 @@
+{
+  "description": "Everyday carry and personal tech I rely on",
+  "body": [
+    {
+      "name": "iPhone 11 Pro 64GB (2019)",
+      "description": "",
+      "icon": "solar:iphone-line-duotone",
+      "url": "https://www.apple.com/iphone/"
+    },
+    {
+      "name": "Apple Watch Series 4 (2018)",
+      "description": "",
+      "icon": "solar:watch-square-line-duotone",
+      "url": "https://www.apple.com/watch/"
+    },
+    {
+      "name": "AirPods Pro (2019)",
+      "description": "",
+      "icon": "solar:airbuds-line-duotone",
+      "url": "https://www.apple.com/airpods/"
+    }
+  ]
+}

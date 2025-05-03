@@ -30,8 +30,8 @@
           <p class="text-(--ui-text-highlighted)">
             Learn more about my expertise on the
             <NuxtLink to="/about" class="text-primary underline">
-              /about
-            </NuxtLink>
+              /about</NuxtLink
+            >
             page, or see what I'm up to <i>right now</i> on the
             <NuxtLink to="/now" class="text-primary underline">/now</NuxtLink>
             page.

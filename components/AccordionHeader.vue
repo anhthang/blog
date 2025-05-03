@@ -31,7 +31,10 @@
         </span>
       </span>
 
-      <p v-if="item.summary" class="text-sm text-(--ui-text-muted)">
+      <p
+        v-if="item.summary"
+        class="text-sm text-(--ui-text-muted) group-hover:text-(--ui-text)"
+      >
         {{ item.summary }}
       </p>
     </div>

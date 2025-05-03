@@ -5,12 +5,12 @@
     <p class="mt-3 mb-16 text-sm text-(--ui-text-dimmed)">
       Inspired by
       <NuxtLink to="https://sive.rs/now" target="_blank" class="underline">
-        Derek Sivers
-      </NuxtLink>
+        Derek Sivers</NuxtLink
+      >
       and the
       <NuxtLink to="https://nownownow.com" target="_blank" class="underline">
-        /now
-      </NuxtLink>
+        /now</NuxtLink
+      >
       movement. You can make one too at
       <NuxtLink
         to="https://nownownow.com/about"

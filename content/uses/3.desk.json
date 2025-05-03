@@ -1,5 +1,12 @@
 {
+  "description": "My home workspace — tools and setup that support my personal projects",
   "body": [
+    {
+      "name": "HyperWork Core Desk",
+      "description": "Oak MDF tabletop, 160×75×75cm",
+      "icon": "solar:tablet-line-duotone",
+      "url": "https://hyperwork.vn/products/ban-van-phong-hyperwork-core-desk"
+    },
     {
       "name": "Mac Mini M1",
       "description": "Apple M1, 16GB RAM, 256GB SSD",
@@ -13,46 +20,15 @@
       "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/"
     },
     {
-      "name": "HP ProBook 440 G9",
-      "description": "14\", i7-1255U, 32GB RAM, 512GB SSD",
-      "icon": "solar:laptop-line-duotone",
-      "url": "https://www.hp.com/us-en/shop/mdp/probook-400-14-243573--1"
-    },
-    {
-      "name": "iPhone 11 Pro 64GB (2019)",
-      "description": "",
-      "icon": "solar:iphone-line-duotone",
-      "url": "https://www.apple.com/iphone/"
-    },
-    {
-      "name": "Apple Watch Series 4 (2018)",
-      "description": "",
-      "icon": "solar:watch-square-line-duotone",
-      "url": "https://www.apple.com/watch/"
-    },
-    {
-      "name": "AirPods Pro (2019)",
-      "description": "",
-      "icon": "solar:airbuds-line-duotone",
-      "url": "https://www.apple.com/airpods/"
-    },
-    {
-      "name": "ATH-M40x",
-      "description": "",
-      "icon": "solar:headphones-round-line-duotone",
-      "url": "https://www.audio-technica.com/en-eu/ath-m40x"
-    },
-    {
       "name": "MX Anywhere 3 for Mac",
       "description": "",
       "icon": "solar:mouse-line-duotone",
       "url": "https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac.910-005899.html"
     },
     {
-      "name": "HyperWork Silentium",
-      "description": "",
-      "icon": "solar:mouse-line-duotone",
-      "url": "https://hyperwork.vn/products/chuot-van-phong-khong-day-hyperwork-ms01"
+      "name": "HyperWork Steel Drawer",
+      "icon": "solar:library-line-duotone",
+      "url": "https://hyperwork.vn/products/ngan-keo-dr01"
     }
   ]
 }

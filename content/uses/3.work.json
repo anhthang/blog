@@ -1,0 +1,17 @@
+{
+  "description": "Essential gear I use at the office for my day job",
+  "body": [
+    {
+      "name": "HP ProBook 440 G9",
+      "description": "14\", i7-1255U, 32GB RAM, 512GB SSD",
+      "icon": "solar:laptop-line-duotone",
+      "url": "https://www.hp.com/us-en/shop/mdp/probook-400-14-243573--1"
+    },
+    {
+      "name": "HyperWork Silentium",
+      "description": "",
+      "icon": "solar:mouse-line-duotone",
+      "url": "https://hyperwork.vn/products/chuot-van-phong-khong-day-hyperwork-ms01"
+    }
+  ]
+}

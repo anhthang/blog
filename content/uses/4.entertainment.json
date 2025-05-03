@@ -1,4 +1,5 @@
 {
+  "description": "Devices I use to unwind, play, and create",
   "body": [
     {
       "name": "FUJIFILM X-T30 II",
@@ -17,6 +18,12 @@
       "description": "Poke Ball Edition",
       "icon": "solar:gamepad-charge-line-duotone",
       "url": "https://www.nintendo.com/us/store/hardware/"
+    },
+    {
+      "name": "ATH-M40x",
+      "description": "",
+      "icon": "solar:headphones-round-line-duotone",
+      "url": "https://www.audio-technica.com/en-eu/ath-m40x"
     }
   ]
 }
