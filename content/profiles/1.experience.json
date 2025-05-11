@@ -2,7 +2,7 @@
   "body": [
     {
       "title": "Cloud DevOps Engineer",
-      "icon": "solar:programming-line-duotone",
+      "icon": "hugeicons:source-code-square",
       "company": "VPBank",
       "location": "Hanoi, Vietnam",
       "start": "Feb 2025",
@@ -15,7 +15,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "solar:chat-square-code-line-duotone",
+      "icon": "hugeicons:developer",
       "company": "TUI",
       "location": "Hanoi, Vietnam",
       "start": "Jan 2022",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "solar:chat-square-code-line-duotone",
+      "icon": "hugeicons:developer",
       "company": "Viemart LLC",
       "location": "Hanoi, Vietnam",
       "start": "Mar 2021",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "solar:chat-square-code-line-duotone",
+      "icon": "hugeicons:developer",
       "company": "ABIVIN",
       "location": "Hanoi, Vietnam",
       "start": "Dec 2020",
@@ -64,7 +64,7 @@
     },
     {
       "title": "Full-Stack Developer",
-      "icon": "solar:code-line-duotone",
+      "icon": "hugeicons:source-code",
       "company": "KMSoft",
       "location": "Hanoi, Vietnam",
       "start": "Apr 2020",
@@ -81,7 +81,7 @@
     },
     {
       "title": "Software Development Team Lead",
-      "icon": "solar:code-line-duotone",
+      "icon": "hugeicons:source-code",
       "company": "GoQuo",
       "location": "Hanoi, Vietnam",
       "start": "Mar 2015",

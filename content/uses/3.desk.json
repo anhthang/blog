@@ -4,30 +4,30 @@
     {
       "name": "HyperWork Core Desk",
       "description": "Oak MDF tabletop, 160×75×75cm",
-      "icon": "solar:tablet-line-duotone",
+      "icon": "hugeicons:table-02",
       "url": "https://hyperwork.vn/products/ban-van-phong-hyperwork-core-desk"
     },
     {
       "name": "Mac Mini M1",
       "description": "Apple M1, 16GB RAM, 256GB SSD",
-      "icon": "solar:cpu-line-duotone",
+      "icon": "hugeicons:cpu",
       "url": "https://www.apple.com/mac-mini/"
     },
     {
       "name": "LG 34GN850-B",
       "description": "34\" UWQHD (3440x1440), 1ms, Nano IPS, 160Hz, HDR+, G-Sync",
-      "icon": "solar:display-line-duotone",
+      "icon": "hugeicons:computer",
       "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/"
     },
     {
       "name": "MX Anywhere 3 for Mac",
       "description": "",
-      "icon": "solar:mouse-line-duotone",
+      "icon": "hugeicons:mouse-02",
       "url": "https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac.910-005899.html"
     },
     {
       "name": "HyperWork Steel Drawer",
-      "icon": "solar:library-line-duotone",
+      "icon": "hugeicons:archive-02",
       "url": "https://hyperwork.vn/products/ngan-keo-dr01"
     }
   ]

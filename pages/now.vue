@@ -53,27 +53,27 @@ const description =
 const items = [
   {
     label: 'Daily Flow',
-    icon: 'solar:pulse-line-duotone',
+    icon: 'hugeicons:pulse-02',
     content: 'Enjoying 1-2 coffee per day, then diving into work.',
   },
   {
     label: 'Now Playing',
-    icon: 'solar:play-stream-line-duotone',
+    icon: 'hugeicons:playlist-02',
     slot: 'listening',
     content:
       'https://open.spotify.com/embed/track/1XZE0InCx3SdCnLpVsPpZl?utm_source=generator',
   },
   // {
   //   label: 'Pages Open',
-  //   icon: 'solar:notebook-bookmark-line-duotone',
+  //   icon: 'hugeicons:collections-bookmark',
   // },
   // {
   //   label: 'Small Joys',
-  //   icon: 'solar:tea-cup-line-duotone',
+  //   icon: 'hugeicons:bubble-tea-01',
   // },
   {
     label: 'On My Mind',
-    icon: 'solar:emoji-funny-square-line-duotone',
+    icon: 'hugeicons:ai-idea',
     content:
       "I want to learn Chinese... but I'm currently in my lazy arc. We'll see.",
   },

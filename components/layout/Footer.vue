@@ -24,37 +24,37 @@ const right = [
     // name: 'GitHub',
     to: 'https://github.com/anhthang',
     target: '_blank',
-    icon: 'simple-icons:github',
+    icon: 'hugeicons:github',
   },
   {
     // name: 'LinkedIn',
     to: 'https://www.linkedin.com/in/buianhthang/',
     target: '_blank',
-    icon: 'simple-icons:linkedin',
+    icon: 'hugeicons:linkedin-01',
   },
   {
     // name: 'Mastodon',
     to: 'https://mastodon.social/@anhthang',
     target: '_blank',
-    icon: 'simple-icons:mastodon',
+    icon: 'hugeicons:mastodon',
   },
   {
     // name: 'Bluesky',
     to: 'https://bsky.app/profile/anhthang.org',
     target: '_blank',
-    icon: 'simple-icons:bluesky',
+    icon: 'hugeicons:bluesky',
   },
   {
     // name: 'Instagram',
     to: 'https://www.instagram.com/anhthangbui',
     target: '_blank',
-    icon: 'simple-icons:instagram',
+    icon: 'hugeicons:instagram',
   },
   {
     // name: 'Buy Me a Coffee',
     to: 'https://www.buymeacoffee.com/anhthang',
     target: '_blank',
-    icon: 'simple-icons:buymeacoffee',
+    icon: 'hugeicons:coffee-02',
   },
 ]
 </script>

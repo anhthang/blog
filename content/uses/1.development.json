@@ -34,7 +34,7 @@
     {
       "name": "TablePlus",
       "description": "My database management tool for quick and easy access to all my data.",
-      "icon": "solar:database-bold",
+      "icon": "hugeicons:database",
       "url": "https://tableplus.com/"
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "Dracula Theme",
       "description": "A dark theme I use across various applications for a sleek and eye-friendly coding experience.",
-      "icon": "solar:pallete-2-bold",
+      "icon": "hugeicons:paint-board",
       "url": "https://draculatheme.com/"
     }
   ]

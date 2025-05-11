@@ -16,7 +16,7 @@
         to="/projects"
         color="neutral"
         variant="ghost"
-        trailing-icon="solar:arrow-right-outline"
+        trailing-icon="hugeicons:arrow-right-02"
       />
     </div>
   </div>

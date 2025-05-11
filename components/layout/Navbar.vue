@@ -13,7 +13,7 @@
     <template #content>
       <UCommandPalette
         :groups="groups"
-        icon="solar:magnifer-outline"
+        icon="hugeicons:search-01"
         @update:model-value="onCommandClick"
       />
     </template>
@@ -42,7 +42,7 @@ const isDark = computed({
 const left = [
   {
     to: '/',
-    icon: 'solar:home-angle-outline',
+    icon: 'hugeicons:home-01',
   },
 ]
 
@@ -50,31 +50,29 @@ const middle = computed(() => [
   {
     label: 'Projects',
     to: '/projects',
-    icon: 'solar:folder-with-files-outline',
+    icon: 'hugeicons:repository',
   },
   {
     label: 'Posts',
     to: '/posts',
     active: route.path.startsWith('/posts'),
-    icon: 'solar:document-add-outline',
+    icon: 'hugeicons:note-edit',
   },
   {
     label: 'Uses',
     to: '/uses',
-    icon: 'solar:backpack-outline',
+    icon: 'hugeicons:shopping-bag-favorite',
   },
   {
     label: 'About',
     to: '/about',
-    icon: 'solar:user-circle-outline',
+    icon: 'hugeicons:user-status',
   },
 ])
 
 const right = computed(() => [
   {
-    icon: isDark.value
-      ? 'solar:moon-stars-bold-duotone'
-      : 'solar:sun-line-duotone',
+    icon: isDark.value ? 'hugeicons:moon-02' : 'hugeicons:sun-01',
     class: 'cursor-pointer',
     onSelect: () => {
       isDark.value = !isDark.value
@@ -92,7 +90,7 @@ const groups = computed(() => [
       {
         label: 'Now',
         to: '/now',
-        icon: 'solar:heart-pulse-outline',
+        icon: 'hugeicons:pulse-02',
       },
     ],
   },
@@ -103,19 +101,19 @@ const groups = computed(() => [
       {
         label: 'System',
         value: 'system',
-        icon: 'solar:laptop-minimalistic-line-duotone',
+        icon: 'hugeicons:computer-settings',
         disabled: colorMode.preference === 'system',
       },
       {
         label: 'Light',
         value: 'light',
-        icon: 'solar:sun-line-duotone',
+        icon: 'hugeicons:sun-01',
         disabled: colorMode.preference === 'light',
       },
       {
         label: 'Dark',
         value: 'dark',
-        icon: 'solar:moon-stars-bold-duotone',
+        icon: 'hugeicons:moon-02',
         disabled: colorMode.preference === 'dark',
       },
     ],
@@ -127,13 +125,13 @@ const groups = computed(() => [
       {
         label: 'bui at anhthang dot org',
         to: 'mailto:bui@anhthang.org',
-        icon: 'solar:inbox-line-outline',
+        icon: 'hugeicons:mail-at-sign-02',
       },
       {
         label: 'Buy Me a Coffee',
         to: 'https://www.buymeacoffee.com/anhthang',
         target: '_blank',
-        icon: 'solar:tea-cup-outline',
+        icon: 'hugeicons:coffee-02',
       },
     ],
   },

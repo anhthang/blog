@@ -8,6 +8,7 @@
       :ui="{
         root: 'gap-4',
         list: 'justify-between',
+        trigger: 'cursor-pointer',
       }"
     >
       <template #text>
@@ -86,11 +87,12 @@ const [current, previous] = data.value.meta.body
 const items = ref([
   {
     label: 'README.md',
-    icon: 'solar:document-add-line-duotone',
+    icon: 'hugeicons:note-edit',
     slot: 'text',
   },
   {
-    icon: 'solar:programming-line-duotone',
+    // icon: 'hugeicons:computer-terminal-01',
+    icon: 'hugeicons:source-code-square',
     slot: 'yaml',
   },
 ])

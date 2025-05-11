@@ -19,7 +19,7 @@
     <div class="flex items-center gap-3 mt-6">
       <UInput
         placeholder="Email Address"
-        icon="solar:inbox-line-line-duotone"
+        icon="hugeicons:inbox"
         class="flex-1"
         size="lg"
       />
