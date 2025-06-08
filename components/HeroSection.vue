@@ -91,8 +91,8 @@ const items = ref([
     slot: 'text',
   },
   {
-    // icon: 'hugeicons:computer-terminal-01',
-    icon: 'hugeicons:source-code-square',
+    label: '.yaml',
+    icon: 'hugeicons:bash',
     slot: 'yaml',
   },
 ])
