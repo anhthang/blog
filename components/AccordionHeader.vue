@@ -12,7 +12,12 @@
           class="flex-shrink-0 w-6 h-6 group-hover:text-(--ui-error)"
         />
 
-        <div class="flex flex-1 flex-col">
+        <div v-if="Array.isArray(item.roles)" class="flex flex-1 flex-col">
+          <span class="font-medium group-hover:text-(--ui-primary)">
+            {{ item.company }}
+          </span>
+        </div>
+        <div v-else class="flex flex-1 flex-col">
           <span class="font-medium group-hover:text-(--ui-primary)">
             {{ item.title }}
           </span>
@@ -32,10 +37,10 @@
       </span>
 
       <p
-        v-if="item.summary"
+        v-if="item.description"
         class="text-sm text-(--ui-text-muted) group-hover:text-(--ui-text)"
       >
-        {{ item.summary }}
+        {{ item.description }}
       </p>
     </div>
   </NuxtLink>

@@ -7,10 +7,11 @@
       "location": "Hanoi, Vietnam",
       "start": "Feb 2025",
       "end": "",
-      "summary": "Currently working in the Tech Platform team, focusing on API integration.",
+      "description": "Currently part of the Tech Platform team, specializing in API integration and AWS SFTP Transfer Family solutions.",
       "slot": "description",
       "details": [
-        "Managing IBM API Connect in both cloud and on-prem environments to help internal teams expose services securely to internal consumers, external clients, and partners."
+        "Managed IBM API Connect across cloud and on-premise environments, enabling internal teams to securely expose and share services with internal stakeholders, external clients, and partners.",
+        "Assisted in administering cloud-based SFTP solutions using AWS Transfer Family, implementing enhancements that improved efficiency and reliability of file transfer operations."
       ]
     },
     {
@@ -20,14 +21,14 @@
       "location": "Hanoi, Vietnam",
       "start": "Jan 2022",
       "end": "Jan 2025",
-      "summary": "Highly skilled Content Enabler with a proven track record of integrating travel industry providers, optimizing hotel content, and enhancing system performance to drive cost-efficiency and booking conversions.",
+      "description": "Integrated travel content with Juniper and TravelgateX, optimized hotel data for chains like Marriott, and built scalable insurance APIs. Improved performance and reduced costs through technical debt resolution.",
       "slot": "description",
       "details": [
-        "Successfully integrated with leading travel industry providers and channel managers such as Juniper and TravelgateX, expanding the platform's capabilities.",
+        "Led the integration of TUI's content with leading travel industry providers and channel managers, including Juniper and TravelgateX, to enhance the platform's capabilities.",
         "Streamlined hotel content integration for complex hotel chains like Marriott, ensuring accurate and up-to-date data.",
         "Architected and implemented a robust API gateway for insurance services, enhancing system flexibility and scalability.",
         "Resolved critical technical debts related to hotel mapping, improving data accuracy and system performance.",
-        "Optimized service performance and database usage to reduce costs and increase booking conversions"
+        "Optimized service performance and database usage to reduce costs and increase booking conversions."
       ]
     },
     {
@@ -37,14 +38,14 @@
       "location": "Hanoi, Vietnam",
       "start": "Mar 2021",
       "end": "Nov 2021",
-      "summary": "Pioneered a cross-border e-commerce platform with print-on-demand, dropshipping, and integrated marketplace solutions, driving growth through strategic partnerships and innovative technologies.",
+      "description": "Led development of a cross-border e-commerce platform with print-on-demand and dropshipping features. Integrated with Shopify, WooCommerce, and Etsy; developed shipment tracking tools using Node.js and VueJS.",
       "slot": "description",
       "details": [
-        "Pioneered a cutting-edge print-on-demand and dropshipping platform designed to empower online merchants with a comprehensive solution for creating and selling personalized products.",
-        "Led the development of Kingify, a versatile platform that seamlessly integrates with popular marketplaces like Viermart, Shopify, WooCommerce, and Etsy, offering merchants a unified experience.",
-        "Forged strategic partnerships with warehousing and fulfillment providers, enabling efficient product storage and order fulfillment.",
-        "Developed VieFlash, a state-of-the-art shipment tracking platform that empowers Kingify and Viemart partners to monitor order statuses in real-time.",
-        "Demonstrated expertise in full-stack development utilizing Node.js, VueJS, Redis, and Docker to deliver a scalable and reliable platform."
+        "Led the development of a cross-border e-commerce platform, Viemart, specializing in print-on-demand and dropshipping solutions.",
+        "Integrated with major marketplaces like Viermart, Shopify, WooCommerce, and Etsy to provide a comprehensive e-commerce experience.",
+        "Established strategic partnerships with warehousing and fulfillment providers to streamline product storage and order fulfillment.",
+        "Developed VieFlash, a real-time shipment tracking platform for partners to monitor order statuses efficiently.",
+        "Utilized Node.js, VueJS, Redis, and Docker for full-stack development, ensuring a scalable and reliable platform."
       ]
     },
     {
@@ -54,12 +55,12 @@
       "location": "Hanoi, Vietnam",
       "start": "Dec 2020",
       "end": "Feb 2021",
-      "summary": "Modernized authentication, enhanced system reliability, and improved reporting through technical expertise and a focus on performance optimization.",
+      "description": "Modernized authentication systems using Fastify, improved system stability, and enhanced reporting capabilities.",
       "slot": "description",
       "details": [
-        "Modernized authentication services by migrating to the high-performance Fastify framework.",
-        "Enhanced system reliability and efficiency by addressing critical bugs and resolving technical debt.",
-        "Improved reporting capabilities through strategic optimizations and enhancements."
+        "Led the modernization of authentication services by migrating from ExpressJS to Fastify, significantly improving performance and scalability.",
+        "Resolved critical bugs and addressed technical debt to enhance system reliability and efficiency.",
+        "Implemented strategic optimizations to improve reporting capabilities, ensuring accurate and timely data insights."
       ]
     },
     {
@@ -69,10 +70,10 @@
       "location": "Hanoi, Vietnam",
       "start": "Apr 2020",
       "end": "Nov 2020",
-      "summary": "Full-Stack Developer in building high-performance cryptocurrency trading platforms using Golang, Node.js, and React, delivering innovative solutions like Daollobit and Tadadex.",
+      "description": "Built high-performance crypto trading platforms (Daollobit, Tadadex) using Golang, Node.js, and React with real-time updates.",
       "slot": "description",
       "details": [
-        "Successfully architected and developed core systems, APIs, and web applications for innovative cryptocurrency trading platforms.",
+        "Architected and developed core systems, APIs, and web applications for innovative cryptocurrency trading platforms.",
         "Contributed significantly to the development of Daollobit and Tadadex, pioneering solutions for a seamless and efficient cryptocurrency trading experience.",
         "Demonstrated proficiency in full-stack development utilizing Golang, Node.js, ReactJS, WebSocket, and WebPush Notifications.",
         "Delivered high-performance, scalable, and secure applications that met the demanding requirements of the cryptocurrency market.",
@@ -86,19 +87,37 @@
       "location": "Hanoi, Vietnam",
       "start": "Mar 2015",
       "end": "Mar 2020",
-      "summary": "Led the Gateway Team, revolutionizing travel booking with a microservices-based API system, driving operational efficiency, and fostering a high-performing engineering team.",
+      "description": "Led development of a microservices-based travel booking API. Built scalable systems, modernized infrastructure with Kubernetes, and reduced cloud costs by up to 80%.",
       "slot": "description",
-      "details": [
-        "Successfully architected and implemented a cutting-edge microservices-based Booking API system for airlines and travel agencies, encompassing flights, hotels, tours, transfers, and car services.",
-        "Unified disparate models into a cohesive framework, ensuring seamless integration and scalability.",
-        "Adhered to industry best practices to deliver a robust, reliable, and highly available system capable of handling peak demand.",
-        "Streamlined operations by building a new hotel mapping system using Neo4j, resolving legacy issues and improving data accuracy.",
-        "Empowered management teams with a user-friendly ReactJS-based admin dashboard for efficient booking management and configuration.",
-        "Enhanced customer experiences by developing a modern, responsive client site using VueJS.",
-        "Modernized development processes by establishing Kubernetes infrastructure and implementing standardized CI/CD pipelines using Helm charts for streamlined deployment.",
-        "Significantly reduced operational costs by leveraging AWS spot instances and GCP pre-emptible VMs, achieving cost savings of 60-80%.",
-        "Cultivated a high-performing team through mentorship, code reviews, and knowledge sharing.",
-        "Expanded team capacity by successfully recruiting and onboarding new talent."
+      "roles": [
+        {
+          "icon": "hugeicons:tick-04",
+          "title": "Software Development Team Lead",
+          "date": "Jan 2018 - Mar 2020",
+          "details": [
+            "Led the Gateway Team in architecting and implementing a microservices-based API system for travel booking, significantly enhancing operational efficiency.",
+            "Unified disparate models into a cohesive framework, ensuring seamless integration and scalability across the platform.",
+            "Implemented industry best practices to deliver a robust, reliable, and highly available system capable of handling peak demand.",
+            "Developed a new hotel mapping system using Neo4j, resolving legacy issues and improving data accuracy.",
+            "Empowered management teams with a user-friendly ReactJS-based admin dashboard for efficient booking management and configuration.",
+            "Enhanced customer experiences by developing a modern, responsive client site using VueJS.",
+            "Modernized development processes by establishing Kubernetes infrastructure and implementing standardized CI/CD pipelines using Helm charts for streamlined deployment.",
+            "Significantly reduced operational costs by leveraging AWS spot instances and GCP pre-emptible VMs, achieving cost savings of 60-80%.",
+            "Cultivated a high-performing team through mentorship, code reviews, and knowledge sharing.",
+            "Expanded team capacity by successfully recruiting and onboarding new talent."
+          ]
+        },
+        {
+          "icon": "hugeicons:tick-04",
+          "title": "Node.js Developer",
+          "date": "Mar 2015 - Dec 2017",
+          "details": [
+            "Reengineered hotel and tour gateway API using Node.js to create a unified interface for multiple suppliers.",
+            "Enhanced maintainability and scalability through a well-structured, modular architecture.",
+            "Utilized MariaDB/MySQL for efficient data storage and management.",
+            "Leveraged Redis for high-performance caching and real-time data access."
+          ]
+        }
       ]
     }
   ]

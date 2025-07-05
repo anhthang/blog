@@ -28,7 +28,30 @@
           </template>
 
           <template #description="{ item }">
-            <ul v-if="Array.isArray(item.details)" class="list-disc">
+            <UTimeline
+              v-if="item.roles"
+              :items="item.roles"
+              size="xs"
+              :ui="{
+                wrapper: 'flex flex-col',
+                title: 'text-(--ui-text) order-first',
+                description: 'text-sm leading-(--text-sm--line-height) mt-2',
+              }"
+            >
+              <template #description="{ item: role }">
+                <ul v-if="Array.isArray(role.details)" class="list-disc">
+                  <li
+                    v-for="(detail, idx) in role.details"
+                    :key="idx"
+                    class="text-(--ui-text-muted) ml-8"
+                  >
+                    {{ detail }}
+                  </li>
+                </ul>
+              </template>
+            </UTimeline>
+
+            <ul v-else-if="Array.isArray(item.details)" class="list-disc">
               <li
                 v-for="(detail, idx) in item.details"
                 :key="idx"
