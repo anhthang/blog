@@ -92,7 +92,7 @@ const items = ref([
   },
   {
     label: '.yaml',
-    icon: 'hugeicons:bash',
+    icon: 'hugeicons:computer-terminal-01',
     slot: 'yaml',
   },
 ])
