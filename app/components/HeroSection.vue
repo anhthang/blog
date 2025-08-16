@@ -1,6 +1,10 @@
 <template>
   <div class="space-y-6 relative text-justify">
-    <UPageHeader title="Behind the Terminal" :description="config.public.bio" />
+    <UPageHeader
+      title="Behind the Terminal"
+      :description="config.public.bio"
+      class="mb-6"
+    />
 
     <UTabs
       :items="items"

@@ -1,5 +1,6 @@
 <template>
   <UPageSection
+    headline="Featured"
     :links="
       showFooter
         ? [
@@ -13,8 +14,8 @@
         : undefined
     "
   >
-    <template #headline>
-      <CategoryHeader :title="showFooter ? 'Featured Projects' : 'Pinned'" />
+    <template v-if="!showFooter" #headline>
+      <CategoryHeader title="Pinned" />
     </template>
 
     <template #features>

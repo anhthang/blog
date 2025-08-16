@@ -1,6 +1,11 @@
 <template>
   <UPage>
-    <UPageHeader title="Hey, I'm Anh Thang 👋" :description="description" />
+    <UPageHeader
+      title="Hey, I'm Anh Thang 👋"
+      :description="description"
+      class="mb-6"
+    />
+
     <div class="space-y-16">
       <div
         v-for="({ meta: { title, body: items } }, id) in data"

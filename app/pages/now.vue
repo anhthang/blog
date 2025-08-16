@@ -2,7 +2,7 @@
   <UPage>
     <UPageHeader :title :description />
 
-    <p class="mb-12 text-sm text-dimmed">
+    <p class="mb-6 text-sm text-dimmed">
       Inspired by
       <NuxtLink to="https://sive.rs/now" target="_blank" class="underline">
         Derek Sivers</NuxtLink
