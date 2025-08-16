@@ -2,7 +2,6 @@
   <UUser
     v-bind="project"
     size="xl"
-    orientation="vertical"
     :to="project.url"
     target="_blank"
     class="group"

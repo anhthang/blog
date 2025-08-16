@@ -16,7 +16,7 @@
     :ui="{
       name: 'peer-hover:text-primary',
     }"
-    class="flex hover:bg-muted p-2 rounded-lg -m-2 group"
+    class="group"
   />
 </template>
 
