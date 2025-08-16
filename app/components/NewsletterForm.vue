@@ -1,18 +1,14 @@
 <template>
   <div>
     <div class="mb-6 flex items-center gap-3">
-      <div
-        class="flex-none rounded-full p-1 text-(--ui-primary) bg-(--ui-primary)/10"
-      >
+      <div class="flex-none rounded-full p-1 text-primary bg-primary/10">
         <div class="h-1.5 w-1.5 rounded-full bg-current"></div>
       </div>
 
-      <h2 class="uppercase text-sm font-semibold text-(--ui-text-muted)">
-        STAY IN TOUCH
-      </h2>
+      <h2 class="uppercase text-sm font-semibold text-muted">STAY IN TOUCH</h2>
     </div>
 
-    <p class="mt-2 text-sm text-(--ui-text-toned)">
+    <p class="mt-2 text-sm text-toned">
       Get notified when I publish something new, and unsubscribe at any time.
     </p>
 

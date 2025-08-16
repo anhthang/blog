@@ -1,23 +1,23 @@
 <template>
-  <NuxtLink
-    class="w-full md:w-1/2 flex flex-col gap-2 group p-2 -m-2 rounded-lg hover:bg-(--ui-bg-elevated)"
+  <UUser
+    :name="project.name"
+    :description="project.description"
+    size="xl"
+    orientation="vertical"
     :to="project.url"
     target="_blank"
-    external
-  >
-    <UIcon
-      :name="project.icon"
-      class="w-8 h-8 group-hover:text-(--ui-error) transition-transform duration-[2000ms] ease-in-out group-hover:rotate-[360deg]"
-    />
-
-    <h2
-      class="font-semibold font-display tracking-tight group-hover:text-(--ui-primary)"
-    >
-      {{ project.name }}
-    </h2>
-
-    <p class="text-(--ui-text-muted) text-sm">{{ project.description }}</p>
-  </NuxtLink>
+    class="group"
+    :avatar="{
+      icon: project.icon,
+      ui: {
+        root: 'rounded-none bg-transparent',
+        icon: 'w-8 h-8 group-hover:text-error transition-transform duration-[2000ms] ease-in-out group-hover:rotate-[360deg]',
+      },
+    }"
+    :ui="{
+      name: 'font-bold peer-hover:text-primary',
+    }"
+  />
 </template>
 
 <script setup>

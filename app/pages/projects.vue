@@ -1,23 +1,19 @@
 <template>
-  <main>
-    <PageHeader
-      class="mb-16"
-      title="Building & Sharing"
-      :description="description"
-    />
+  <UPage>
+    <UPageHeader title="Building & Sharing" :description="description" />
 
-    <FeaturedProjects class="mb-16" />
+    <FeaturedProjects />
 
     <CategoryHeader title="Others" class="mb-6" />
 
-    <div class="flex flex-col gap-6">
+    <UPageList class="gap-4">
       <CardProject
         v-for="({ meta: project }, id) in otherProjects"
         :key="id"
         :project="project"
       />
-    </div>
-  </main>
+    </UPageList>
+  </UPage>
 </template>
 
 <script setup>

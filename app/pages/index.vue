@@ -1,13 +1,11 @@
 <template>
-  <main>
-    <div class="space-y-16">
-      <HeroSection />
+  <UPage>
+    <HeroSection />
 
-      <FeaturedProjects :show-footer="true" />
+    <FeaturedProjects :show-footer="true" />
 
-      <RecentPosts />
+    <RecentPosts />
 
-      <!-- <newsletter-form /> -->
-    </div>
-  </main>
+    <!-- <newsletter-form /> -->
+  </UPage>
 </template>

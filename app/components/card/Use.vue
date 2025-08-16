@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
     :to="item.url"
-    class="flex hover:bg-(--ui-bg-elevated) p-2 rounded-lg -m-2 text-sm min-w-0 group"
+    class="flex hover:bg-elevated p-2 rounded-lg -m-2 text-sm min-w-0 group"
     target="_blank"
     external
   >
@@ -9,21 +9,19 @@
       <span class="flex items-center gap-4 truncate">
         <UIcon
           :name="item.icon"
-          class="flex-shrink-0 w-6 h-6 group-hover:text-(--ui-error)"
+          class="flex-shrink-0 w-6 h-6 group-hover:text-error"
         />
 
-        <span
-          class="flex-1 font-medium truncate group-hover:text-(--ui-primary)"
-        >
+        <span class="flex-1 font-medium truncate group-hover:text-primary">
           {{ item.name }}
         </span>
 
-        <span class="text-xs font-medium text-(--ui-text-dimmed)">
+        <span class="text-xs font-medium text-dimmed">
           {{ getHost(item.url) }}
         </span>
       </span>
 
-      <p v-if="item.description" class="text-sm text-(--ui-text-muted)">
+      <p v-if="item.description" class="text-sm text-muted">
         {{ item.description }}
       </p>
     </div>

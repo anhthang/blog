@@ -5,7 +5,7 @@
     class="border-b border-neutral-200 dark:border-neutral-800"
     :ui="{
       linkLabel: 'hidden md:block',
-      linkLeadingIcon: 'group-data-[active]:text-(--ui-error)',
+      linkLeadingIcon: 'group-data-[active]:text-error',
     }"
   />
 

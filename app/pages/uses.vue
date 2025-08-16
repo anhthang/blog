@@ -1,8 +1,8 @@
 <template>
-  <main>
-    <PageHeader title="Peek Inside My Bag!" :description="description" />
+  <UPage>
+    <UPageHeader title="Peek Inside My Bag!" :description="description" />
 
-    <p class="mt-3 mb-16 text-sm text-(--ui-text-dimmed)">
+    <p class="mb-12 text-sm text-dimmed">
       This page was inspired by the amazing
       <NuxtLink to="https://uses.tech" target="_blank" class="underline">
         uses.tech</NuxtLink
@@ -13,12 +13,12 @@
       <div v-for="({ meta }, id) in data" :key="id" class="space-y-6">
         <CategoryHeader :title="meta.title" :description="meta.description" />
 
-        <div class="flex flex-col gap-6">
+        <UPageList class="gap-6">
           <CardUse v-for="(item, idx) in meta.body" :key="idx" :item="item" />
-        </div>
+        </UPageList>
       </div>
     </div>
-  </main>
+  </UPage>
 </template>
 
 <script setup>

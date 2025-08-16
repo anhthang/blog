@@ -9,19 +9,19 @@
       <span class="flex items-center gap-4 truncate">
         <UIcon
           :name="item.icon"
-          class="flex-shrink-0 w-6 h-6 group-hover:text-(--ui-error)"
+          class="flex-shrink-0 w-6 h-6 group-hover:text-error"
         />
 
         <div v-if="Array.isArray(item.roles)" class="flex flex-1 flex-col">
-          <span class="font-medium group-hover:text-(--ui-primary)">
+          <span class="font-medium group-hover:text-primary">
             {{ item.company }}
           </span>
         </div>
         <div v-else class="flex flex-1 flex-col">
-          <span class="font-medium group-hover:text-(--ui-primary)">
+          <span class="font-medium group-hover:text-primary">
             {{ item.title }}
           </span>
-          <span class="font-medium text-(--ui-text-dimmed)">
+          <span class="font-medium text-dimmed">
             {{ item.company }}
           </span>
         </div>
@@ -29,7 +29,7 @@
         <span
           class="text-xs font-medium"
           :class="{
-            'text-(--ui-text-dimmed)': item.end,
+            'text-dimmed': item.end,
           }"
         >
           {{ item.start }} - {{ item.end || 'Present' }}
@@ -38,7 +38,7 @@
 
       <p
         v-if="item.description"
-        class="text-sm text-(--ui-text-muted) group-hover:text-(--ui-text)"
+        class="text-sm text-muted group-hover:text-default"
       >
         {{ item.description }}
       </p>

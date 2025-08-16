@@ -1,15 +1,15 @@
 <template>
-  <main>
-    <PageHeader
-      class="mb-16"
+  <UPage>
+    <UPageHeader
       title="Sharing is Caring"
       :description="description"
+      class="mb-6"
     />
 
-    <div class="flex flex-col gap-12">
+    <UPageList class="gap-12">
       <CardPost v-for="(post, id) in posts" :key="id" :post="post" />
-    </div>
-  </main>
+    </UPageList>
+  </UPage>
 </template>
 
 <script setup>

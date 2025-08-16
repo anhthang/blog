@@ -1,8 +1,8 @@
 <template>
-  <main>
-    <PageHeader :title :description />
+  <UPage>
+    <UPageHeader :title :description />
 
-    <p class="mt-3 mb-16 text-sm text-(--ui-text-dimmed)">
+    <p class="mb-12 text-sm text-dimmed">
       Inspired by
       <NuxtLink to="https://sive.rs/now" target="_blank" class="underline">
         Derek Sivers</NuxtLink
@@ -42,7 +42,7 @@
         />
       </template>
     </UAccordion>
-  </main>
+  </UPage>
 </template>
 
 <script setup>

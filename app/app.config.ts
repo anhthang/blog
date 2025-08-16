@@ -43,5 +43,34 @@ export default defineAppConfig({
       tip: 'hugeicons:idea-01',
       warning: 'hugeicons:alert-02',
     },
+    button: {
+      slots: {
+        base: 'cursor-pointer',
+      },
+      defaultVariants: {
+        color: 'neutral',
+        variant: 'soft',
+      },
+    },
+    pageGrid: {
+      base: 'relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8',
+    },
+    pageHeader: {
+      slots: {
+        root: 'border-none',
+        title:
+          'text-2xl sm:text-3xl bg-gradient-to-r from-red-300 via-pink-400 to-violet-600 dark:from-amber-200 dark:to-rose-400 text-transparent bg-clip-text',
+        description: 'text-md',
+      },
+    },
+    pageSection: {
+      variants: {
+        orientation: {
+          vertical: {
+            features: 'lg:grid-cols-2 gap-4',
+          },
+        },
+      },
+    },
   },
 })

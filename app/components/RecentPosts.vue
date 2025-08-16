@@ -1,28 +1,32 @@
 <template>
-  <div class="space-y-6 relative">
-    <CategoryHeader title="Recent Posts" />
+  <UPageSection
+    :ui="{
+      container: '!px-0 py-8 sm:py-12 lg:py-16',
+    }"
+    :links="[
+      {
+        label: 'All Posts',
+        trailingIcon: 'hugeicons:arrow-right-02',
+        to: '/posts',
+        variant: 'ghost',
+      },
+    ]"
+  >
+    <template #headline>
+      <CategoryHeader title="Recent Posts" />
+    </template>
 
-    <div class="flex flex-col gap-6">
+    <template #features>
       <CardPost v-for="(post, id) in posts" :key="id" :post="post" />
-    </div>
-
-    <div class="flex items-center justify-center text-sm">
-      <UButton
-        label="All Posts"
-        to="/posts"
-        color="neutral"
-        variant="ghost"
-        trailing-icon="hugeicons:arrow-right-02"
-      />
-    </div>
-  </div>
+    </template>
+  </UPageSection>
 </template>
 
 <script lang="ts" setup>
 const { data: posts } = await useAsyncData('featured-posts', () =>
   queryCollection('posts')
     .order('id', 'DESC')
-    .limit(3)
+    .limit(4)
     .select('title', 'description', 'meta', 'path')
     .all(),
 )
