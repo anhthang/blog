@@ -1,7 +1,6 @@
 <template>
   <UUser
-    :name="project.name"
-    :description="project.description"
+    v-bind="project"
     size="lg"
     :to="project.url"
     target="_blank"
@@ -17,7 +16,7 @@
     :ui="{
       name: 'peer-hover:text-primary',
     }"
-    class="flex hover:bg-elevated p-2 rounded-lg -m-2 group"
+    class="flex hover:bg-muted p-2 rounded-lg -m-2 group"
   />
 </template>
 

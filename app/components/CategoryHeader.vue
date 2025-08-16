@@ -3,7 +3,7 @@
     <span class="font-medium text-dimmed">
       {{ title }}
     </span>
-    <div class="flex-1 h-px bg-elevated"></div>
+    <div class="flex-1 h-px bg-muted"></div>
     <span v-if="description" class="text-xs text-dimmed w-full sm:w-auto">
       {{ description }}
     </span>

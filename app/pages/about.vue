@@ -13,7 +13,7 @@
           :items="items"
           :ui="{
             root: 'flex flex-col gap-6',
-            item: 'hover:bg-elevated p-2 -m-2 rounded-lg text-justify border-0 group',
+            item: 'hover:bg-muted p-2 -m-2 rounded-lg text-justify border-0 group',
             trigger: 'py-0',
             content: 'text-sm leading-(--text-sm--line-height) mt-2',
             trailingIcon: 'hidden',

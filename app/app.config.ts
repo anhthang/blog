@@ -64,6 +64,9 @@ export default defineAppConfig({
       },
     },
     pageSection: {
+      slots: {
+        container: '!px-0 py-4 sm:py-6 lg:py-8',
+      },
       variants: {
         orientation: {
           vertical: {
@@ -71,6 +74,29 @@ export default defineAppConfig({
           },
         },
       },
+      compoundVariants: [
+        {
+          orientation: 'vertical',
+          title: true,
+          class: {
+            body: 'mt-8',
+          },
+        },
+        {
+          orientation: 'vertical',
+          description: true,
+          class: {
+            body: 'mt-8',
+          },
+        },
+        {
+          orientation: 'vertical',
+          body: true,
+          class: {
+            footer: 'mt-8',
+          },
+        },
+      ],
     },
   },
 })

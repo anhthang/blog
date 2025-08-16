@@ -1,7 +1,6 @@
 <template>
   <UUser
-    :name="project.name"
-    :description="project.description"
+    v-bind="project"
     size="xl"
     orientation="vertical"
     :to="project.url"

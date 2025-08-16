@@ -1,8 +1,5 @@
 <template>
   <UPageSection
-    :ui="{
-      container: '!px-0 py-8 sm:py-12 lg:py-16',
-    }"
     :links="
       showFooter
         ? [

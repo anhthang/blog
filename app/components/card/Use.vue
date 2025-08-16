@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
     :to="item.url"
-    class="flex hover:bg-elevated p-2 rounded-lg -m-2 text-sm min-w-0 group"
+    class="flex hover:bg-muted p-2 rounded-lg -m-2 text-sm min-w-0 group"
     target="_blank"
     external
   >

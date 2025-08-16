@@ -4,15 +4,7 @@
 
     <FeaturedProjects />
 
-    <CategoryHeader title="Others" class="mb-6" />
-
-    <UPageList class="gap-4">
-      <CardProject
-        v-for="({ meta: project }, id) in otherProjects"
-        :key="id"
-        :project="project"
-      />
-    </UPageList>
+    <OtherProjects />
   </UPage>
 </template>
 
@@ -26,9 +18,4 @@ useSeoMeta({
   ogDescription: description,
   twitterDescription: description,
 })
-
-// might need to increase the limit if i have more projects :))
-const { data: otherProjects } = await useAsyncData('projects-all', () =>
-  queryCollection('projects').limit(10).skip(2).all(),
-)
 </script>

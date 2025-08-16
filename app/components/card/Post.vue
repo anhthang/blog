@@ -1,7 +1,6 @@
 <template>
   <UPageCard
-    :title="post.title"
-    :description="post.description"
+    v-bind="post"
     :to="post.path"
     variant="ghost"
     class="group flex hover:bg-muted p-2 rounded-lg -m-2"
