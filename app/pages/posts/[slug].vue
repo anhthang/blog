@@ -1,7 +1,7 @@
 <template>
-  <main>
+  <UPage>
     <div
-      class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-(--ui-bg-muted) prose-img:ring-1 prose-img:ring-(--ui-border) prose-img:rounded-lg"
+      class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-muted prose-img:ring-1 prose-img:ring-(--ui-border) prose-img:rounded-lg"
     >
       <article>
         <h1>{{ post.title }}</h1>
@@ -20,7 +20,7 @@
         </div>
       </article>
     </div>
-  </main>
+  </UPage>
 </template>
 
 <script setup>

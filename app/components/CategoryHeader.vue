@@ -1,13 +1,10 @@
 <template>
   <div class="relative flex flex-wrap gap-4 items-center">
-    <span class="font-medium text-(--ui-text-dimmed)">
+    <span class="font-medium text-dimmed">
       {{ title }}
     </span>
-    <div class="flex-1 h-px bg-(--ui-bg-elevated)"></div>
-    <span
-      v-if="description"
-      class="text-xs text-(--ui-text-dimmed) w-full sm:w-auto"
-    >
+    <div class="flex-1 h-px bg-muted"></div>
+    <span v-if="description" class="text-xs text-dimmed w-full sm:w-auto">
       {{ description }}
     </span>
   </div>

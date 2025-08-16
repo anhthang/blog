@@ -1,25 +1,31 @@
 <template>
-  <div class="space-y-6 relative">
-    <CategoryHeader :title="showFooter ? 'Featured Projects' : 'Pinned'" />
+  <UPageSection
+    headline="Featured"
+    :links="
+      showFooter
+        ? [
+            {
+              label: 'All Projects',
+              trailingIcon: 'hugeicons:arrow-right-02',
+              to: '/projects',
+              variant: 'ghost',
+            },
+          ]
+        : undefined
+    "
+  >
+    <template v-if="!showFooter" #headline>
+      <CategoryHeader title="Pinned" />
+    </template>
 
-    <div class="flex flex-col gap-6 md:flex-row flex-wrap justify-between">
+    <template #features>
       <CardFeaturedProject
         v-for="({ meta: project }, id) in projects"
         :key="id"
         :project="project"
       />
-    </div>
-
-    <div v-if="showFooter" class="flex items-center justify-center text-sm">
-      <UButton
-        label="All Projects"
-        to="/projects"
-        color="neutral"
-        variant="ghost"
-        trailing-icon="hugeicons:arrow-right-02"
-      />
-    </div>
-  </div>
+    </template>
+  </UPageSection>
 </template>
 
 <script lang="ts" setup>

@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
   <div
-    class="prose dark:prose-invert prose-pre:bg-(--ui-bg-muted) prose-pre:whitespace-pre-wrap max-w-none"
+    class="prose dark:prose-invert prose-pre:bg-muted prose-pre:whitespace-pre-wrap max-w-none"
     v-html="highlighted"
   />
 </template>

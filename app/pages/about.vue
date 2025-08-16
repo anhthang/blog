@@ -1,10 +1,11 @@
 <template>
-  <main>
-    <PageHeader
-      class="mb-16"
+  <UPage>
+    <UPageHeader
       title="Hey, I'm Anh Thang 👋"
       :description="description"
+      class="mb-6"
     />
+
     <div class="space-y-16">
       <div
         v-for="({ meta: { title, body: items } }, id) in data"
@@ -17,7 +18,7 @@
           :items="items"
           :ui="{
             root: 'flex flex-col gap-6',
-            item: 'hover:bg-(--ui-bg-elevated) p-2 -m-2 rounded-lg text-justify border-0 group',
+            item: 'hover:bg-muted p-2 -m-2 rounded-lg text-justify border-0 group',
             trigger: 'py-0',
             content: 'text-sm leading-(--text-sm--line-height) mt-2',
             trailingIcon: 'hidden',
@@ -34,7 +35,7 @@
               size="xs"
               :ui="{
                 wrapper: 'flex flex-col',
-                title: 'text-(--ui-text) order-first',
+                title: 'text-default order-first',
                 description: 'text-sm leading-(--text-sm--line-height) mt-2',
               }"
             >
@@ -43,7 +44,7 @@
                   <li
                     v-for="(detail, idx) in role.details"
                     :key="idx"
-                    class="text-(--ui-text-muted) ml-8"
+                    class="text-muted ml-8"
                   >
                     {{ detail }}
                   </li>
@@ -55,7 +56,7 @@
               <li
                 v-for="(detail, idx) in item.details"
                 :key="idx"
-                class="text-(--ui-text-muted) ml-8"
+                class="text-muted ml-8"
               >
                 {{ detail }}
               </li>
@@ -64,7 +65,7 @@
         </UAccordion>
       </div>
     </div>
-  </main>
+  </UPage>
 </template>
 
 <script setup>

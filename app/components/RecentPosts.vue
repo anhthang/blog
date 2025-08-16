@@ -1,21 +1,24 @@
 <template>
-  <div class="space-y-6 relative">
-    <CategoryHeader title="Recent Posts" />
+  <UPageSection
+    :links="[
+      {
+        label: 'All Posts',
+        trailingIcon: 'hugeicons:arrow-right-02',
+        to: '/posts',
+        variant: 'ghost',
+      },
+    ]"
+  >
+    <template #headline>
+      <CategoryHeader title="Recent Posts" />
+    </template>
 
-    <div class="flex flex-col gap-6">
-      <CardPost v-for="(post, id) in posts" :key="id" :post="post" />
-    </div>
-
-    <div class="flex items-center justify-center text-sm">
-      <UButton
-        label="All Posts"
-        to="/posts"
-        color="neutral"
-        variant="ghost"
-        trailing-icon="hugeicons:arrow-right-02"
-      />
-    </div>
-  </div>
+    <template #body>
+      <UPageList class="gap-6">
+        <CardPost v-for="(post, id) in posts" :key="id" :post="post" />
+      </UPageList>
+    </template>
+  </UPageSection>
 </template>
 
 <script lang="ts" setup>

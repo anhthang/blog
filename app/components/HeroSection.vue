@@ -1,6 +1,10 @@
 <template>
   <div class="space-y-6 relative text-justify">
-    <PageHeader title="Behind the Terminal" :description="config.public.bio" />
+    <UPageHeader
+      title="Behind the Terminal"
+      :description="config.public.bio"
+      class="mb-6"
+    />
 
     <UTabs
       :items="items"
@@ -19,16 +23,16 @@
             class="float-left w-20 h-20 md:w-32 md:h-32 rounded-full mr-4 mb-4 md:mr-6 md:mb-6"
           />
 
-          <p class="text-(--ui-text-highlighted)">
+          <p class="text-highlighted">
             I'm Thang, a {{ current.title }} based in Hanoi, currently working
             at {{ current.company }} (previously at {{ previous.company }}).
           </p>
 
-          <p class="text-(--ui-text-highlighted)">
+          <p class="text-highlighted">
             {{ config.public.about }}
           </p>
 
-          <p class="text-(--ui-text-highlighted)">
+          <p class="text-highlighted">
             Learn more about my expertise on the
             <NuxtLink to="/about" class="text-primary underline">
               /about</NuxtLink
