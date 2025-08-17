@@ -4,19 +4,19 @@
     {
       "name": "iPhone 11 Pro 64GB (2019)",
       "description": "",
-      "icon": "hugeicons:smart-phone-01",
+      "icon": "solar:iphone-bold-duotone",
       "url": "https://www.apple.com/iphone/"
     },
     {
       "name": "Apple Watch Series 4 (2018)",
       "description": "",
-      "icon": "hugeicons:smart-watch-04",
+      "icon": "solar:watch-square-bold-duotone",
       "url": "https://www.apple.com/watch/"
     },
     {
       "name": "AirPods Pro (2019)",
       "description": "",
-      "icon": "hugeicons:airpod-03",
+      "icon": "solar:airbuds-bold-duotone",
       "url": "https://www.apple.com/airpods/"
     }
   ]

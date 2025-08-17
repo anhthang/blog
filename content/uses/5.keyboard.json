@@ -4,19 +4,19 @@
     {
       "name": "SINGAKBD Unikorn R2.2 - Berlin Blue",
       "description": "Built with Gateron Hippo Linear switches, using GMK Space Cadet II",
-      "icon": "hugeicons:keyboard",
+      "icon": "solar:keyboard-bold-duotone",
       "url": "https://singakbd.com/blogs/groupbuy-and-updates/unikorn-r2-2-rerun"
     },
     {
       "name": "Vertex Angle R2 - Crow",
       "description": "F13, WKL. Built with Owlab Neon Linear switches, using GMK Polybius",
-      "icon": "hugeicons:keyboard",
+      "icon": "solar:keyboard-bold-duotone",
       "url": "https://clickclack.io/collections/vertex-angle-tkl-mechanical-keyboard-group-buy"
     },
     {
       "name": "GSK x Mechlovin' x TGR 910 - Burgundy",
       "description": "Camping Life switches",
-      "icon": "hugeicons:keyboard",
+      "icon": "solar:keyboard-bold-duotone",
       "url": "https://goldenstarkeycap.com"
     }
   ]

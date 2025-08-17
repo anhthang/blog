@@ -1,10 +1,35 @@
 <template>
   <UPage>
     <UPageHeader
-      title="Hey, I'm Anh Thang 👋"
+      title="Behind the Terminal"
       :description="description"
       class="mb-6"
-    />
+    >
+      <template #description>
+        <div class="relative space-y-6 mt-6 text-pretty">
+          <NuxtImg
+            src="/avatar.jpg"
+            :alt="config.public.me"
+            class="float-left w-20 h-20 md:w-32 md:h-32 rounded-full mr-4 mb-4 md:mr-6 md:mb-6"
+          />
+
+          <p>
+            I'm Thang, a {{ current.title }} based in Hanoi, currently working
+            at {{ current.company }} (previously at {{ previous.company }}).
+          </p>
+
+          <p>
+            {{ description }}
+          </p>
+
+          <p>
+            Check out what I'm up to <i>right now</i> on the
+            <NuxtLink to="/now" class="text-primary underline">/now</NuxtLink>
+            page.
+          </p>
+        </div>
+      </template>
+    </UPageHeader>
 
     <div class="space-y-16">
       <div
@@ -69,6 +94,8 @@
 </template>
 
 <script setup>
+const config = useRuntimeConfig()
+
 const description =
   'As a Cloud DevOps Engineer, I focus on building and managing scalable cloud infrastructure and automating complex workflows. My goal is to ensure reliable and efficient software development across teams.'
 
@@ -82,4 +109,6 @@ useSeoMeta({
 const { data } = await useAsyncData('about-me', () =>
   queryCollection('profiles').all(),
 )
+
+const [current, previous] = data.value[0].meta.body
 </script>

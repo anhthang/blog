@@ -6,7 +6,7 @@
         ? [
             {
               label: 'All Projects',
-              trailingIcon: 'hugeicons:arrow-right-02',
+              trailingIcon: 'solar:map-arrow-right-bold-duotone',
               to: '/projects',
               variant: 'ghost',
             },

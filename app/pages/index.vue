@@ -1,9 +1,7 @@
 <template>
   <UPage>
-    <!-- <HeroSection class="pb-4 sm:pb-6 lg:pb-8" /> -->
-
     <UPageCTA
-      title="Behind the Terminal"
+      :title="$config.public.me"
       :description="$config.public.bio"
       variant="naked"
       reverse

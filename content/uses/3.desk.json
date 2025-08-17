@@ -2,43 +2,28 @@
   "description": "My home workspace — tools and setup that support my personal projects",
   "body": [
     {
-      "name": "HyperWork Core Desk",
-      "description": "Oak MDF tabletop, 160×75×75cm",
-      "icon": "hugeicons:table-02",
-      "url": "https://hyperwork.vn/products/ban-van-phong-hyperwork-core-desk"
+      "name": "HyperWork Setup",
+      "description": "Core Desk (160×75×75cm), T9 Pro III Monitor Arm, Steel Drawer, and Cable Management Tray",
+      "icon": "solar:server-bold-duotone",
+      "url": "https://hyperwork.vn/"
     },
     {
       "name": "Mac Mini M1",
       "description": "Apple M1, 16GB RAM, 256GB SSD",
-      "icon": "hugeicons:cpu",
+      "icon": "solar:cpu-bold-duotone",
       "url": "https://www.apple.com/mac-mini/"
     },
     {
       "name": "LG 34GN850-B",
       "description": "34\" UWQHD (3440x1440), 1ms, Nano IPS, 160Hz, HDR+, G-Sync",
-      "icon": "hugeicons:computer",
+      "icon": "solar:display-bold-duotone",
       "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/"
     },
     {
       "name": "MX Anywhere 3 for Mac",
       "description": "",
-      "icon": "hugeicons:mouse-02",
+      "icon": "solar:mouse-bold-duotone",
       "url": "https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac.910-005899.html"
-    },
-    {
-      "name": "HyperWork T9 Pro III Monitor Arm",
-      "icon": "hugeicons:add-02",
-      "url": "https://hyperwork.vn/products/gia-do-man-hinh-hyperwork-t9-pro-iii"
-    },
-    {
-      "name": "HyperWork Steel Drawer",
-      "icon": "hugeicons:archive-02",
-      "url": "https://hyperwork.vn/products/ngan-keo-dr01"
-    },
-    {
-      "name": "HyperWork Cable Management Tray",
-      "icon": "hugeicons:group-items",
-      "url": "https://hyperwork.vn/products/khay-di-day-hyperwork-cm03"
     }
   ]
 }

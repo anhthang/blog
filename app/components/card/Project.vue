@@ -9,8 +9,8 @@
       ui: {
         icon:
           project.name === 'gitflow'
-            ? 'rotate-90 group-hover:text-error'
-            : 'group-hover:text-error',
+            ? 'rotate-90 w-6 h-6 group-hover:text-error'
+            : 'w-6 h-6 group-hover:text-error',
       },
     }"
     :ui="{

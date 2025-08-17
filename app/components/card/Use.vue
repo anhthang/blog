@@ -8,7 +8,7 @@
     :avatar="{
       icon: item.icon,
       ui: {
-        icon: 'group-hover:text-error',
+        icon: 'w-6 h-6 group-hover:text-error',
       },
     }"
     :ui="{

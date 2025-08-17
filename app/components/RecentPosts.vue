@@ -3,7 +3,7 @@
     :links="[
       {
         label: 'All Posts',
-        trailingIcon: 'hugeicons:arrow-right-02',
+        trailingIcon: 'solar:map-arrow-right-bold-duotone',
         to: '/posts',
         variant: 'ghost',
       },

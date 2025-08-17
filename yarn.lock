@@ -1306,6 +1306,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iconify-json/solar@npm:^1.2.4":
+  version: 1.2.4
+  resolution: "@iconify-json/solar@npm:1.2.4"
+  dependencies:
+    "@iconify/types": "npm:*"
+  checksum: 10c0/32e66b525db5447fef44680c204dc2f6d18c2df24ecbea1bc8eeff8402275f19097704d2e82bbc64c77a6fbb104601621d33631cdd2bf8c4757a8ed9a295a1d4
+  languageName: node
+  linkType: hard
+
 "@iconify/collections@npm:^1.0.579":
   version: 1.0.583
   resolution: "@iconify/collections@npm:1.0.583"
@@ -4615,6 +4624,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:19.8.1"
     "@iconify-json/hugeicons": "npm:^1.2.10"
     "@iconify-json/simple-icons": "npm:^1.2.47"
+    "@iconify-json/solar": "npm:^1.2.4"
     "@nuxt/content": "npm:3.6.3"
     "@nuxt/eslint": "npm:1.8.0"
     "@nuxt/image": "npm:1.11.0"

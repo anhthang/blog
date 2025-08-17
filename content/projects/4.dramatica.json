@@ -2,6 +2,6 @@
   "name": "Dramatica",
   "url": "https://dramatica.pages.dev",
   "description": "A comprehensive platform dedicated to managing and exploring Chinese, Korean, and Japanese dramas with a Vietnamese-friendly experience.",
-  "icon": "hugeicons:tv-smart",
+  "icon": "solar:tv-bold-duotone",
   "repository": "https://github.com/anhthang/dramatica"
 }

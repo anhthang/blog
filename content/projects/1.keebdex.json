@@ -2,7 +2,7 @@
   "name": "Keebdex",
   "url": "https://keebdex.org",
   "description": "A modern, user-friendly platform designed to revolutionize how enthusiasts manage, discover, and collect everything keyboard-related.",
-  "icon": "hugeicons:colors",
+  "icon": "solar:palette-round-bold-duotone",
   "repository": "https://github.com/keebdex/keebdex",
   "featured": true
 }

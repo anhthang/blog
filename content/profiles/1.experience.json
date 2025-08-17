@@ -2,7 +2,7 @@
   "body": [
     {
       "title": "Cloud DevOps Engineer",
-      "icon": "hugeicons:computer-terminal-01",
+      "icon": "solar:programming-bold-duotone",
       "company": "VPBank",
       "location": "Hanoi, Vietnam",
       "start": "Feb 2025",
@@ -16,7 +16,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "hugeicons:developer",
+      "icon": "solar:chat-square-code-bold-duotone",
       "company": "TUI",
       "location": "Hanoi, Vietnam",
       "start": "Jan 2022",
@@ -33,7 +33,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "hugeicons:developer",
+      "icon": "solar:chat-square-code-bold-duotone",
       "company": "Viemart LLC",
       "location": "Hanoi, Vietnam",
       "start": "Mar 2021",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Senior Software Engineer",
-      "icon": "hugeicons:developer",
+      "icon": "solar:chat-square-code-bold-duotone",
       "company": "ABIVIN",
       "location": "Hanoi, Vietnam",
       "start": "Dec 2020",
@@ -65,7 +65,7 @@
     },
     {
       "title": "Full-Stack Developer",
-      "icon": "hugeicons:source-code",
+      "icon": "solar:code-circle-bold-duotone",
       "company": "KMSoft",
       "location": "Hanoi, Vietnam",
       "start": "Apr 2020",
@@ -82,7 +82,7 @@
     },
     {
       "title": "Software Development Team Lead",
-      "icon": "hugeicons:source-code",
+      "icon": "solar:code-circle-bold-duotone",
       "company": "GoQuo",
       "location": "Hanoi, Vietnam",
       "start": "Mar 2015",
@@ -91,7 +91,7 @@
       "slot": "description",
       "roles": [
         {
-          "icon": "hugeicons:tick-04",
+          "icon": "solar:check-read-line-duotone",
           "title": "Software Development Team Lead",
           "date": "Jan 2018 - Mar 2020",
           "details": [
@@ -108,7 +108,7 @@
           ]
         },
         {
-          "icon": "hugeicons:tick-04",
+          "icon": "solar:check-read-line-duotone",
           "title": "Node.js Developer",
           "date": "Mar 2015 - Dec 2017",
           "details": [
