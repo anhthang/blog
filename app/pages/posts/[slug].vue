@@ -1,47 +1,56 @@
 <template>
-  <UPage>
-    <div
-      class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-muted prose-img:ring-1 prose-img:ring-(--ui-border) prose-img:rounded-lg"
-    >
-      <article>
-        <h1>{{ post.title }}</h1>
+  <UPage v-if="page">
+    <UPageHeader
+      :title="page.title"
+      :description="page.description"
+      :links="page.meta.links"
+    />
 
-        <ContentRenderer :value="post" />
+    <UPageBody>
+      <ContentRenderer
+        v-if="page.body"
+        :value="page"
+        class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-muted prose-img:ring-1 prose-img:ring-(--ui-border) prose-img:rounded-lg"
+      />
 
-        <div class="flex gap-2">
-          <UBadge
-            v-for="tag in post.meta.tags"
-            :key="tag"
-            color="neutral"
-            variant="soft"
-          >
-            #{{ tag }}
-          </UBadge>
-        </div>
-      </article>
-    </div>
+      <div class="flex gap-2">
+        <UBadge
+          v-for="tag in page.meta.tags"
+          :key="tag"
+          color="neutral"
+          variant="soft"
+        >
+          #{{ tag }}
+        </UBadge>
+      </div>
+
+      <USeparator v-if="surround?.filter(Boolean).length" />
+
+      <UContentSurround :surround="surround" />
+    </UPageBody>
   </UPage>
 </template>
 
 <script setup>
 const route = useRoute()
-const config = useRuntimeConfig()
 
-const { data: post } = await useAsyncData(`post-${route.params.slug}`, () =>
+const { data: page } = await useAsyncData(route.path, () =>
   queryCollection('posts').path(route.path).first(),
 )
 
+const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
+  queryCollectionItemSurroundings('posts', route.path, {
+    fields: ['description'],
+  }),
+)
+
+const title = page.value?.seo?.title || page.value?.title
+const description = page.value?.seo?.description || page.value?.description
+
 useSeoMeta({
-  title: post.value.title,
-  ogType: 'article',
-  ogUrl: `${config.public.homepage}${route.path}`,
-  articleAuthor: config.public.me,
+  title,
+  description,
+  ogDescription: description,
+  ogTitle: title,
 })
 </script>
-
-<style>
-.prose h2 a,
-.prose h3 a {
-  @apply no-underline;
-}
-</style>

@@ -1,21 +1,27 @@
 ---
 title: 'Catch Typos Early with crate-ci/typos'
+description: "Typos can creep into any codebase, but they don't have to slow you down. crate-ci/typos is a handy tool that helps you identify and fix typos in your project."
 published: '2024-05-15'
 tags: [typos, crate-ci]
+links:
+  - to: https://github.com/crate-ci/typos
+    label: crate-ci/typos
+    icon: hugeicons:github
+    target: _blank
 ---
-
-Typos can creep into any codebase, but they don't have to slow you down. **[crate-ci/typos](https://github.com/crate-ci/typos)** is a handy tool that helps you identify and fix typos in your project.
 
 **Here's how to get started:**
 
 1. **Install typos-cli:**
 
    **Conda**
+
    ```bash
    conda add typos-cli
    ```
 
    **Homebrew (macOS)**
+
    ```bash
    brew install typos-cli
    ```
@@ -53,11 +59,9 @@ Typos can creep into any codebase, but they don't have to slow you down. **[crat
    ```
 
 3. **Important! Review the suggestions carefully**
-
    - `typos-cli` is a powerful tool, but it might flag names or data coming from third-party APIs as typos.
    - **Do not change** typos that match field names, parameter names, or other data received from external APIs. Changing these could break your communication with the API.
    - Make the necessary changes to typos that are actually errors in your code.
-
 
 **Bonus:** Integrate `typos-cli` into your CI pipeline to catch typos early and often.
 

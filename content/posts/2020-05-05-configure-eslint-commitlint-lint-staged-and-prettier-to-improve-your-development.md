@@ -1,10 +1,11 @@
 ---
 title: 'Configure ESLint, commitlint, lint-staged and Prettier to improve your development'
+description: 'This short guide will provide you a consistent and reusable development workflow for your new or existing projects, especially in JavaScript.'
 published: '2020-05-05'
 tags: [eslint, prettier, javascript, commitlint, husky]
 ---
 
-This short guide will provide you a consistent and reusable development workflow for your new or existing projects, especially in JavaScript. You can increase your code quality and reduce the time spent on debugging. I will show you how to configure VSCode to handle code formatting, linting and type checking now.
+You can increase your code quality and reduce the time spent on debugging. I will show you how to configure VSCode to handle code formatting, linting and type checking now.
 
 > Testing is outside the scope, but it's highly recommended. You should check every changed files before commit
 

@@ -1,5 +1,6 @@
 ---
 title: 'ingress-nginx controller not work for fanout configuration'
+description:
 published: '2019-04-01'
 tags: [nginx, nginx-ingress, kubernetes]
 ---
@@ -22,22 +23,22 @@ From the documentation page at https://kubernetes.io/docs/concepts/services-netw
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-    name: simple-fanout-example
-    annotations:
-        nginx.ingress.kubernetes.io/rewrite-target: /
+  name: simple-fanout-example
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-    rules:
-        - host: foo.bar.com
-          http:
-              paths:
-                  - path: /foo
-                    backend:
-                        serviceName: service1
-                        servicePort: 4200
-                  - path: /bar
-                    backend:
-                        serviceName: service2
-                        servicePort: 8080
+  rules:
+    - host: foo.bar.com
+      http:
+        paths:
+          - path: /foo
+            backend:
+              serviceName: service1
+              servicePort: 4200
+          - path: /bar
+            backend:
+              serviceName: service2
+              servicePort: 8080
 ```
 
 However, it's not work as expected if you have updated to the version 0.22.0 or newer. You need to change these annotations:
@@ -46,22 +47,22 @@ However, it's not work as expected if you have updated to the version 0.22.0 or 
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-    name: simple-fanout-example
-    annotations:
-        nginx.ingress.kubernetes.io/rewrite-target: /$1
+  name: simple-fanout-example
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
 spec:
-    rules:
-        - host: foo.bar.com
-          http:
-              paths:
-                  - path: /foo/?(.*)
-                    backend:
-                        serviceName: service1
-                        servicePort: 4200
-                  - path: /bar/?(.*)
-                    backend:
-                        serviceName: service2
-                        servicePort: 8080
+  rules:
+    - host: foo.bar.com
+      http:
+        paths:
+          - path: /foo/?(.*)
+            backend:
+              serviceName: service1
+              servicePort: 4200
+          - path: /bar/?(.*)
+            backend:
+              serviceName: service2
+              servicePort: 8080
 ```
 
 Enjoy your time!

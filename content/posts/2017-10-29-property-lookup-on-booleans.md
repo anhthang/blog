@@ -1,13 +1,18 @@
 ---
 title: 'Property lookup on booleans'
+description:
 published: '2017-10-29'
 tags: [programing]
-link: https://github.com/babel/babel/commit/1c0a8eb14b69cca00aa96db65b69d0848013c680
+links:
+  - to: https://github.com/babel/babel/commit/1c0a8eb14b69cca00aa96db65b69d0848013c680
+    label: GitHub
+    icon: hugeicons:github
+    target: _blank
 ---
 
 Performs a lot of dynamic lookups on the `Boolean.prototype`, as the _ToBoolean_ operation let's `true` pass for `obj` (which might itself be concerning that this can be a boolean). Instead of the coercion, the code should properly check for valid objects via `typeof` and strict equality with `null` comparison.
 
-#### Example:
+#### Example
 
 Use below
 

@@ -1,5 +1,6 @@
 ---
 title: 'Hello World! app with Node.js and Koa'
+description:
 published: '2017-10-11'
 tags: [hello-world, koa, nodejs]
 ---
@@ -50,14 +51,14 @@ const app = new Koa()
 const router = new Router()
 
 router.get('/', (ctx) => {
-    ctx.status = 200
-    ctx.body = 'Hello, World'
+  ctx.status = 200
+  ctx.body = 'Hello, World'
 })
 
 app.use(router.routes())
 
 app.listen(3000, () => {
-    console.log('app listening on port 3000')
+  console.log('app listening on port 3000')
 })
 ```
 
@@ -67,4 +68,4 @@ Run the app
 node <your_file_name>.js
 ```
 
-#### Cheers!
+**Cheers!**

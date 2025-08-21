@@ -1,5 +1,6 @@
 ---
 title: 'Minimal Docker container'
+description:
 published: '2017-12-24'
 tags: [docker]
 ---

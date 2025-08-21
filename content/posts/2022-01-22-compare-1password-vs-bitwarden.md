@@ -1,10 +1,11 @@
 ---
 title: 'Compare 1Password vs Bitwarden'
+description: 'I wanted to share a quick comparison of two password managers I recently tested.'
 published: '2022-01-22'
 tags: [password-manager, 1password, bitwarden]
 ---
 
-I wanted to share a quick comparison of two password managers I recently tested. After giving both a fair shot, I've decided to switch back to **1Password**—here's why:
+After giving both a fair shot, I've decided to switch back to **1Password**—here's why:
 
 | Feature                   | 1Password                                                                       | Bitwarden                         |
 | ------------------------- | ------------------------------------------------------------------------------- | --------------------------------- |

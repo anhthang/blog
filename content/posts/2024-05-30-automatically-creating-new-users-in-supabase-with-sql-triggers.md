@@ -1,10 +1,9 @@
 ---
 title: 'Automatically Creating New Users in Supabase with SQL Triggers'
+description: "Supabase's built-in authentication system handles user creation securely. However, you might want to automate the creation of additional user data (like profiles) upon signup. This can be achieved using PostgreSQL triggers within Supabase."
 published: '2024-05-30'
 tags: [supabase, authentication, sql, postgresql]
 ---
-
-Supabase's built-in authentication system handles user creation securely. However, you might want to automate the creation of additional user data (like profiles) upon signup. This can be achieved using PostgreSQL triggers within Supabase.
 
 **1. Create the Trigger Function:**
 

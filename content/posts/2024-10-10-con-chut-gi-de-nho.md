@@ -1,11 +1,19 @@
 ---
 title: 'Còn chút gì để nhớ'
+description: 'Bài cảm nhận tham gia cuộc thi "Trở lại học trò" do Nhà xuất bản Trẻ tổ chức nhân sự kiện ra mắt truyện dài "Lá nằm trong lá" 2011'
 published: '2024-10-10'
 tags: []
-link: https://www.facebook.com/photo/?fbid=10150409258186061&set=a.10150408374076061
+links:
+  - to: https://www.facebook.com/photo/?fbid=10150409258186061&set=a.10150408374076061
+    label: Facebook
+    icon: hugeicons:facebook-02
+    target: _blank
+    color: info
+  - to: https://www.nxbtre.com.vn/diem-tin/tro-lai-hoc-tro-cuoc-thi-tim-hieu-22-tac-pham-tuoi-hoc-tro-cua-nha-van-nguyen-nhat-anh-2188.html
+    label: NXB Tre
+    icon: hugeicons:news
+    target: _blank
 ---
-
-Bài cảm nhận tham gia cuộc thi "[Trở lại học trò](https://www.nxbtre.com.vn/diem-tin/tro-lai-hoc-tro-cuoc-thi-tim-hieu-22-tac-pham-tuoi-hoc-tro-cua-nha-van-nguyen-nhat-anh-2188.html)" của Nhà xuất bản Trẻ tổ chức nhân sự kiện ra mắt truyện dài "Lá nằm trong lá" 2011
 
 <!-- CÒN CHÚT GÌ ĐỂ NHỚ -->
 
