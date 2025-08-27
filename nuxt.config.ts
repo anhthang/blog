@@ -2,11 +2,11 @@ export default defineNuxtConfig({
   css: ['~/assets/main.css'],
 
   modules: [
+    '@nuxt/ui',
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxt/image',
-    '@nuxt/ui',
   ],
 
   app: {

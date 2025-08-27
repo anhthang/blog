@@ -1,11 +1,9 @@
 ---
 title: 'Host ASP.NET Core on Linux with Nginx'
-description:
+description: 'This is a helper document guide how to setup, config and deploy an .NET Core Web Engine Hosting on an Ubuntu Server.'
 published: '2018-02-03'
 tags: [aspnetcore, nginx]
 ---
-
-This is a helper document guide how to setup, config and deploy an .NET Core Web Engine Hosting on an Ubuntu Server.
 
 ### Access to Linux server
 
@@ -46,7 +44,7 @@ sudo nano site_name
 
 with the following contents
 
-```nginx
+```nginx [nginx.conf]
 upstream site_name_svc  {
     server 127.0.0.1:5432;
 }
@@ -100,7 +98,7 @@ sudo nano /etc/systemd/system/service_name.service
 
 and write the content like below
 
-```ini
+```ini [service_name.service]
 [Unit]
 Description=Example .NET Web API Application running on Ubuntu
 
@@ -118,7 +116,11 @@ Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
 WantedBy=multi-user.target
 ```
 
-_Note: If the user www-data isn't used by the configuration, the user defined here must be created first and given proper ownership for files._
+::note
+
+If the user www-data isn't used by the configuration, the user defined here must be created first and given proper ownership for files.
+
+::
 
 Save the file and enable the service.
 

@@ -12,13 +12,12 @@
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
-    "@iconify-json/hugeicons": "^1.2.12",
-    "@iconify-json/simple-icons": "^1.2.48",
+    "@iconify-json/hugeicons": "^1.2.14",
+    "@iconify-json/simple-icons": "^1.2.49",
     "@iconify-json/solar": "^1.2.4",
     "@nuxt/content": "^3.6.3",
     "@nuxt/eslint": "1.9.0",
-    "@tailwindcss/typography": "^0.5.16",
-    "eslint": "9.33.0",
+    "eslint": "9.34.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.4",
     "eslint-plugin-vue": "10.4.0",
@@ -35,5 +34,5 @@
     "@nuxt/ui": "4.0.0-alpha.0",
     "better-sqlite3": "^12.2.0"
   },
-  "packageManager": "yarn@4.9.2"
+  "packageManager": "yarn@4.9.4"
 }

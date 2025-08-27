@@ -7,11 +7,7 @@
     />
 
     <UPageBody>
-      <ContentRenderer
-        v-if="page.body"
-        :value="page"
-        class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-muted prose-img:ring-1 prose-img:ring-(--ui-border) prose-img:rounded-lg"
-      />
+      <ContentRenderer v-if="page.body" :value="page" prose />
 
       <div class="flex gap-2">
         <UBadge

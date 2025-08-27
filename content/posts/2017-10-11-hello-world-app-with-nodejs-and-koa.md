@@ -43,7 +43,7 @@ npm i koa koa-router
 
 Start your text editor and create a file named as entry point
 
-```js
+```js [index.js]
 const Koa = require('koa')
 const Router = require('koa-router')
 

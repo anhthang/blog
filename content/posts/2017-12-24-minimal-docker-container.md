@@ -1,11 +1,9 @@
 ---
 title: 'Minimal Docker container'
-description:
+description: 'Create the smallest possible Docker container'
 published: '2017-12-24'
 tags: [docker]
 ---
-
-Create the smallest possible Docker container
 
 With Docker multi stage, you can use multiple base image (call as builder) to build necessary files, assets and copy stuff over to final image after.
 
@@ -17,7 +15,7 @@ Here is some tricks:
 
 Example:
 
-```dockerfile
+```dockerfile [Dockerfile]
 # node builder
 FROM node:8.9.3 as nodebuilder
 RUN mkdir publish

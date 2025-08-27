@@ -14,17 +14,17 @@ links:
 
 1. **Install typos-cli:**
 
-   **Conda**
+   ::code-group
 
-   ```bash
+   ```bash [Conda]
    conda add typos-cli
    ```
 
-   **Homebrew (macOS)**
-
-   ```bash
+   ```bash [Homebrew]
    brew install typos-cli
    ```
+
+   ::
 
    You can also install `typos-cli` using `conda`, `pacman`. Check the [installation](https://github.com/crate-ci/typos?tab=readme-ov-file#install) for details on installing packages from other channels.
 

@@ -29,9 +29,17 @@ Open VSCode and install following extensions (what I shared in previous post, it
 
 Install following npm packages for your project as dev dependencies. I use `yarn` here, you can use `npm i --save-dev` instead
 
-```bash
+::code-group
+
+```bash [yarn]
 yarn add --dev @commitlint/{config-conventional,cli} eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-import eslint-plugin-prettier husky lint-staged prettier
 ```
+
+```bash [npm]
+npm install --save-dev @commitlint/{config-conventional,cli} eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-import eslint-plugin-prettier husky lint-staged prettier
+```
+
+::
 
 - Added **eslint**, **prettier**
 - Added **eslint-config-prettier** so **eslint** and **prettier** won't fight over code formatting rules
@@ -40,11 +48,17 @@ yarn add --dev @commitlint/{config-conventional,cli} eslint eslint-config-airbnb
 
 Set up Eslint configuration file, and the easiest way to do that is:
 
-```bash
-$ npm init @eslint/config
-# or
-$ yarn create @eslint/config
+::code-group
+
+```bash [yarn]
+yarn create @eslint/config
 ```
+
+```bash [npm]
+npm init @eslint/config
+```
+
+::
 
 ```bash
 ❯ npm init @eslint/config
@@ -85,7 +99,7 @@ Successfully created .eslintrc.json file in /path-to-your-project
 
 Or write the configuration below into the `.eslintrc.json` file if you want to follow my config:
 
-```json
+```json [.eslintrc.json]
 {
   "extends": ["airbnb-base", "prettier"],
   "plugins": ["import", "prettier"],
@@ -113,7 +127,7 @@ You can find more details about **eslint** options [here](https://eslint.org/doc
 
 You can create a file name **.prettierrc** and write it own rules
 
-```json
+```json [.prettierrc.json]
 {
   "singleQuote": true,
   "semi": false,
@@ -164,14 +178,17 @@ Sometimes above command doesn't work in some command interpreters
 You can try other commands below to write `npx --no -- commitlint --edit $1`
 in the commit-msg file.
 
-```bash
-npx husky add .husky/commit-msg \"npx --no -- commitlint --edit '$1'\"
-# or
-npx husky add .husky/commit-msg "npx --no -- commitlint --edit $1"
+::code-group
 
-# or
+```bash [yarn]
 yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'
 ```
+
+```bash [npm]
+npx husky add .husky/commit-msg "npx --no -- commitlint --edit $1"
+```
+
+::
 
 ### Prettier Formatter
 
@@ -181,7 +198,7 @@ Go to VSCode Preferences then add the following settings:
 
 - Set Prettier is default formatter and config for all JavaScript projects
 
-```json
+```json [settings.json]
 {
   "prettier.semi": false,
   "prettier.singleQuote": true,
@@ -194,7 +211,7 @@ Go to VSCode Preferences then add the following settings:
 
 - Let VSCode always fix after saving a file
 
-```json
+```json [settings.json]
 {
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
