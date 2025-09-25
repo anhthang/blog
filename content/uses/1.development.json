@@ -14,6 +14,12 @@
       "url": "https://iterm2.com/"
     },
     {
+      "name": "Ghostty",
+      "description": "A new, fast terminal emulator I'm trying out. Built to be a modern and hackable alternative.",
+      "icon": "simple-icons:ghostty",
+      "url": "https://ghostty.io/"
+    },
+    {
       "name": "Homebrew",
       "description": "My package manager for easily installing software on my Mac.",
       "icon": "simple-icons:homebrew",

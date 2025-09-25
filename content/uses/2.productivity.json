@@ -2,10 +2,10 @@
   "description": "Apps and systems that help me stay focused and efficient",
   "body": [
     {
-      "name": "Arc Browser",
-      "description": "A relatively new browser, clean and uncluttered interface and focus on the content you're reading without distractions.",
-      "icon": "simple-icons:arc",
-      "url": "https://arc.net/"
+      "name": "Brave",
+      "description": "A privacy-focused browser that blocks ads and trackers by default, providing a fast and secure browsing experience.",
+      "icon": "simple-icons:brave",
+      "url": "https://brave.com/"
     },
     {
       "name": "Firefox",

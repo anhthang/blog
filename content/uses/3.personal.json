@@ -2,22 +2,28 @@
   "description": "Everyday carry and personal tech I rely on",
   "body": [
     {
-      "name": "iPhone 11 Pro 64GB (2019)",
-      "description": "",
+      "name": "MacBook Pro 14-inch (M4)",
+      "description": "M4 chip, 16GB unified memory, 512GB SSD.",
+      "icon": "solar:laptop-bold-duotone",
+      "url": "https://www.apple.com/macbook-pro/"
+    },
+    {
+      "name": "iPhone 17 Pro Max",
+      "description": "A19 Pro chip, 12GB RAM, 6.9-inch ProMotion display.",
       "icon": "solar:iphone-bold-duotone",
-      "url": "https://www.apple.com/iphone/"
+      "url": "https://www.apple.com/iphone-17-pro/"
     },
     {
-      "name": "Apple Watch Series 4 (2018)",
-      "description": "",
+      "name": "Apple Watch Series 11",
+      "description": "S10 chip, Always-On Retina display, hypertension and sleep score.",
       "icon": "solar:watch-square-bold-duotone",
-      "url": "https://www.apple.com/watch/"
+      "url": "https://www.apple.com/apple-watch-series-11/"
     },
     {
-      "name": "AirPods Pro (2019)",
-      "description": "",
+      "name": "AirPods Pro 3",
+      "description": "H2 chip, IP57 water resistance, heart rate sensor.",
       "icon": "solar:airbuds-bold-duotone",
-      "url": "https://www.apple.com/airpods/"
+      "url": "https://www.apple.com/airpods-pro/"
     }
   ]
 }
