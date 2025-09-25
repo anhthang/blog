@@ -35,7 +35,7 @@ export default defineAppConfig({
       hash: 'hugeicons:grid',
       info: 'hugeicons:information-circle',
       menu: 'hugeicons:menu-01',
-      panelClose: 'hugeicons:psidebar-left-01',
+      panelClose: 'hugeicons:sidebar-left-01',
       panelOpen: 'hugeicons:sidebar-right-01',
       reload: 'hugeicons:rotate-clockwise',
       stop: 'hugeicons:square',
