@@ -56,25 +56,47 @@ Here’s the simple, step-by-step process.
    dotfiles push -u origin main
    ```
 
+🎉 Your dot files are now backed up on GitHub!
+
 ### How to Set Up a New Machine
 
 On a new computer, the process is just as easy.
 
-1. **Clone the Repository**
+1. **Clone the Bare Repository**
+
+   On the new machine, open your terminal and clone the bare repository into your home folder. This creates the hidden `.dotfiles` directory where Git will live.
 
    ```bash
    git clone --bare git@github.com:your_username/your_repo_name.git $HOME/.dotfiles
    ```
 
-   This clones your repository into a hidden folder.
+   Note: Replace the URL with your actual GitHub repository URL.
 
-2. **Checkout Your Files**
+2. **Set Up the Alias**
 
-   Use the alias and a `checkout` command to pull your files into your home directory.
+   Define the alias that lets you manage your dot files easily. Add this to your shell's config file (e.g., `.zshrc`) after the setup.
 
    ```bash
    alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+   ```
+
+3. **Checkout Files and Clean Status**
+
+   Pull your configurations into your home directory and tell Git to ignore all untracked files.
+
+   ```bash
    dotfiles checkout
+   dotfiles config --local status.showUntrackedFiles no
+   ```
+
+4. **Run the Setup Script**
+
+   Now for the magic! Navigate into your `.dotfiles` directory and execute the setup script you wrote. This script will automatically install Homebrew, Oh My Zsh, install all your apps from the Brewfile, and finalize your system configuration.
+
+   ```bash
+   cd $HOME
+   chmod +x install.sh
+   sh install.sh
    ```
 
 That's it! Your perfect development environment is now just a few simple commands away, no matter what machine you're on.
