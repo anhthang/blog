@@ -33,9 +33,9 @@ export default defineNuxtConfig({
         remarkPlugins: { 'remark-reading-time': {} },
         highlight: {
           theme: {
-            default: 'ayu-dark',
+            default: 'catppuccin-frappe',
             light: 'catppuccin-latte',
-            dark: 'dracula-soft',
+            dark: 'catppuccin-macchiato',
           },
           langs: [
             'js',
