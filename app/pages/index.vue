@@ -5,6 +5,9 @@
       :description="$config.public.bio"
       variant="naked"
       reverse
+      :ui="{
+        container: 'px-4 py-8 sm:px-8 sm:py-16 lg:px-12 lg:py-16 gap-6 sm:gap-12'
+      }"
     >
       <NuxtImg
         src="/avatar.jpg"

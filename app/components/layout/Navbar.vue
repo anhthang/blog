@@ -21,6 +21,7 @@
 </template>
 
 <script setup>
+const appConfig = useAppConfig()
 const colorMode = useColorMode()
 const route = useRoute()
 
@@ -72,7 +73,7 @@ const middle = computed(() => [
 
 const right = computed(() => [
   {
-    icon: isDark.value ? 'hugeicons:moon-02' : 'hugeicons:sun-01',
+    icon: isDark.value ? appConfig.ui.icons.dark : appConfig.ui.icons.light,
     class: 'cursor-pointer',
     onSelect: () => {
       isDark.value = !isDark.value
@@ -101,19 +102,19 @@ const groups = computed(() => [
       {
         label: 'System',
         value: 'system',
-        icon: 'hugeicons:computer-settings',
+        icon: appConfig.ui.icons.system,
         disabled: colorMode.preference === 'system',
       },
       {
         label: 'Light',
         value: 'light',
-        icon: 'hugeicons:sun-01',
+        icon: appConfig.ui.icons.light,
         disabled: colorMode.preference === 'light',
       },
       {
         label: 'Dark',
         value: 'dark',
-        icon: 'hugeicons:moon-02',
+        icon: appConfig.ui.icons.dark,
         disabled: colorMode.preference === 'dark',
       },
     ],

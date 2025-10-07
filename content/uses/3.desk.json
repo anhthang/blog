@@ -3,25 +3,25 @@
   "body": [
     {
       "name": "HyperWork Setup",
-      "description": "Core Desk (160×75×75cm), T9 Pro III Monitor Arm, Steel Drawer, and Cable Management Tray",
+      "description": "Core Desk (160×75cm), T9 Pro III Monitor Arm, Steel Drawer, and Cable Management Tray.",
       "icon": "solar:server-bold-duotone",
       "url": "https://hyperwork.vn/"
     },
     {
       "name": "Mac Mini M1",
-      "description": "Apple M1, 16GB RAM, 256GB SSD",
+      "description": "Apple M1 chip, 16GB unified memory, 256GB SSD.",
       "icon": "solar:cpu-bold-duotone",
       "url": "https://www.apple.com/mac-mini/"
     },
     {
       "name": "LG 34GN850-B",
-      "description": "34\" UWQHD (3440x1440), 1ms, Nano IPS, 160Hz, HDR+, G-Sync",
+      "description": "34-inch UWQHD (3440x1440), 160Hz refresh rate, Nano IPS, G-Sync compatible.",
       "icon": "solar:display-bold-duotone",
       "url": "https://www.lg.com/us/monitors/lg-34gn850-b-gaming-monitor/"
     },
     {
       "name": "MX Anywhere 3 for Mac",
-      "description": "",
+      "description": "MagSpeed electromagnetic scrolling, tracks on any surface, USB-C charging.",
       "icon": "solar:mouse-bold-duotone",
       "url": "https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac.910-005899.html"
     }
