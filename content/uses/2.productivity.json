@@ -2,16 +2,10 @@
   "description": "Apps and systems that help me stay focused and efficient",
   "body": [
     {
-      "name": "Brave",
-      "description": "A privacy-focused browser that blocks ads and trackers by default, providing a fast and secure browsing experience.",
-      "icon": "simple-icons:brave",
-      "url": "https://brave.com/"
-    },
-    {
-      "name": "Firefox",
-      "description": "My preferred web browser for navigating the internet, known for its focus on privacy and security.",
-      "icon": "simple-icons:firefoxbrowser",
-      "url": "https://www.mozilla.org/en-US/firefox/"
+      "name": "Comet",
+      "description": "My potential replacement for Arc. I'm trying this AI-native browser from Perplexity for its streamlined approach to research and browsing.",
+      "icon": "simple-icons:perplexity",
+      "url": "https://www.perplexity.ai/comet"
     },
     {
       "name": "1Password",

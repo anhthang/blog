@@ -1,0 +1,35 @@
+{
+  "description": "A look back at the tools and apps I've used in the past",
+  "body": [
+    {
+      "name": "Arc Browser",
+      "description": "An innovative browser that re-imagined web navigation with command bar, split tabs but I moved on after development was abandoned for a new AI browser called 'Dia', and the website became inaccessible in my region post-acquisition by Atlassian.",
+      "icon": "simple-icons:arc",
+      "url": "https://arc.net/"
+    },
+    {
+      "name": "iTerm2",
+      "description": "My long-time favorite terminal emulator for macOS. It's powerful and customizable, but I'm currently trying out Ghostty as a potential replacement.",
+      "icon": "simple-icons:iterm2",
+      "url": "https://iterm2.com/"
+    },
+    {
+      "name": "Firefox",
+      "description": "My go-to browser for years, valued for its commitment to privacy and its open-source nature.",
+      "icon": "simple-icons:firefoxbrowser",
+      "url": "https://www.mozilla.org/en-US/firefox/"
+    },
+    {
+      "name": "Dracula Theme",
+      "description": "My previous dark theme of choice. It offered great consistency across many applications, but I've since switched to Catppuccin.",
+      "icon": "simple-icons:draculatheme",
+      "url": "https://draculatheme.com/"
+    },
+    {
+      "name": "TablePlus",
+      "description": "An excellent database management tool that was essential for my work. I've moved it here as my current projects no longer require direct database access.",
+      "icon": "solar:database-bold",
+      "url": "https://tableplus.com/"
+    }
+  ]
+}

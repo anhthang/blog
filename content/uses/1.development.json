@@ -8,12 +8,6 @@
       "url": "https://code.visualstudio.com/"
     },
     {
-      "name": "iTerm2",
-      "description": "My favorite terminal emulator for interacting with the command line.",
-      "icon": "simple-icons:iterm2",
-      "url": "https://iterm2.com/"
-    },
-    {
       "name": "Ghostty",
       "description": "A new, fast terminal emulator I'm trying out. Built to be a modern and hackable alternative.",
       "icon": "simple-icons:ghostty",
@@ -38,12 +32,6 @@
       "url": "https://httpie.io/"
     },
     {
-      "name": "TablePlus",
-      "description": "My database management tool for quick and easy access to all my data.",
-      "icon": "solar:database-bold",
-      "url": "https://tableplus.com/"
-    },
-    {
       "name": "Oh My Zsh",
       "description": "A framework that extends the functionality of my Zsh shell.",
       "icon": "simple-icons:zsh",
@@ -56,16 +44,16 @@
       "url": "https://starship.rs/"
     },
     {
-      "name": "Input Mono",
+      "name": "Reddit Mono",
       "description": "My preferred font for coding. It's clean, legible, and helps me stay focused on my code.",
       "icon": "simple-icons:googlefonts",
-      "url": "https://input.djr.com/"
+      "url": "https://fonts.google.com/specimen/Reddit+Mono"
     },
     {
-      "name": "Dracula Theme",
-      "description": "A dark theme I use across various applications for a sleek and eye-friendly coding experience.",
-      "icon": "solar:pallete-2-bold",
-      "url": "https://draculatheme.com/"
+      "name": "Catppuccin",
+      "description": "A soothing, cat-themed dark theme I use across my apps for a cozy and eye-friendly coding experience.",
+      "icon": "simple-icons:catppuccin",
+      "url": "https://catppuccin.com/"
     }
   ]
 }
