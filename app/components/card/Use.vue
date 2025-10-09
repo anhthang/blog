@@ -13,6 +13,7 @@
     }"
     :ui="{
       name: 'peer-hover:text-primary',
+      avatar: 'bg-transparent',
     }"
   />
 </template>

@@ -10,13 +10,23 @@
     </p>
 
     <div class="space-y-16">
-      <div v-for="({ meta }, id) in data" :key="id" class="space-y-6">
-        <CategoryHeader :title="meta.title" :description="meta.description" />
+      <UAccordion
+        v-model="active"
+        :items="data"
+        :ui="{
+          label: 'flex-1',
+        }"
+      >
+        <template #default="{ item: { meta } }">
+          <CategoryHeader :title="meta.title" :description="meta.description" />
+        </template>
 
-        <UPageList class="gap-6">
-          <CardUse v-for="(item, idx) in meta.body" :key="idx" :item="item" />
-        </UPageList>
-      </div>
+        <template #body="{ item: { meta } }">
+          <UPageList class="gap-6">
+            <CardUse v-for="(item, idx) in meta.body" :key="idx" :item="item" />
+          </UPageList>
+        </template>
+      </UAccordion>
     </div>
   </UPage>
 </template>
@@ -31,6 +41,8 @@ useSeoMeta({
   ogDescription: description,
   twitterDescription: description,
 })
+
+const active = ref('0')
 
 const { data } = await useAsyncData('uses-all', () =>
   queryCollection('uses').all(),
