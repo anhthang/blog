@@ -30,6 +30,8 @@ The new machine is all about performance and a fresh aesthetic. I've made two ke
 
 - **The New Terminal**: I finally switched from iTerm2 to **Ghostty**. It's a GPU-accelerated terminal that is ridiculously fast, offering the high-performance experience that pairs perfectly with the new Apple Silicon chip.
 
+- **Project Tooling Upgrade**: I'm migrating my night projects from **Yarn** to **Bun**. The performance gains and all-in-one toolkit are a massive upgrade. The timing was perfect, as recent releases have added major quality-of-life improvements that make the developer experience so much better.
+
 - **Aesthetic Shift**: I swapped my code editor and terminal theme from the **Dracula** to the beautiful and rich **Catppuccin**. Why? You know, _it's cat-themed_.
 
 ### The Browser Search Continues
