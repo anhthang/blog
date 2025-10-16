@@ -3,7 +3,7 @@
   "body": [
     {
       "name": "Arc Browser",
-      "description": "An innovative browser that re-imagined web navigation with command bar, split tabs but I moved on after development was abandoned for a new AI browser called 'Dia', and the website became inaccessible in my region post-acquisition by Atlassian.",
+      "description": "An innovative browser that re-imagined web navigation with command bar, split tabs but the shift in its development focus and regional website inaccessibility prompted me to explore alternatives.",
       "icon": "simple-icons:arc",
       "url": "https://arc.net/"
     },
@@ -30,6 +30,12 @@
       "description": "An excellent database management tool that was essential for my work. I've moved it here as my current projects no longer require direct database access.",
       "icon": "solar:database-bold",
       "url": "https://tableplus.com/"
+    },
+    {
+      "name": "Authy",
+      "description": "My previous two-factor authentication app. I switched to 2FAS for a more open and straightforward experience, especially after the discontinuation of the Authy desktop app.",
+      "icon": "simple-icons:authy",
+      "url": "https://authy.com/"
     }
   ]
 }

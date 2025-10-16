@@ -8,10 +8,22 @@
       "url": "https://www.perplexity.ai/comet"
     },
     {
+      "name": "Dia",
+      "description": "Another AI-native browser I'm exploring. It's designed to be a minimalist thought partner.",
+      "icon": "simple-icons:dia",
+      "url": "https://dia.so/"
+    },
+    {
       "name": "1Password",
       "description": "My password manager for keeping all my logins secure. No more struggling to remember complex passwords!",
       "icon": "simple-icons:1password",
       "url": "https://1password.com/"
+    },
+    {
+      "name": "2FAS",
+      "description": "My go-to TOTP app for managing two-factor authentication across all my accounts.",
+      "icon": "simple-icons:2fas",
+      "url": "https://2fas.com/"
     },
     {
       "name": "Raycast",
