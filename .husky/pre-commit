@@ -1,4 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx lint-staged
+if command -v bun >/dev/null 2>&1; then
+  bun x lint-staged
+else
+  npx lint-staged
+fi

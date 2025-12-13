@@ -1,4 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx --no -- commitlint --edit ""
+if command -v bun >/dev/null 2>&1; then
+  bun x commitlint --edit "$1"
+else
+  npx --no -- commitlint --edit "$1"
+fi

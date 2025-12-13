@@ -3,6 +3,11 @@ title: 'Manage Dot Files with Git'
 description: 'Your dot files are the heart of your dev setup, but managing them across machines can be a pain. A bare Git repository is the cleanest solution for backing up, syncing, and version-controlling your configurations.'
 published: '2025-09-25'
 tags: ['dotfiles', 'sync', 'settings']
+links:
+  - to: https://github.com/anhthang/dotfiles
+    label: ~/.dotfiles
+    icon: hugeicons:git-fork
+    target: _blank
 ---
 
 ### Sync Your Settings: How to Manage Your Dot Files with Git
