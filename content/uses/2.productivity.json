@@ -1,17 +1,12 @@
 {
+  "title": "Productivity",
   "description": "Apps and systems that help me stay focused and efficient",
   "body": [
     {
-      "name": "Comet",
-      "description": "My potential replacement for Arc. I'm trying this AI-native browser from Perplexity for its streamlined approach to research and browsing.",
-      "icon": "simple-icons:perplexity",
-      "url": "https://www.perplexity.ai/comet"
-    },
-    {
       "name": "Dia",
-      "description": "Another AI-native browser I'm exploring. It's designed to be a minimalist thought partner.",
+      "description": "My chosen AI-native browser. A minimalist thought partner that has replaced Arc in my workflow.",
       "icon": "simple-icons:dia",
-      "url": "https://dia.so/"
+      "url": "https://www.diabrowser.com/"
     },
     {
       "name": "1Password",
