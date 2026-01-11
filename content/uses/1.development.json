@@ -1,4 +1,5 @@
 {
+  "title": "Development",
   "description": "Tools and tech I use for coding and building projects",
   "body": [
     {
@@ -52,7 +53,7 @@
     {
       "name": "Catppuccin",
       "description": "A soothing, cat-themed dark theme I use across my apps for a cozy and eye-friendly coding experience.",
-      "icon": "simple-icons:catppuccin",
+      "icon": "solar:pallete-2-bold",
       "url": "https://catppuccin.com/"
     }
   ]

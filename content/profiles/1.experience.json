@@ -1,4 +1,6 @@
 {
+  "title": "Experience",
+  "description": "My professional journey and roles I've held",
   "body": [
     {
       "title": "Cloud DevOps Engineer",
@@ -7,11 +9,12 @@
       "location": "Hanoi, Vietnam",
       "start": "Feb 2025",
       "end": "",
-      "description": "Currently part of the Tech Platform team, specializing in API integration and AWS SFTP Transfer Family solutions.",
+      "description": "Focused on the Integration domain, managing enterprise integration platforms across cloud and on-prem environments.",
       "slot": "description",
       "details": [
-        "Managed IBM API Connect across cloud and on-premise environments, enabling internal teams to securely expose and share services with internal stakeholders, external clients, and partners.",
-        "Assisted in administering cloud-based SFTP solutions using AWS Transfer Family, implementing enhancements that improved efficiency and reliability of file transfer operations."
+        "Managed IBM API Connect, enabling secure API exposure and governance for internal and external consumers.",
+        "Supported migration from legacy gateways (IBM DataPower, WSO2) to IBM API Connect.",
+        "Administered SFTP solutions using AWS Transfer Family and SFTPGo, implementing security and reliability enhancements."
       ]
     },
     {

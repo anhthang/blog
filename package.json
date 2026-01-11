@@ -10,12 +10,12 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.2.0",
-    "@commitlint/config-conventional": "20.2.0",
-    "@iconify-json/hugeicons": "^1.2.20",
-    "@iconify-json/simple-icons": "^1.2.62",
+    "@commitlint/cli": "20.3.1",
+    "@commitlint/config-conventional": "20.3.1",
+    "@iconify-json/hugeicons": "^1.2.22",
+    "@iconify-json/simple-icons": "^1.2.65",
     "@iconify-json/solar": "^1.2.5",
-    "@nuxt/content": "^3.9.0",
+    "@nuxt/content": "^3.10.0",
     "@nuxt/eslint": "1.12.1",
     "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@nuxt/image": "2.0.0",
-    "@nuxt/ui": "4.2.1",
+    "@nuxt/ui": "4.3.0",
     "better-sqlite3": "^12.5.0"
   }
 }
