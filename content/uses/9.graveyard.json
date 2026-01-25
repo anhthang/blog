@@ -23,13 +23,13 @@
     {
       "name": "Dracula Theme",
       "description": "My previous dark theme of choice. It offered great consistency across many applications, but I've since switched to Catppuccin.",
-      "icon": "simple-icons:draculatheme",
+      "icon": "game-icons:vampire-dracula",
       "url": "https://draculatheme.com/"
     },
     {
       "name": "TablePlus",
       "description": "An excellent database management tool that was essential for my work. I've moved it here as my current projects no longer require direct database access.",
-      "icon": "solar:database-bold",
+      "icon": "game-icons:elephant",
       "url": "https://tableplus.com/"
     },
     {

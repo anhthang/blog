@@ -54,7 +54,7 @@ const right = [
     // name: 'Buy Me a Coffee',
     to: 'https://www.buymeacoffee.com/anhthang',
     target: '_blank',
-    icon: 'hugeicons:coffee-02',
+    icon: 'hugeicons:bubble-tea-02',
   },
 ]
 </script>
