@@ -8,10 +8,14 @@
 
       <LayoutFooter />
     </div>
+
+    <EffectsHorrorFlashlight v-if="seasonalEffects.halloween" />
   </UApp>
 </template>
 
 <script setup>
+import { seasonalEffects } from './utils/seasonal'
+
 const config = useRuntimeConfig()
 const { homepage, me, about } = config.public
 
