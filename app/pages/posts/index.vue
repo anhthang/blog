@@ -9,6 +9,16 @@
     <UPageList class="gap-12">
       <CardPost v-for="(post, id) in posts" :key="id" :post="post" />
     </UPageList>
+
+    <UPagination
+      v-model:page="currentPage"
+      :items-per-page="pageSize"
+      :total="totalCount"
+      color="neutral"
+      variant="link"
+      size="md"
+      class="flex justify-center items-center gap-2 mt-8"
+    />
   </UPage>
 </template>
 
@@ -23,7 +33,23 @@ useSeoMeta({
   twitterDescription: description,
 })
 
-const { data: posts } = await useAsyncData('all-posts', () =>
-  queryCollection('posts').order('id', 'DESC').all(),
+const currentPage = ref(1)
+const pageSize = 6
+
+const { data: totalCount } = await useAsyncData('posts-count', () =>
+  queryCollection('posts').count(),
+)
+
+const { data: posts } = await useAsyncData(
+  () => `posts-page-${currentPage.value}`,
+  () =>
+    queryCollection('posts')
+      .order('id', 'DESC')
+      .skip((currentPage.value - 1) * pageSize)
+      .limit(pageSize)
+      .all(),
+  {
+    watch: [currentPage],
+  },
 )
 </script>
