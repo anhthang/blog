@@ -10,12 +10,12 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.3.1",
-    "@commitlint/config-conventional": "20.3.1",
+    "@commitlint/cli": "20.4.1",
+    "@commitlint/config-conventional": "20.4.1",
     "@iconify-json/hugeicons": "^1.2.23",
-    "@iconify-json/simple-icons": "^1.2.67",
+    "@iconify-json/simple-icons": "^1.2.69",
     "@iconify-json/solar": "^1.2.5",
-    "@nuxt/content": "^3.11.0",
+    "@nuxt/content": "^3.11.1",
     "@nuxt/eslint": "1.13.0",
     "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
