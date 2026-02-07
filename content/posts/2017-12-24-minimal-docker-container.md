@@ -1,5 +1,5 @@
 ---
-title: 'Minimal Docker container'
+title: 'Minimal Docker Container'
 description: 'Create the smallest possible Docker container'
 published: '2017-12-24'
 tags: [docker]

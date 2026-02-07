@@ -1,8 +1,13 @@
 ---
-title: 'pino-redis - first contribution'
-description:
+title: 'pino-redis'
+description: 'My first open source contribution with pino-redis logger transport'
 published: '2017-10-14'
 tags: [open-source]
+links:
+  - to: https://www.npmjs.com/package/pino-redis
+    label: npm
+    icon: simple-icons:npm
+    target: _blank
 ---
 
 Few months ago, I created a small project called _pino-redis_, a "transport" for the pino logger, receives [pino] logs from `stdin` and transform them into Redis.

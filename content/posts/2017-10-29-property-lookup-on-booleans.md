@@ -1,6 +1,6 @@
 ---
 title: 'Property lookup on booleans'
-description:
+description: 'JavaScript best practices for property lookup on boolean objects'
 published: '2017-10-29'
 tags: [programing]
 links:

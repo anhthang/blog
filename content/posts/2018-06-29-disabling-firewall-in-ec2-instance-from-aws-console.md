@@ -1,6 +1,6 @@
 ---
-title: 'Disable firewall in EC2 instance from AWS Console'
-description:
+title: 'Disabling Firewall in EC2 Instance from AWS Console'
+description: 'How to disable firewall in EC2 instance when locked out of SSH'
 published: '2018-06-29'
 tags: [firewall, ec2]
 ---

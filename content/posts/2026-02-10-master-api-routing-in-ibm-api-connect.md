@@ -5,7 +5,7 @@ published: '2026-02-10'
 tags: ['api-connect', 'ibm', 'integration']
 ---
 
-Here is a simplified guide to advanced routing techniques in **IBM API Connect** to help you build more dynamic and scalable APIs.
+Here is a simplified guide to advanced routing techniques in **IBM API Connect** to help you build more dynamic and scalable APIs. You may already know some of this, but the concrete patterns and examples might still be helpful.
 
 ## How the Exposure URL is Constructed
 

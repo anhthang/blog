@@ -1,6 +1,6 @@
 ---
-title: 'Hello World! app with Node.js and Koa'
-description:
+title: 'Hello World App with Node.js and Koa'
+description: 'Create a Hello World application using Node.js and Koa framework'
 published: '2017-10-11'
 tags: [hello-world, koa, nodejs]
 ---

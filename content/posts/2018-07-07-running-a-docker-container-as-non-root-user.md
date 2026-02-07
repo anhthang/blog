@@ -1,6 +1,6 @@
 ---
 title: 'Running a Docker container as non-root user'
-description:
+description: 'Run Docker containers with non-root user for better security'
 published: '2018-07-07'
 tags: [docker]
 ---
