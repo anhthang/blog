@@ -1,5 +1,5 @@
 ---
-title: 'Master API Routing in IBM API Connect'
+title: 'IBM API Connect: Master API Routing'
 description: 'Routing is the backbone of any API strategy. It determines how a client’s request gets from the front door to the right backend service. While basic routing is straightforward, high-level architectures often require more flexibility.'
 published: '2026-02-10'
 tags: ['api-connect', 'ibm', 'integration']

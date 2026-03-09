@@ -1,5 +1,5 @@
 ---
-title: 'Exposing Response Headers to Frontend via CORS in IBM API Connect'
+title: 'IBM API Connect: Exposing Response Headers to Frontend via CORS'
 description: 'A quick guide on configuring CORS in IBM API Connect to expose backend response headers (e.g., Content-Disposition) so they can be accessed from frontend applications using fetch or axios.'
 published: '2026-03-06'
 tags: ['api-connect', 'ibm', 'integration', 'cors']

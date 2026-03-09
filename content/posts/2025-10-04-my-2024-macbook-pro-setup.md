@@ -47,4 +47,6 @@ My current list of candidates, who offer the core features I need, includes:
 - **Ora:** A newer, **WebKit-powered** browser for macOS that is explicitly inspired by both Safari and Arc, featuring a **Vertical Sidebar** and native **Split Tabs**.
 - **Lia:** Another browser on the radar, built on Chromium with an Arc-style sidebar, and featuring a visually striking **Native Liquid Glass** style.
 
-For now, I'm back on **Chrome**, but the search for a new, stable, and feature-rich home for my workflow is an ongoing mission. Any suggestions for the ultimate Arc replacement?
+~For now, I'm back on **Chrome**, but the search for a new, stable, and feature-rich home for my workflow is an ongoing mission. Any suggestions for the ultimate Arc replacement?~
+
+The search is over — I decided to move to **Dia** as my next browser.
