@@ -52,6 +52,11 @@ export default defineAppConfig({
         variant: 'soft',
       },
     },
+    page: {
+      slots: {
+        center: 'max-w-4xl w-full mx-auto',
+      },
+    },
     pageGrid: {
       base: 'relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8',
     },

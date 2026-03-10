@@ -1,5 +1,9 @@
 <template>
   <UPage v-if="page">
+    <template #left>
+      <div></div>
+    </template>
+
     <UPageHeader
       :title="page.title"
       :description="page.description"
@@ -24,6 +28,10 @@
 
       <UContentSurround :surround="surround" />
     </UPageBody>
+
+    <template #right>
+      <UContentToc title="Table of Contents" :links="page.body.toc.links" />
+    </template>
   </UPage>
 </template>
 
