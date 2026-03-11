@@ -133,7 +133,7 @@ uv sync --frozen
 
 This ensures the environment matches the exact versions in `uv.lock`.
 
-## Clean Migration from requirements.txt
+<!-- ## Clean Migration from requirements.txt
 
 Most existing Python projects already have a `requirements.txt`.
 
@@ -176,7 +176,7 @@ Now `pyproject.toml` contains only the packages you actually chose.
 
 ```bash
 uv lock
-```
+``` -->
 
 ## Final Project Structure
 
