@@ -77,13 +77,15 @@ dependencies = []
 
 ### Install Packages (Correct Way)
 
+The difference between `uv add` and `uv pip install` determines whether your project stays maintainable.
+
 Do **not** use:
 
 ```bash
 uv pip install fastapi
 ```
 
-That behaves like `pip` and **does not update `pyproject.toml`**.
+That behaves like `pip` and **does not update `pyproject.toml`**. Later, when someone else clones your project, they won't know which packages are needed.
 
 Instead use:
 
@@ -93,9 +95,9 @@ uv add fastapi
 
 This will:
 
-1. Add the dependency to `pyproject.toml`
-2. Update `uv.lock`
-3. Install the package
+- Add the dependency to `pyproject.toml`
+- Update `uv.lock`
+- Install the package into your environment
 
 Example:
 
@@ -106,11 +108,19 @@ dependencies = [
 ]
 ```
 
+::warning
+Only use `uv pip install` for temporary tools or debugging.
+::
+
 ### Add Dev Dependencies
+
+Dev dependencies are packages needed for development and testing, but **not** required when your code runs in production. Examples: testing frameworks, linters, formatters.
 
 ```bash
 uv add --dev pytest
 ```
+
+This adds the package to a separate dependency group:
 
 ```toml [pyproject.toml]
 [dependency-groups]
@@ -119,64 +129,148 @@ dev = [
 ]
 ```
 
-### Sync the Environment
+When deploying to production, only regular dependencies are installed (unless you explicitly request dev deps).
+
+### Remove Dependencies
+
+If you added a package by mistake:
+
+```bash
+uv remove fastapi
+```
+
+This updates both `pyproject.toml` and `uv.lock`.
+
+### Update Dependencies
+
+Update all packages to their latest compatible versions:
+
+```bash
+uv lock --upgrade
+```
+
+Then sync your environment:
 
 ```bash
 uv sync
 ```
 
-For CI:
+Update a single package:
+
+```bash
+uv lock --upgrade-package fastapi
+uv sync
+```
+
+### Pin Python Version
+
+Specify which Python version your project needs:
+
+```toml [pyproject.toml]
+[project]
+requires-python = ">=3.11,<3.13"
+```
+
+`uv` will automatically download and use the correct Python version if needed.
+
+### Sync the Environment
+
+Sync your local environment to match `pyproject.toml` and `uv.lock`:
+
+```bash
+uv sync
+```
+
+For CI (using exact locked versions):
 
 ```bash
 uv sync --frozen
 ```
 
-This ensures the environment matches the exact versions in `uv.lock`.
+This ensures the environment matches the exact versions in `uv.lock`. Use this in production and CI pipelines for reproducibility.
 
-<!-- ## Clean Migration from requirements.txt
+## Clean Migration from requirements.txt
 
-Most existing Python projects already have a `requirements.txt`.
-
-The **mistake** is copying everything into `pyproject.toml`.
+Most existing Python projects already have a `requirements.txt`. The **mistake** is copying everything into `pyproject.toml`.
 
 Instead, migrate like this.
 
-### Install existing requirements
+### Initialize the uv Project & Add Dependencies
 
-```bash
-uv pip install -r requirements.txt
-```
-
-### Detect direct dependencies
-
-```bash
-uv pip list --not-required
-```
-
-This shows **only the packages you installed directly**.
-
-Example output:
-
-```text
-fastapi
-uvicorn
-pydantic
-```
-
-### Add them to uv
+Create your project and import everything. `uv` will put everything into your `pyproject.toml` initially.
 
 ```bash
 uv init
-uv add fastapi uvicorn pydantic
+uv add -r requirements.txt
 ```
 
-Now `pyproject.toml` contains only the packages you actually chose.
+### Identify the Bloat
 
-### Generate the lockfile
+Run the tree command.
+
+```bash
+uv tree
+```
+
+Look for packages at the **root** (left margin) that also appear nested under your main tools. In your example, `annotated-doc` and `typing-inspection` are root-level duplicates.
+
+```plaintext
+my-project v0.1.0
+├── annotated-doc v0.0.4
+├── annotated-types v0.7.0
+├── anyio v4.12.1
+│   └── idna v3.11
+├── fastapi v0.135.1
+│   ├── annotated-doc v0.0.4
+│   ├── pydantic v2.12.5
+│   │   ├── ...
+│   ├── starlette v0.52.1
+│   │   └── ...
+│   ├── typing-extensions v4.15.0
+│   └── typing-inspection v0.4.2 (*)
+├── idna v3.11
+├── pydantic v2.12.5 (*)
+├── pydantic-core v2.41.5 (*)
+├── starlette v0.52.1 (*)
+├── typing-extensions v4.15.0
+└── typing-inspection v0.4.2 (*)
+(*) Package tree already displayed
+```
+
+### Prune Transitive Dependencies
+
+Remove the packages that should be nested. `uv` will remove them from `pyproject.toml` but keep them in the environment because your main packages still require them.
+
+```bash
+# Example: removing sub-deps of FastAPI
+uv remove annotated-doc typing-inspection pydantic starlette anyio idna
+```
+
+After pruning, your tree collapses. Your `pyproject.toml` is now human-readable, containing only the packages you actually care about.
+
+```plaintext
+my-project v0.1.0
+├── annotated-doc v0.0.4
+├── fastapi v0.135.1
+│   ├── annotated-doc v0.0.4
+│   ├── pydantic v2.12.5
+│   │   ├── ...
+│   ├── starlette v0.52.1
+│   │   └── ...
+│   ├── typing-extensions v4.15.0
+│   └── typing-inspection v0.4.2 (*)
+└── typing-inspection v0.4.2 (*)
+(*) Package tree already displayed
+```
+
+### Lock and Verify
+
+Generate the deterministic `uv.lock` file and confirm the hierarchy is clean.
 
 ```bash
 uv lock
-``` -->
+uv tree
+```
 
 ## Final Project Structure
 
