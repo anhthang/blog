@@ -31,15 +31,6 @@ const toggleCmd = () => {
   isOpen.value = !isOpen.value
 }
 
-const isDark = computed({
-  get() {
-    return colorMode.value === 'dark'
-  },
-  set() {
-    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
-  },
-})
-
 const left = [
   {
     to: '/',
@@ -73,10 +64,10 @@ const middle = computed(() => [
 
 const right = computed(() => [
   {
-    icon: isDark.value ? appConfig.ui.icons.dark : appConfig.ui.icons.light,
+    icon: 'hugeicons:command',
     class: 'cursor-pointer',
     onSelect: () => {
-      isDark.value = !isDark.value
+      toggleCmd()
     },
   },
 ])
