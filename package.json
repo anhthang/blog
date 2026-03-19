@@ -10,10 +10,10 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.4.3",
-    "@commitlint/config-conventional": "20.4.3",
-    "@iconify-json/hugeicons": "^1.2.23",
-    "@iconify-json/simple-icons": "^1.2.69",
+    "@commitlint/cli": "20.5.0",
+    "@commitlint/config-conventional": "20.5.0",
+    "@iconify-json/hugeicons": "^1.2.24",
+    "@iconify-json/simple-icons": "^1.2.74",
     "@iconify-json/solar": "^1.2.5",
     "@nuxt/content": "^3.11.1",
     "@nuxt/eslint": "1.15.2",
@@ -22,8 +22,8 @@
     "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-vue": "10.8.0",
     "husky": "9.1.7",
-    "lint-staged": "16.3.3",
-    "nuxt": "4.3.1",
+    "lint-staged": "16.4.0",
+    "nuxt": "4.4.2",
     "prettier": "3.8.1",
     "prettier-plugin-tailwindcss": "0.7.2",
     "remark-reading-time": "2.1.0",
@@ -32,6 +32,6 @@
   "dependencies": {
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "4.5.1",
-    "better-sqlite3": "^12.6.2"
+    "better-sqlite3": "^12.8.0"
   }
 }
