@@ -28,11 +28,16 @@ useSeoMeta({
   ogUrl: homepage,
   ogTitle: me,
   ogDescription: about,
-  ogImage: `${homepage}/blog.png`,
+  // ogImage: `${homepage}/blog.png`,
   twitterCard: 'summary_large_image',
   twitterTitle: me,
   twitterDescription: about,
-  twitterImage: `${homepage}/blog.png`,
+  // twitterImage: `${homepage}/blog.png`,
+})
+
+defineOgImage('BlogPost', {
+  // title: me,
+  description: about,
 })
 </script>
 

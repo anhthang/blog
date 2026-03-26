@@ -24,6 +24,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.4.0",
     "nuxt": "4.4.2",
+    "nuxt-og-image": "^6.2.4",
     "prettier": "3.8.1",
     "prettier-plugin-tailwindcss": "0.7.2",
     "remark-reading-time": "2.1.0",
@@ -32,6 +33,7 @@
   "dependencies": {
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "4.5.1",
+    "@takumi-rs/core": "^0.73.1",
     "better-sqlite3": "^12.8.0"
   }
 }

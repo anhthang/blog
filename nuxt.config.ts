@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxt/image',
+    'nuxt-og-image',
   ],
 
   app: {
@@ -64,6 +65,10 @@ export default defineNuxtConfig({
     },
   },
 
+  fonts: {
+    families: [{ name: 'Dosis', global: true }],
+  },
+
   runtimeConfig: {
     public: {
       homepage: 'https://anhthang.org',
@@ -71,6 +76,12 @@ export default defineNuxtConfig({
       about:
         'I focus on building and maintaining scalable cloud infrastructure to support development across teams.',
       bio: 'DevOps engineer by day, full-stack tinkerer by night.',
+    },
+  },
+
+  vite: {
+    optimizeDeps: {
+      include: ['@vue/devtools-core', '@vue/devtools-kit'],
     },
   },
 })

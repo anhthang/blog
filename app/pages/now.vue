@@ -37,7 +37,13 @@
           width="100%"
           height="152"
           frameBorder="0"
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          allow="
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            fullscreen;
+            picture-in-picture;
+          "
           class="mb-3.5"
         />
       </template>

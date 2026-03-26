@@ -57,4 +57,17 @@ useSeoMeta({
   ogDescription: description,
   ogTitle: title,
 })
+
+defineOgImage('BlogPost', {
+  title,
+  description,
+  date: page.value?.meta?.published
+    ? new Date(page.value.meta.published).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      })
+    : undefined,
+  // category: page.value?.meta?.tags?.[0],
+})
 </script>
