@@ -1,7 +1,6 @@
 <template>
   <div
-    class="w-full h-full flex flex-col p-[60px] justify-between bg-neutral-50 text-neutral-900 dark:bg-neutral-900 dark:text-white"
-    style="font-family: 'Dosis', sans-serif"
+    class="w-full h-full flex flex-col p-[60px] justify-between bg-neutral-50 text-neutral-900 dark:bg-neutral-900 dark:text-white font-sans"
     :style="
       backgroundImage ? { backgroundImage: `url(${backgroundImage})` } : void 0
     "
@@ -16,7 +15,7 @@
 
     <div class="flex flex-col gap-6">
       <h1
-        class="text-[80px] font-extrabold m-0 text-indigo-500"
+        class="text-[80px] font-semibold m-0 text-indigo-500"
         style="line-height: 1.1"
       >
         {{ title || $config.public.me }}

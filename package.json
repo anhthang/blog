@@ -33,7 +33,7 @@
   "dependencies": {
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "4.5.1",
-    "@takumi-rs/core": "^0.73.1",
+    "@takumi-rs/core": "1.0.0-beta.20",
     "better-sqlite3": "^12.8.0"
   }
 }

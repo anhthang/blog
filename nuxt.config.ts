@@ -65,10 +65,6 @@ export default defineNuxtConfig({
     },
   },
 
-  fonts: {
-    families: [{ name: 'Dosis', global: true }],
-  },
-
   runtimeConfig: {
     public: {
       homepage: 'https://anhthang.org',
