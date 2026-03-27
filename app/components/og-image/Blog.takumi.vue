@@ -6,9 +6,12 @@
       <div class="flex flex-col gap-8">
         <div class="flex flex-col gap-2">
           <span v-if="date" class="text-2xl text-neutral-500">{{ date }}</span>
-          <h1 class="text-7xl font-light m-0">
-            <span class="text-neutral-500">anhthang/</span
-            ><span class="font-bold">{{ path }}</span>
+          <h1 v-if="date" class="text-6xl font-light m-0">
+            <span class="text-neutral-500 block">posts/{{ path }}</span>
+          </h1>
+          <h1 v-else class="text-6xl font-light m-0">
+            <span class="text-neutral-500">anhthang/</span>
+            <span class="font-bold">{{ path }}</span>
           </h1>
         </div>
 

@@ -59,7 +59,7 @@ useSeoMeta({
 })
 
 defineOgImage('Blog', {
-  path: route.path.startsWith('/') ? route.path.slice(18) : route.path,
+  path: route.path.replace(/^\/posts\/\d{4}-\d{2}-\d{2}-/, ''),
   description,
   date: page.value?.meta?.published
     ? new Date(page.value.meta.published).toLocaleDateString('en-US', {
