@@ -33,6 +33,11 @@ useSeoMeta({
   twitterDescription: description,
 })
 
+defineOgImage('Blog', {
+  path: 'posts',
+  description,
+})
+
 const currentPage = ref(1)
 const pageSize = 6
 

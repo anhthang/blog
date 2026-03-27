@@ -106,6 +106,11 @@ useSeoMeta({
   twitterDescription: description,
 })
 
+defineOgImage('Blog', {
+  path: 'about',
+  description,
+})
+
 const { data } = await useAsyncData('about-me', () =>
   queryCollection('profiles').all(),
 )

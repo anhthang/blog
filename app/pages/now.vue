@@ -93,4 +93,9 @@ useSeoMeta({
   ogDescription: description,
   twitterDescription: description,
 })
+
+defineOgImage('Blog', {
+  path: 'now',
+  description,
+})
 </script>

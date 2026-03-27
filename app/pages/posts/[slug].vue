@@ -58,8 +58,8 @@ useSeoMeta({
   ogTitle: title,
 })
 
-defineOgImage('BlogPost', {
-  title,
+defineOgImage('Blog', {
+  path: route.path.startsWith('/') ? route.path.slice(18) : route.path,
   description,
   date: page.value?.meta?.published
     ? new Date(page.value.meta.published).toLocaleDateString('en-US', {

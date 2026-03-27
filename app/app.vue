@@ -34,11 +34,6 @@ useSeoMeta({
   twitterDescription: about,
   // twitterImage: `${homepage}/blog.png`,
 })
-
-defineOgImage('BlogPost', {
-  // title: me,
-  description: about,
-})
 </script>
 
 <style>

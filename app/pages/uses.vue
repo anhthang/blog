@@ -42,6 +42,11 @@ useSeoMeta({
   twitterDescription: description,
 })
 
+defineOgImage('Blog', {
+  path: 'uses',
+  description,
+})
+
 const active = ref('0')
 
 const { data } = await useAsyncData('uses-all', () =>

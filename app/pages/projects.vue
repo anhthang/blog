@@ -18,4 +18,9 @@ useSeoMeta({
   ogDescription: description,
   twitterDescription: description,
 })
+
+defineOgImage('Blog', {
+  path: 'projects',
+  description,
+})
 </script>
