@@ -17,14 +17,15 @@
     "@iconify-json/solar": "^1.2.5",
     "@nuxt/content": "^3.11.1",
     "@nuxt/eslint": "1.15.2",
-    "eslint": "10.0.3",
+    "@takumi-rs/wasm": "^0.73.1",
+    "eslint": "10.1.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-vue": "10.8.0",
     "husky": "9.1.7",
     "lint-staged": "16.4.0",
     "nuxt": "4.4.2",
-    "nuxt-og-image": "^6.2.4",
+    "nuxt-og-image": "^6.2.6",
     "prettier": "3.8.1",
     "prettier-plugin-tailwindcss": "0.7.2",
     "remark-reading-time": "2.1.0",
@@ -32,8 +33,8 @@
   },
   "dependencies": {
     "@nuxt/image": "2.0.0",
-    "@nuxt/ui": "4.5.1",
-    "@takumi-rs/core": "1.0.0-beta.20",
+    "@nuxt/ui": "4.6.0",
+    "@takumi-rs/core": "0.73.1",
     "better-sqlite3": "^12.8.0"
   }
 }
