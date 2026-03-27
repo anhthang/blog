@@ -54,6 +54,6 @@ const config = useRuntimeConfig()
 
 defineOgImage('Blog', {
   path: 'blog',
-  description: config.public.about,
+  description: config.public.bio,
 })
 </script>
