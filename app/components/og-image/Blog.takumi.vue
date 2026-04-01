@@ -29,7 +29,7 @@
 <script setup>
 defineProps({
   path: { type: String, required: false, default: 'blog' },
-  description: { type: String, required: false },
-  date: { type: String, required: false },
+  description: { type: String, required: false, default: '' },
+  date: { type: String, required: false, default: '' },
 })
 </script>
