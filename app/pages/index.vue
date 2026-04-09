@@ -11,7 +11,7 @@
       }"
     >
       <NuxtImg
-        src="/avatar.jpg"
+        src="/avatar.png"
         :alt="$config.public.me"
         class="mx-auto rounded-full w-40"
       />

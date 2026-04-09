@@ -8,7 +8,7 @@
       <template #description>
         <div class="relative space-y-6 mt-6 text-pretty">
           <NuxtImg
-            src="/avatar.jpg"
+            src="/avatar.png"
             :alt="config.public.me"
             class="float-left w-20 h-20 md:w-32 md:h-32 rounded-full mr-4 mb-4 md:mr-6 md:mb-6"
           />
