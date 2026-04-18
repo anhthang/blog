@@ -14,29 +14,29 @@
   "devDependencies": {
     "@commitlint/cli": "20.5.0",
     "@commitlint/config-conventional": "20.5.0",
-    "@iconify-json/hugeicons": "^1.2.25",
-    "@iconify-json/simple-icons": "^1.2.77",
+    "@iconify-json/hugeicons": "^1.2.26",
+    "@iconify-json/simple-icons": "^1.2.78",
     "@iconify-json/solar": "^1.2.5",
-    "@nuxt/content": "^3.11.1",
+    "@nuxt/content": "^3.13.0",
     "@nuxt/eslint": "1.15.2",
-    "@takumi-rs/wasm": "1.0.0-beta.20",
-    "eslint": "10.2.0",
+    "@takumi-rs/wasm": "1.0.14",
+    "eslint": "10.2.1",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-vue": "10.8.0",
     "husky": "9.1.7",
     "lint-staged": "16.4.0",
     "nuxt": "4.4.2",
-    "nuxt-og-image": "^6.3.3",
-    "prettier": "3.8.1",
+    "nuxt-og-image": "^6.4.3",
+    "prettier": "3.8.3",
     "prettier-plugin-tailwindcss": "0.7.2",
     "remark-reading-time": "2.1.0",
-    "typescript": "6.0.2"
+    "typescript": "6.0.3"
   },
   "dependencies": {
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "4.6.1",
-    "@takumi-rs/core": "1.0.0-beta.20",
-    "better-sqlite3": "^12.8.0"
+    "@takumi-rs/core": "1.0.14",
+    "better-sqlite3": "^12.9.0"
   }
 }

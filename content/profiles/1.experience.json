@@ -3,18 +3,18 @@
   "description": "My professional journey and roles I've held",
   "body": [
     {
-      "title": "Cloud DevOps Engineer",
+      "title": "Platform Engineer",
       "icon": "hugeicons:bash",
       "company": "VPBank",
       "location": "Hanoi, Vietnam",
       "start": "Feb 2025",
       "end": "",
-      "description": "Focused on the Integration domain, managing enterprise integration platforms across cloud and on-prem environments.",
+      "description": "I build and manage the secure integration platforms that power our enterprise services. I focus on automating API governance and file transfer workflows to ensure a resilient, developer-friendly infrastructure across cloud and on-prem environments.",
       "slot": "description",
       "details": [
-        "Managed IBM API Connect, enabling secure API exposure and governance for internal and external consumers.",
-        "Supported migration from legacy gateways (IBM DataPower, WSO2) to IBM API Connect.",
-        "Administered SFTP solutions using AWS Transfer Family and SFTPGo, implementing security and reliability enhancements."
+        "Leading the migration from legacy gateways (WSO2, DataPower) to IBM API Connect, standardizing how the bank exposes secure, high-scale APIs.",
+        "Owning the end-to-end operation of the API platform, ensuring self-service governance for both internal and external developer teams.",
+        "Designing high-availability SFTP platforms using AWS Transfer Family and SFTPGo, with a focus on infrastructure hardening and automated monitoring."
       ]
     },
     {

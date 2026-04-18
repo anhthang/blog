@@ -97,7 +97,7 @@
 const config = useRuntimeConfig()
 
 const description =
-  'As a Cloud DevOps Engineer, I focus on building and managing scalable cloud infrastructure and automating complex workflows. My goal is to ensure reliable and efficient software development across teams.'
+  'I focus on automating cloud infrastructure and creating paved paths to make software delivery seamless and efficient for engineering teams.'
 
 useSeoMeta({
   title: 'Who I Am',
